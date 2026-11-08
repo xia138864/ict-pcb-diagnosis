@@ -1,0 +1,8972 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "returned signal not as expected",
+      "type": "phenomenon"
+    },
+    {
+      "id": "failure",
+      "type": "fault"
+    },
+    {
+      "id": "device under test",
+      "type": "component"
+    },
+    {
+      "id": "not the right part or not behaving properly",
+      "type": "phenomenon"
+    },
+    {
+      "id": "Shorts Test",
+      "type": "test"
+    },
+    {
+      "id": "unexpected shorts between devices",
+      "type": "phenomenon"
+    },
+    {
+      "id": "short",
+      "type": "fault"
+    },
+    {
+      "id": "expected shorts that are found to be open",
+      "type": "phenomenon"
+    },
+    {
+      "id": "open",
+      "type": "fault"
+    },
+    {
+      "id": "Analog Incircuit tests",
+      "type": "test"
+    },
+    {
+      "id": "resistors, capacitors, inductors, diodes, zener diodes, FETs, transistors",
+      "type": "component"
+    },
+    {
+      "id": "TestJet",
+      "type": "component"
+    },
+    {
+      "id": "measure capacitive coupling between the device under test and a signal receptor plate",
+      "type": "solution"
+    },
+    {
+      "id": "VTEP (Vectorless Test Extended Performance)",
+      "type": "test"
+    },
+    {
+      "id": "greater measurement accuracy",
+      "type": "solution"
+    },
+    {
+      "id": "iVTEP",
+      "type": "test"
+    },
+    {
+      "id": "even greater measurement accuracy",
+      "type": "solution"
+    },
+    {
+      "id": "further testing stops",
+      "type": "phenomenon"
+    },
+    {
+      "id": "erroneous failures in unpowered measurements",
+      "type": "phenomenon"
+    },
+    {
+      "id": "test fails",
+      "type": "phenomenon"
+    },
+    {
+      "id": "FAIL message displayed",
+      "type": "phenomenon"
+    },
+    {
+      "id": "no tests fail",
+      "type": "phenomenon"
+    },
+    {
+      "id": "PASS message displayed",
+      "type": "phenomenon"
+    },
+    {
+      "id": "flame or smoke",
+      "type": "phenomenon"
+    },
+    {
+      "id": "pressing the Emergency Shutdown Switch",
+      "type": "solution"
+    },
+    {
+      "id": "releasing the contactor",
+      "type": "solution"
+    },
+    {
+      "id": "removing all power from the testhead",
+      "type": "solution"
+    },
+    {
+      "id": "releasing vacuum",
+      "type": "solution"
+    },
+    {
+      "id": "releasing pneumatic cylinders",
+      "type": "solution"
+    },
+    {
+      "id": "fixture",
+      "type": "component"
+    },
+    {
+      "id": "pinch hazard",
+      "type": "phenomenon"
+    },
+    {
+      "id": "vacuum",
+      "type": "solution"
+    },
+    {
+      "id": "compressed air",
+      "type": "solution"
+    },
+    {
+      "id": "fixture lock",
+      "type": "phenomenon"
+    },
+    {
+      "id": "probes",
+      "type": "component"
+    },
+    {
+      "id": "Support Plate",
+      "type": "component"
+    },
+    {
+      "id": "solder bridges",
+      "type": "reason"
+    },
+    {
+      "id": "closed switches",
+      "type": "component"
+    },
+    {
+      "id": "fuses",
+      "type": "component"
+    },
+    {
+      "id": "inductors",
+      "type": "component"
+    },
+    {
+      "id": "open switches",
+      "type": "reason"
+    },
+    {
+      "id": "shorts",
+      "type": "test"
+    },
+    {
+      "id": "unpowered tests to fail incorrectly",
+      "type": "phenomenon"
+    },
+    {
+      "id": "component damage",
+      "type": "phenomenon"
+    },
+    {
+      "id": "power application",
+      "type": "reason"
+    },
+    {
+      "id": "boardfailed",
+      "type": "reason"
+    },
+    {
+      "id": "flag",
+      "type": "component"
+    },
+    {
+      "id": "failure in testplan",
+      "type": "reason"
+    },
+    {
+      "id": "dutfailed",
+      "type": "fault"
+    },
+    {
+      "id": "test passed or failed",
+      "type": "phenomenon"
+    },
+    {
+      "id": "Fuse",
+      "type": "component"
+    },
+    {
+      "id": "component",
+      "type": "component"
+    },
+    {
+      "id": "Resistance above which a fuse is considered open",
+      "type": "reason"
+    },
+    {
+      "id": "Digital Resistance Threshold",
+      "type": "component"
+    },
+    {
+      "id": "39 Ω damping resistor",
+      "type": "component"
+    },
+    {
+      "id": "if threshold is 47 Ω, it's a short; 33 Ω, it's open",
+      "type": "phenomenon"
+    },
+    {
+      "id": "impedance below threshold",
+      "type": "phenomenon"
+    },
+    {
+      "id": "pin included in VTEP test",
+      "type": "solution"
+    },
+    {
+      "id": "Jumper / Strap",
+      "type": "component"
+    },
+    {
+      "id": "Switch",
+      "type": "component"
+    },
+    {
+      "id": "closed",
+      "type": "fault"
+    },
+    {
+      "id": "C7",
+      "type": "component"
+    },
+    {
+      "id": "capacitor",
+      "type": "component"
+    },
+    {
+      "id": "Failure message",
+      "type": "phenomenon"
+    },
+    {
+      "id": "Testable Yes/No",
+      "type": "solution"
+    },
+    {
+      "id": "Placed Yes/No",
+      "type": "solution"
+    },
+    {
+      "id": "U1",
+      "type": "component"
+    },
+    {
+      "id": "IC",
+      "type": "component"
+    },
+    {
+      "id": "CAD shows 74ACT00, but Bill of Material is 74HC00",
+      "type": "reason"
+    },
+    {
+      "id": "Change Part Number to 74HC00",
+      "type": "solution"
+    },
+    {
+      "id": "Library tests are identical; only Safeguard info differs",
+      "type": "reason"
+    },
+    {
+      "id": "Placed: Yes",
+      "type": "solution"
+    },
+    {
+      "id": "Side of Board: Top",
+      "type": "solution"
+    },
+    {
+      "id": "Testable: Yes",
+      "type": "solution"
+    },
+    {
+      "id": "Test using TestJet/VTEP: Yes",
+      "type": "solution"
+    },
+    {
+      "id": "TestJet probing: Auto Selection",
+      "type": "solution"
+    },
+    {
+      "id": "Test using Connect Check: No",
+      "type": "solution"
+    },
+    {
+      "id": "Library Test Expected: Yes",
+      "type": "solution"
+    },
+    {
+      "id": "Test Using Boundary Scan's Silicon Nail: No",
+      "type": "solution"
+    },
+    {
+      "id": "R1",
+      "type": "component"
+    },
+    {
+      "id": "Check pins 1 and 16",
+      "type": "phenomenon"
+    },
+    {
+      "id": "R2",
+      "type": "component"
+    },
+    {
+      "id": "Check pins 2 and 15",
+      "type": "phenomenon"
+    },
+    {
+      "id": "Add/Replace Device",
+      "type": "solution"
+    },
+    {
+      "id": "Check pins 1 and 2",
+      "type": "phenomenon"
+    },
+    {
+      "id": "Check pin 1 and 3",
+      "type": "phenomenon"
+    },
+    {
+      "id": "Fixed",
+      "type": "type"
+    },
+    {
+      "id": "jumper across pins1 and2",
+      "type": "component"
+    },
+    {
+      "id": "jumper across pins2 and3",
+      "type": "component"
+    },
+    {
+      "id": "jumper",
+      "type": "component"
+    },
+    {
+      "id": "Check position of jumper!",
+      "type": "phenomenon"
+    },
+    {
+      "id": "CLOSED",
+      "type": "solution"
+    },
+    {
+      "id": "Connect Check",
+      "type": "solution"
+    },
+    {
+      "id": "Cover Extend",
+      "type": "solution"
+    },
+    {
+      "id": "VTEP probe",
+      "type": "component"
+    },
+    {
+      "id": "Boundary Scan",
+      "type": "solution"
+    },
+    {
+      "id": "testjet",
+      "type": "component"
+    },
+    {
+      "id": "signal pins",
+      "type": "component"
+    },
+    {
+      "id": "ICs and connectors",
+      "type": "component"
+    },
+    {
+      "id": "Shorts",
+      "type": "test"
+    },
+    {
+      "id": "Number of expected shorts; number of inaccessible nodes",
+      "type": "phenomenon"
+    },
+    {
+      "id": "Analog",
+      "type": "test"
+    },
+    {
+      "id": "Null tests and device designators; commented tests; limited tests",
+      "type": "phenomenon"
+    },
+    {
+      "id": "Digital",
+      "type": "phenomenon"
+    },
+    {
+      "id": "Devices that cannot be disabled; Safeguard Inhibits",
+      "type": "phenomenon"
+    },
+    {
+      "id": "Polarity Check",
+      "type": "phenomenon"
+    },
+    {
+      "id": "Capacitors being tested",
+      "type": "component"
+    },
+    {
+      "id": "Devices being tested",
+      "type": "component"
+    },
+    {
+      "id": "Commented test",
+      "type": "solution"
+    },
+    {
+      "id": "Test written but not used",
+      "type": "solution"
+    },
+    {
+      "id": "Limited test",
+      "type": "solution"
+    },
+    {
+      "id": "Test with widened tolerances",
+      "type": "solution"
+    },
+    {
+      "id": "solvents",
+      "type": "reason"
+    },
+    {
+      "id": "长线",
+      "type": "component"
+    },
+    {
+      "id": "电感/电容负荷",
+      "type": "phenomenon"
+    },
+    {
+      "id": "高速信号损伤",
+      "type": "phenomenon"
+    },
+    {
+      "id": "双绞线",
+      "type": "solution"
+    },
+    {
+      "id": "长线问题",
+      "type": "fault"
+    },
+    {
+      "id": "同轴",
+      "type": "solution"
+    },
+    {
+      "id": "铁氧体磁珠",
+      "type": "solution"
+    },
+    {
+      "id": "Faulty fixture electronics",
+      "type": "fault"
+    },
+    {
+      "id": "false failures",
+      "type": "phenomenon"
+    },
+    {
+      "id": "Fixture electronics",
+      "type": "component"
+    },
+    {
+      "id": "needed for testing",
+      "type": "reason"
+    },
+    {
+      "id": "Suspended components",
+      "type": "component"
+    },
+    {
+      "id": "fixture electronics",
+      "type": "component"
+    },
+    {
+      "id": "Breadboard / PCB assembly",
+      "type": "component"
+    },
+    {
+      "id": "Exposed surfaces",
+      "type": "component"
+    },
+    {
+      "id": "insulation (heat-shrink or tape)",
+      "type": "solution"
+    },
+    {
+      "id": "severely attenuated signal",
+      "type": "phenomenon"
+    },
+    {
+      "id": "solder joint",
+      "type": "component"
+    },
+    {
+      "id": "switches",
+      "type": "component"
+    },
+    {
+      "id": "value changes",
+      "type": "phenomenon"
+    },
+    {
+      "id": "BRC FAILED",
+      "type": "phenomenon"
+    },
+    {
+      "id": "shorts found to GND BRCs and digital ground",
+      "type": "phenomenon"
+    },
+    {
+      "id": "broken probe",
+      "type": "reason"
+    },
+    {
+      "id": "broken wire",
+      "type": "reason"
+    },
+    {
+      "id": "blocked P-Pin",
+      "type": "reason"
+    },
+    {
+      "id": "foreign substance on target",
+      "type": "reason"
+    },
+    {
+      "id": "testhead failure",
+      "type": "reason"
+    },
+    {
+      "id": "actual board short",
+      "type": "reason"
+    },
+    {
+      "id": "extra wire from DOUT2 to ground probe/P-Pin",
+      "type": "reason"
+    },
+    {
+      "id": "examine probe",
+      "type": "solution"
+    },
+    {
+      "id": "continuity check",
+      "type": "solution"
+    },
+    {
+      "id": "SW1-2",
+      "type": "component"
+    },
+    {
+      "id": "SW2-8",
+      "type": "component"
+    },
+    {
+      "id": "D0",
+      "type": "component"
+    },
+    {
+      "id": "DOUT2",
+      "type": "component"
+    },
+    {
+      "id": "GND",
+      "type": "component"
+    },
+    {
+      "id": "digital ground",
+      "type": "component"
+    },
+    {
+      "id": "探针接触",
+      "type": "reason"
+    },
+    {
+      "id": "非供电测试",
+      "type": "solution"
+    },
+    {
+      "id": "IC和connectors管脚焊接",
+      "type": "component"
+    },
+    {
+      "id": "数字测试",
+      "type": "solution"
+    },
+    {
+      "id": "供电测试",
+      "type": "solution"
+    },
+    {
+      "id": "边界扫描",
+      "type": "solution"
+    },
+    {
+      "id": "功能测试",
+      "type": "solution"
+    },
+    {
+      "id": "Flash编程",
+      "type": "solution"
+    },
+    {
+      "id": "验证预期短路存在",
+      "type": "phenomenon"
+    },
+    {
+      "id": "确认板上无异常短路",
+      "type": "phenomenon"
+    },
+    {
+      "id": "Analog Incircuit",
+      "type": "test"
+    },
+    {
+      "id": "无源器件",
+      "type": "component"
+    },
+    {
+      "id": "Vectorless Test",
+      "type": "test"
+    },
+    {
+      "id": "VTEP v2.0 / TestJet",
+      "type": "solution"
+    },
+    {
+      "id": "connector",
+      "type": "component"
+    },
+    {
+      "id": "无电流",
+      "type": "phenomenon"
+    },
+    {
+      "id": "接触失败",
+      "type": "fault"
+    },
+    {
+      "id": "有电流",
+      "type": "phenomenon"
+    },
+    {
+      "id": "接触确认",
+      "type": "solution"
+    },
+    {
+      "id": "电容隔离节点",
+      "type": "component"
+    },
+    {
+      "id": "不可测节点",
+      "type": "component"
+    },
+    {
+      "id": "模拟 IC 引脚",
+      "type": "component"
+    },
+    {
+      "id": "失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "验证预期短路器件是否处理正确",
+      "type": "solution"
+    },
+    {
+      "id": "开关",
+      "type": "component"
+    },
+    {
+      "id": "保险丝",
+      "type": "component"
+    },
+    {
+      "id": "jumpers",
+      "type": "component"
+    },
+    {
+      "id": "small value resistors",
+      "type": "component"
+    },
+    {
+      "id": "预期短路失败；无意外短路",
+      "type": "phenomenon"
+    },
+    {
+      "id": "元件引起的预期短路失败；走线短路通过",
+      "type": "phenomenon"
+    },
+    {
+      "id": "无夹具导致的失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "Pins",
+      "type": "fault"
+    },
+    {
+      "id": "所有节点通过",
+      "type": "phenomenon"
+    },
+    {
+      "id": "供电",
+      "type": "test"
+    },
+    {
+      "id": "电压正确，无电流限制",
+      "type": "phenomenon"
+    },
+    {
+      "id": "无电流限制（需确认浪涌限制和步进序列适当）",
+      "type": "phenomenon"
+    },
+    {
+      "id": "GOUT 和 LOUT 接线",
+      "type": "component"
+    },
+    {
+      "id": "模块间接线问题",
+      "type": "reason"
+    },
+    {
+      "id": "SW1",
+      "type": "component"
+    },
+    {
+      "id": "闭合",
+      "type": "fault"
+    },
+    {
+      "id": "SW2",
+      "type": "component"
+    },
+    {
+      "id": "断开",
+      "type": "phenomenon"
+    },
+    {
+      "id": "滑动",
+      "type": "reason"
+    },
+    {
+      "id": "损坏",
+      "type": "phenomenon"
+    },
+    {
+      "id": "all tests fail",
+      "type": "phenomenon"
+    },
+    {
+      "id": "door component not closed",
+      "type": "reason"
+    },
+    {
+      "id": "vacuum not on",
+      "type": "reason"
+    },
+    {
+      "id": "multiplexer card cable not connected",
+      "type": "reason"
+    },
+    {
+      "id": "J1",
+      "type": "component"
+    },
+    {
+      "id": "pin 1 and 12 fail",
+      "type": "phenomenon"
+    },
+    {
+      "id": "J1-1, J1-12",
+      "type": "component"
+    },
+    {
+      "id": "measurement value too low",
+      "type": "phenomenon"
+    },
+    {
+      "id": "phenomenon",
+      "type": "phenomenon"
+    },
+    {
+      "id": "AUTODEBUG",
+      "type": "solution"
+    },
+    {
+      "id": "U2-1, U2-19",
+      "type": "component"
+    },
+    {
+      "id": "manually increase lower limit",
+      "type": "solution"
+    },
+    {
+      "id": "9 failures",
+      "type": "phenomenon"
+    },
+    {
+      "id": "J1-1, J1-12, U1-2, U2-12, U2-15, U4-1, U5-1, U5-12, U6-16",
+      "type": "component"
+    },
+    {
+      "id": "发现非预期短路",
+      "type": "phenomenon"
+    },
+    {
+      "id": "VTEP/TestJet",
+      "type": "test"
+    },
+    {
+      "id": "Analog unpowered tests",
+      "type": "test"
+    },
+    {
+      "id": "VectorlessTests",
+      "type": "test"
+    },
+    {
+      "id": "Setup Power Supplies",
+      "type": "solution"
+    },
+    {
+      "id": "Boundary Scan 系列",
+      "type": "test"
+    },
+    {
+      "id": "Digital Incircuit Tests",
+      "type": "test"
+    },
+    {
+      "id": "Analog Functional / Mixed Signal Tests",
+      "type": "test"
+    },
+    {
+      "id": "FlashRAM Programming routines",
+      "type": "test"
+    },
+    {
+      "id": "ScanWorks Programming routines",
+      "type": "test"
+    },
+    {
+      "id": "测试不应继续",
+      "type": "solution"
+    },
+    {
+      "id": "testplan 中止",
+      "type": "solution"
+    },
+    {
+      "id": "必须先修复故障",
+      "type": "solution"
+    },
+    {
+      "id": "C202",
+      "type": "component"
+    },
+    {
+      "id": "SW4 HIGH",
+      "type": "phenomenon"
+    },
+    {
+      "id": "0.1 µF 电容",
+      "type": "phenomenon"
+    },
+    {
+      "id": "SW4 LOW",
+      "type": "phenomenon"
+    },
+    {
+      "id": "0.001 µF 电容",
+      "type": "phenomenon"
+    },
+    {
+      "id": "SW4 OPEN",
+      "type": "phenomenon"
+    },
+    {
+      "id": "缺件",
+      "type": "phenomenon"
+    },
+    {
+      "id": "R206–R205",
+      "type": "component"
+    },
+    {
+      "id": "分流",
+      "type": "phenomenon"
+    },
+    {
+      "id": "R202–R203",
+      "type": "component"
+    },
+    {
+      "id": "取消所有 G guarding勾选",
+      "type": "solution"
+    },
+    {
+      "id": "预测并运行查看结果",
+      "type": "solution"
+    },
+    {
+      "id": "重新勾选guarding",
+      "type": "solution"
+    },
+    {
+      "id": "恢复正确",
+      "type": "solution"
+    },
+    {
+      "id": "C1",
+      "type": "component"
+    },
+    {
+      "id": "直方图验证",
+      "type": "solution"
+    },
+    {
+      "id": "Execute Test > Run N Times",
+      "type": "solution"
+    },
+    {
+      "id": "SW3",
+      "type": "component"
+    },
+    {
+      "id": "R202",
+      "type": "component"
+    },
+    {
+      "id": "high resistance",
+      "type": "phenomenon"
+    },
+    {
+      "id": "low resistance",
+      "type": "phenomenon"
+    },
+    {
+      "id": "negative value",
+      "type": "phenomenon"
+    },
+    {
+      "id": "wrong component",
+      "type": "reason"
+    },
+    {
+      "id": "missing component",
+      "type": "reason"
+    },
+    {
+      "id": "guarding removed",
+      "type": "solution"
+    },
+    {
+      "id": "measurement variation",
+      "type": "phenomenon"
+    },
+    {
+      "id": "R206",
+      "type": "component"
+    },
+    {
+      "id": "SW5",
+      "type": "component"
+    },
+    {
+      "id": "意外短路和开路",
+      "type": "phenomenon"
+    },
+    {
+      "id": "停止测试",
+      "type": "solution"
+    },
+    {
+      "id": "current limit",
+      "type": "solution"
+    },
+    {
+      "id": "edit testplan",
+      "type": "solution"
+    },
+    {
+      "id": "IC reverse installation",
+      "type": "reason"
+    },
+    {
+      "id": "damage to board, test system, fixture, or personal injury",
+      "type": "phenomenon"
+    },
+    {
+      "id": "increase current limit",
+      "type": "solution"
+    },
+    {
+      "id": "inaccurate current demand estimation",
+      "type": "reason"
+    },
+    {
+      "id": "higher power consumption",
+      "type": "phenomenon"
+    },
+    {
+      "id": "incorrectly installed components",
+      "type": "reason"
+    },
+    {
+      "id": "microcontroller or ASIC self-test",
+      "type": "reason"
+    },
+    {
+      "id": "sinusoidal fluctuation in current output",
+      "type": "phenomenon"
+    },
+    {
+      "id": "incorrect sensing line connection",
+      "type": "reason"
+    },
+    {
+      "id": "ripple effect on DUT output display",
+      "type": "phenomenon"
+    },
+    {
+      "id": "电源立即电流限制",
+      "type": "phenomenon"
+    },
+    {
+      "id": "电源轨短路",
+      "type": "reason"
+    },
+    {
+      "id": "元件反向",
+      "type": "reason"
+    },
+    {
+      "id": "焊桥",
+      "type": "reason"
+    },
+    {
+      "id": "夹具接线错误",
+      "type": "reason"
+    },
+    {
+      "id": "电源电压过低",
+      "type": "phenomenon"
+    },
+    {
+      "id": "电流过大",
+      "type": "reason"
+    },
+    {
+      "id": "稳压器不良",
+      "type": "reason"
+    },
+    {
+      "id": "探针接触不良",
+      "type": "reason"
+    },
+    {
+      "id": "远程感应错误",
+      "type": "reason"
+    },
+    {
+      "id": "电源电压过高",
+      "type": "phenomenon"
+    },
+    {
+      "id": "电源设置错误",
+      "type": "reason"
+    },
+    {
+      "id": "感应接线问题",
+      "type": "reason"
+    },
+    {
+      "id": "板卡描述错误",
+      "type": "reason"
+    },
+    {
+      "id": "某一路电源失败，其他正常",
+      "type": "phenomenon"
+    },
+    {
+      "id": "特定电源轨短路",
+      "type": "reason"
+    },
+    {
+      "id": "稳压器输入/输出问题",
+      "type": "reason"
+    },
+    {
+      "id": "缺少使能",
+      "type": "reason"
+    },
+    {
+      "id": "所有电源失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "夹具定位问题",
+      "type": "reason"
+    },
+    {
+      "id": "公共接地问题",
+      "type": "reason"
+    },
+    {
+      "id": "真空问题",
+      "type": "reason"
+    },
+    {
+      "id": "配置错误",
+      "type": "reason"
+    },
+    {
+      "id": "手动测试板卡通过，夹具中失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "夹具接线",
+      "type": "reason"
+    },
+    {
+      "id": "电源节点数据错误",
+      "type": "reason"
+    },
+    {
+      "id": "上电通过后数字测试失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "时钟问题",
+      "type": "reason"
+    },
+    {
+      "id": "复位问题",
+      "type": "reason"
+    },
+    {
+      "id": "使能问题",
+      "type": "reason"
+    },
+    {
+      "id": "禁用问题",
+      "type": "reason"
+    },
+    {
+      "id": "预调问题",
+      "type": "reason"
+    },
+    {
+      "id": "数字库问题",
+      "type": "reason"
+    },
+    {
+      "id": "错误的电源节点定义",
+      "type": "reason"
+    },
+    {
+      "id": "电流承载线不足",
+      "type": "phenomenon"
+    },
+    {
+      "id": "缺少电源连接",
+      "type": "phenomenon"
+    },
+    {
+      "id": "错误的夹具分配",
+      "type": "phenomenon"
+    },
+    {
+      "id": "数字测试试图驱动电源轨",
+      "type": "phenomenon"
+    },
+    {
+      "id": "放电处理不当",
+      "type": "phenomenon"
+    },
+    {
+      "id": "topology conflict",
+      "type": "reason"
+    },
+    {
+      "id": "unit failure",
+      "type": "phenomenon"
+    },
+    {
+      "id": "error testing",
+      "type": "phenomenon"
+    },
+    {
+      "id": "U4",
+      "type": "component"
+    },
+    {
+      "id": "conflict with pins tied together",
+      "type": "reason"
+    },
+    {
+      "id": "unit removal",
+      "type": "solution"
+    },
+    {
+      "id": "输出期望 1，测量 0",
+      "type": "phenomenon"
+    },
+    {
+      "id": "DUT 坏",
+      "type": "component"
+    },
+    {
+      "id": "输出被禁用",
+      "type": "reason"
+    },
+    {
+      "id": "对地短路",
+      "type": "reason"
+    },
+    {
+      "id": "缺电源",
+      "type": "reason"
+    },
+    {
+      "id": "输出期望 0，测量 1",
+      "type": "phenomenon"
+    },
+    {
+      "id": "器件未复位",
+      "type": "reason"
+    },
+    {
+      "id": "输出浮空或不稳定",
+      "type": "phenomenon"
+    },
+    {
+      "id": "三态输出",
+      "type": "reason"
+    },
+    {
+      "id": "接触不良",
+      "type": "reason"
+    },
+    {
+      "id": "无上拉/下拉",
+      "type": "reason"
+    },
+    {
+      "id": "多个输出失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "器件未上电",
+      "type": "reason"
+    },
+    {
+      "id": "复位有效",
+      "type": "reason"
+    },
+    {
+      "id": "时钟缺失",
+      "type": "reason"
+    },
+    {
+      "id": "输入驱动失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "探针接触问题",
+      "type": "reason"
+    },
+    {
+      "id": "节点被另一器件驱动",
+      "type": "reason"
+    },
+    {
+      "id": "Safeguard 禁止",
+      "type": "phenomenon"
+    },
+    {
+      "id": "不安全的测试条件",
+      "type": "reason"
+    },
+    {
+      "id": "总线冲突",
+      "type": "reason"
+    },
+    {
+      "id": "单独测试通过，序列中失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "状态依赖",
+      "type": "reason"
+    },
+    {
+      "id": "上电时序",
+      "type": "reason"
+    },
+    {
+      "id": "缺少禁用",
+      "type": "reason"
+    },
+    {
+      "id": "添加禁用条件",
+      "type": "solution"
+    },
+    {
+      "id": "缺少预调",
+      "type": "reason"
+    },
+    {
+      "id": "添加预调向量或使能复位",
+      "type": "solution"
+    },
+    {
+      "id": "检查夹具座、真空和探针对准；重新放置后重新运行",
+      "type": "solution"
+    },
+    {
+      "id": "错误型号",
+      "type": "phenomenon"
+    },
+    {
+      "id": "更新板卡描述中的正确型号",
+      "type": "solution"
+    },
+    {
+      "id": "错误库",
+      "type": "reason"
+    },
+    {
+      "id": "替换或修改数字库条目",
+      "type": "solution"
+    },
+    {
+      "id": "检查禁用要求；如安全则添加缺失的禁用",
+      "type": "solution"
+    },
+    {
+      "id": "过驱动/反驱动冲突",
+      "type": "phenomenon"
+    },
+    {
+      "id": "验证固定节点定义；确保无强驱动器激活",
+      "type": "solution"
+    },
+    {
+      "id": "时钟未运行",
+      "type": "phenomenon"
+    },
+    {
+      "id": "使能振荡器或提供外部时钟",
+      "type": "solution"
+    },
+    {
+      "id": "解除复位或添加预调清除复位",
+      "type": "solution"
+    },
+    {
+      "id": "DISPLAY FAILURE",
+      "type": "phenomenon"
+    },
+    {
+      "id": "显示失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "DISPLAY FAILURE; RECYCLE",
+      "type": "phenomenon"
+    },
+    {
+      "id": "重复测试直到失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "DISPLAY ACTUAL",
+      "type": "phenomenon"
+    },
+    {
+      "id": "显示实际测量值",
+      "type": "phenomenon"
+    },
+    {
+      "id": "DISPLAY EXPECTED",
+      "type": "phenomenon"
+    },
+    {
+      "id": "显示期望信号",
+      "type": "phenomenon"
+    },
+    {
+      "id": "DISPLAY FAILED",
+      "type": "phenomenon"
+    },
+    {
+      "id": "显示失败状态",
+      "type": "phenomenon"
+    },
+    {
+      "id": "DISPLAY PROBE...",
+      "type": "phenomenon"
+    },
+    {
+      "id": "显示探针信号",
+      "type": "phenomenon"
+    },
+    {
+      "id": "开路器件",
+      "type": "component"
+    },
+    {
+      "id": "测试集电极开路",
+      "type": "phenomenon"
+    },
+    {
+      "id": "PULL UP",
+      "type": "solution"
+    },
+    {
+      "id": "所有输出为 0",
+      "type": "phenomenon"
+    },
+    {
+      "id": "使能无效",
+      "type": "reason"
+    },
+    {
+      "id": "所有输出为 1",
+      "type": "phenomenon"
+    },
+    {
+      "id": "使能有效但输出被强制",
+      "type": "reason"
+    },
+    {
+      "id": "单输出错误",
+      "type": "phenomenon"
+    },
+    {
+      "id": "错误向量",
+      "type": "reason"
+    },
+    {
+      "id": "反驱动",
+      "type": "reason"
+    },
+    {
+      "id": "输出浮空",
+      "type": "phenomenon"
+    },
+    {
+      "id": "缺少上拉/下拉",
+      "type": "reason"
+    },
+    {
+      "id": "过驱动冲突",
+      "type": "reason"
+    },
+    {
+      "id": "前测试副作用",
+      "type": "reason"
+    },
+    {
+      "id": "总线竞争",
+      "type": "reason"
+    },
+    {
+      "id": "强驱动器",
+      "type": "reason"
+    },
+    {
+      "id": "U1 Pin 5",
+      "type": "component"
+    },
+    {
+      "id": "Expected 1, Measured 0",
+      "type": "phenomenon"
+    },
+    {
+      "id": "DUT坏",
+      "type": "reason"
+    },
+    {
+      "id": "快速器件",
+      "type": "component"
+    },
+    {
+      "id": "振荡",
+      "type": "phenomenon"
+    },
+    {
+      "id": "无输入负载",
+      "type": "reason"
+    },
+    {
+      "id": "intermittent failure",
+      "type": "fault"
+    },
+    {
+      "id": "定义默认状态",
+      "type": "solution"
+    },
+    {
+      "id": "设置有效输入默认值",
+      "type": "solution"
+    },
+    {
+      "id": "有效输入默认值",
+      "type": "solution"
+    },
+    {
+      "id": "1",
+      "type": "solution"
+    },
+    {
+      "id": "0",
+      "type": "solution"
+    },
+    {
+      "id": "K",
+      "type": "solution"
+    },
+    {
+      "id": "诊断工具",
+      "type": "solution"
+    },
+    {
+      "id": "识别问题",
+      "type": "solution"
+    },
+    {
+      "id": "通用继电器",
+      "type": "component"
+    },
+    {
+      "id": "在连接的节点上有电源时打开或关闭",
+      "type": "reason"
+    },
+    {
+      "id": "电弧",
+      "type": "phenomenon"
+    },
+    {
+      "id": "建议",
+      "type": "solution"
+    },
+    {
+      "id": "不要在连接的节点上有电源时打开或关闭通用继电器",
+      "type": "solution"
+    },
+    {
+      "id": "继电器",
+      "type": "component"
+    },
+    {
+      "id": "保持闭合直到使用gpdisconnect语句打开",
+      "type": "phenomenon"
+    },
+    {
+      "id": "保持闭合直到执行faoff语句",
+      "type": "phenomenon"
+    },
+    {
+      "id": "保持闭合到上电测试",
+      "type": "phenomenon"
+    },
+    {
+      "id": "信号未到达 Control Card",
+      "type": "reason"
+    },
+    {
+      "id": "信号到达计数器但测试阈值设置太高",
+      "type": "reason"
+    },
+    {
+      "id": "夹具负载",
+      "type": "reason"
+    },
+    {
+      "id": "测量值偏低",
+      "type": "phenomenon"
+    },
+    {
+      "id": "振荡器运行较慢",
+      "type": "phenomenon"
+    },
+    {
+      "id": "夹具电容",
+      "type": "reason"
+    },
+    {
+      "id": "测试阈值略高",
+      "type": "reason"
+    },
+    {
+      "id": "部分转换触发计数",
+      "type": "phenomenon"
+    },
+    {
+      "id": "误装错误频率的振荡器",
+      "type": "reason"
+    },
+    {
+      "id": "测量值错误",
+      "type": "phenomenon"
+    },
+    {
+      "id": "使用错误的频率",
+      "type": "reason"
+    },
+    {
+      "id": "U5",
+      "type": "component"
+    },
+    {
+      "id": "时钟输入未被禁用",
+      "type": "reason"
+    },
+    {
+      "id": "Clock_Enable 接地",
+      "type": "solution"
+    },
+    {
+      "id": "修改 Disablegroup",
+      "type": "solution"
+    },
+    {
+      "id": "U6",
+      "type": "component"
+    },
+    {
+      "id": "添加默认状态 K",
+      "type": "solution"
+    },
+    {
+      "id": "向量周期加倍",
+      "type": "solution"
+    },
+    {
+      "id": "U3",
+      "type": "component"
+    },
+    {
+      "id": "错误消息",
+      "type": "phenomenon"
+    },
+    {
+      "id": "错误的翻译器",
+      "type": "reason"
+    },
+    {
+      "id": "错误数据",
+      "type": "reason"
+    },
+    {
+      "id": "问题",
+      "type": "fault"
+    },
+    {
+      "id": "翻译器误解",
+      "type": "reason"
+    },
+    {
+      "id": "未被识别或处理不当的元件",
+      "type": "component"
+    },
+    {
+      "id": "通用元件层中的器件",
+      "type": "component"
+    },
+    {
+      "id": "放置在错误类别中的器件",
+      "type": "component"
+    },
+    {
+      "id": "CR1",
+      "type": "component"
+    },
+    {
+      "id": "missing data",
+      "type": "phenomenon"
+    },
+    {
+      "id": "双星号指示",
+      "type": "phenomenon"
+    },
+    {
+      "id": "too many default values",
+      "type": "phenomenon"
+    },
+    {
+      "id": "translation issue",
+      "type": "phenomenon"
+    },
+    {
+      "id": "undefined category components",
+      "type": "phenomenon"
+    },
+    {
+      "id": "placement issue",
+      "type": "phenomenon"
+    },
+    {
+      "id": "incorrect renaming",
+      "type": "reason"
+    },
+    {
+      "id": "invalid reference designator",
+      "type": "phenomenon"
+    },
+    {
+      "id": "incorrect marking",
+      "type": "reason"
+    },
+    {
+      "id": "未测试标记",
+      "type": "phenomenon"
+    },
+    {
+      "id": "invalid node name",
+      "type": "phenomenon"
+    },
+    {
+      "id": "naming error",
+      "type": "phenomenon"
+    },
+    {
+      "id": "unsuitable board layout",
+      "type": "phenomenon"
+    },
+    {
+      "id": "夹具适配性",
+      "type": "phenomenon"
+    },
+    {
+      "id": "too many pins",
+      "type": "reason"
+    },
+    {
+      "id": "translated as connector",
+      "type": "phenomenon"
+    },
+    {
+      "id": "third pin not connected to board node",
+      "type": "reason"
+    },
+    {
+      "id": "defined as NC",
+      "type": "phenomenon"
+    },
+    {
+      "id": "delete third pin entry",
+      "type": "solution"
+    },
+    {
+      "id": "redefine device as jumper",
+      "type": "solution"
+    },
+    {
+      "id": "SETTING field",
+      "type": "component"
+    },
+    {
+      "id": "J301",
+      "type": "component"
+    },
+    {
+      "id": "jumper / strap",
+      "type": "component"
+    },
+    {
+      "id": "J201",
+      "type": "component"
+    },
+    {
+      "id": "Part Description Library test",
+      "type": "solution"
+    },
+    {
+      "id": "SW301",
+      "type": "component"
+    },
+    {
+      "id": "unconnected pins",
+      "type": "phenomenon"
+    },
+    {
+      "id": "RESET_BAR",
+      "type": "component"
+    },
+    {
+      "id": "CAD description error",
+      "type": "reason"
+    },
+    {
+      "id": "switch input error",
+      "type": "reason"
+    },
+    {
+      "id": "preshorts and shorts test affected",
+      "type": "phenomenon"
+    },
+    {
+      "id": "default setting incorrect",
+      "type": "reason"
+    },
+    {
+      "id": "shorts test based on default setting",
+      "type": "phenomenon"
+    },
+    {
+      "id": "board passes with opposite switch settings",
+      "type": "phenomenon"
+    },
+    {
+      "id": "incorrect default setting",
+      "type": "reason"
+    },
+    {
+      "id": "引脚 6 短接到引脚 7",
+      "type": "phenomenon"
+    },
+    {
+      "id": "器件最终会失效",
+      "type": "phenomenon"
+    },
+    {
+      "id": "U302",
+      "type": "component"
+    },
+    {
+      "id": "有几个未连接的引脚",
+      "type": "phenomenon"
+    },
+    {
+      "id": "output 引脚短接到电源轨",
+      "type": "phenomenon"
+    },
+    {
+      "id": "工程变更",
+      "type": "reason"
+    },
+    {
+      "id": "测试所有 IC 的所有额外引脚",
+      "type": "solution"
+    },
+    {
+      "id": "热切换",
+      "type": "phenomenon"
+    },
+    {
+      "id": "J202",
+      "type": "component"
+    },
+    {
+      "id": "没有网表信息",
+      "type": "phenomenon"
+    },
+    {
+      "id": "R316",
+      "type": "component"
+    },
+    {
+      "id": "SW302",
+      "type": "component"
+    },
+    {
+      "id": "未找到此器件的连接",
+      "type": "reason"
+    },
+    {
+      "id": "有 XY 位置，但没有节点名称",
+      "type": "phenomenon"
+    },
+    {
+      "id": "未指定探针类型",
+      "type": "reason"
+    },
+    {
+      "id": "WARNING PDF184",
+      "type": "phenomenon"
+    },
+    {
+      "id": "器件",
+      "type": "component"
+    },
+    {
+      "id": "Polarity Check 测试",
+      "type": "solution"
+    },
+    {
+      "id": "TestJet 测试",
+      "type": "solution"
+    },
+    {
+      "id": "ac307",
+      "type": "component"
+    },
+    {
+      "id": "c201",
+      "type": "component"
+    },
+    {
+      "id": "j201",
+      "type": "component"
+    },
+    {
+      "id": "U301-U306",
+      "type": "component"
+    },
+    {
+      "id": "使用 TestJet 测试",
+      "type": "solution"
+    },
+    {
+      "id": "Y301",
+      "type": "component"
+    },
+    {
+      "id": "短路网络",
+      "type": "phenomenon"
+    },
+    {
+      "id": "Pre-Shorts",
+      "type": "component"
+    },
+    {
+      "id": "严重短路或不安全条件",
+      "type": "reason"
+    },
+    {
+      "id": "电阻",
+      "type": "component"
+    },
+    {
+      "id": "电容",
+      "type": "component"
+    },
+    {
+      "id": "电感",
+      "type": "component"
+    },
+    {
+      "id": "wiring error",
+      "type": "reason"
+    },
+    {
+      "id": "false failure",
+      "type": "phenomenon"
+    },
+    {
+      "id": "probe issue",
+      "type": "reason"
+    },
+    {
+      "id": "节点之间隔离确认",
+      "type": "phenomenon"
+    },
+    {
+      "id": "筛查严重短路",
+      "type": "phenomenon"
+    },
+    {
+      "id": "开路相关的电容测量调试",
+      "type": "solution"
+    },
+    {
+      "id": "许多不相关的测试失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "夹具座",
+      "type": "component"
+    },
+    {
+      "id": "真空",
+      "type": "component"
+    },
+    {
+      "id": "共同布线",
+      "type": "component"
+    },
+    {
+      "id": "testhead 连接",
+      "type": "component"
+    },
+    {
+      "id": "夹具验证",
+      "type": "component"
+    },
+    {
+      "id": "板卡某区域的 pins 失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "探针高度",
+      "type": "component"
+    },
+    {
+      "id": "局部夹具对齐",
+      "type": "component"
+    },
+    {
+      "id": "板卡支撑",
+      "type": "component"
+    },
+    {
+      "id": "局部污染",
+      "type": "component"
+    },
+    {
+      "id": "pins 通过后 shorts 失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "实际 UUT 短路",
+      "type": "reason"
+    },
+    {
+      "id": "错误的节点模型",
+      "type": "reason"
+    },
+    {
+      "id": "意外的低阻抗路径",
+      "type": "reason"
+    },
+    {
+      "id": "模拟值持续偏移",
+      "type": "phenomenon"
+    },
+    {
+      "id": "元件值/容差",
+      "type": "component"
+    },
+    {
+      "id": "guarding",
+      "type": "component"
+    },
+    {
+      "id": "共同引线效应",
+      "type": "reason"
+    },
+    {
+      "id": "夹具电阻",
+      "type": "component"
+    },
+    {
+      "id": "整个器件的 TestJet 失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "器件外形",
+      "type": "component"
+    },
+    {
+      "id": "Sensor Plate 对齐",
+      "type": "component"
+    },
+    {
+      "id": "TestJet 使能设置",
+      "type": "component"
+    },
+    {
+      "id": "封装适用性",
+      "type": "component"
+    },
+    {
+      "id": "单个引脚的 TestJet 失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "引脚接触",
+      "type": "component"
+    },
+    {
+      "id": "局部引线问题",
+      "type": "component"
+    },
+    {
+      "id": "引脚映射",
+      "type": "component"
+    },
+    {
+      "id": "探针或夹具对齐",
+      "type": "component"
+    },
+    {
+      "id": "TestJet 失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "J1-1 and J1-2",
+      "type": "component"
+    },
+    {
+      "id": "board",
+      "type": "component"
+    },
+    {
+      "id": "short circuit detection stage",
+      "type": "reason"
+    },
+    {
+      "id": "test procedure",
+      "type": "solution"
+    },
+    {
+      "id": "出现于检测阶段消失于隔离阶段",
+      "type": "phenomenon"
+    },
+    {
+      "id": "并联路径等效电阻低于短路阈值",
+      "type": "reason"
+    },
+    {
+      "id": "将失败节点移到 shorts 测试列表底部",
+      "type": "solution"
+    },
+    {
+      "id": "IPG",
+      "type": "component"
+    },
+    {
+      "id": "避免创建幻影测试",
+      "type": "solution"
+    },
+    {
+      "id": "生产环境建议",
+      "type": "solution"
+    },
+    {
+      "id": "取消勾选 report phantoms",
+      "type": "solution"
+    },
+    {
+      "id": "Pre 7.0 手动修改",
+      "type": "solution"
+    },
+    {
+      "id": "将幻影节点移到文件底部",
+      "type": "solution"
+    },
+    {
+      "id": "R77",
+      "type": "component"
+    },
+    {
+      "id": "测量值低于阈值",
+      "type": "phenomenon"
+    },
+    {
+      "id": "确认未安装",
+      "type": "solution"
+    },
+    {
+      "id": "低于阈值",
+      "type": "phenomenon"
+    },
+    {
+      "id": "高于阈值",
+      "type": "phenomenon"
+    },
+    {
+      "id": "U303",
+      "type": "component"
+    },
+    {
+      "id": "持续失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "引脚 4 无接触",
+      "type": "phenomenon"
+    },
+    {
+      "id": "C201 C202",
+      "type": "component"
+    },
+    {
+      "id": "跳线",
+      "type": "component"
+    },
+    {
+      "id": "POTENTIOMETER",
+      "type": "component"
+    },
+    {
+      "id": "测量期望值",
+      "type": "phenomenon"
+    },
+    {
+      "id": "L201",
+      "type": "component"
+    },
+    {
+      "id": "测量67Ω",
+      "type": "phenomenon"
+    },
+    {
+      "id": "错误的串联电阻设置",
+      "type": "reason"
+    },
+    {
+      "id": "修正Board Consultant中的数据并重新生成测试",
+      "type": "solution"
+    },
+    {
+      "id": "将阈值从16改为90或100Ω",
+      "type": "solution"
+    },
+    {
+      "id": "注释L201-1 | L201-2行",
+      "type": "solution"
+    },
+    {
+      "id": "R201",
+      "type": "component"
+    },
+    {
+      "id": "MOA 过电压",
+      "type": "phenomenon"
+    },
+    {
+      "id": "参考电阻从 1k 改为 1M",
+      "type": "reason"
+    },
+    {
+      "id": "运行应失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "取消 G 总线连接",
+      "type": "reason"
+    },
+    {
+      "id": "R208",
+      "type": "component"
+    },
+    {
+      "id": "B 总线改为 NONE",
+      "type": "reason"
+    },
+    {
+      "id": "R209",
+      "type": "component"
+    },
+    {
+      "id": "A 总线改为 NONE",
+      "type": "reason"
+    },
+    {
+      "id": "R211",
+      "type": "component"
+    },
+    {
+      "id": "注释 L 总线连接和 sl 选项",
+      "type": "reason"
+    },
+    {
+      "id": "测量值偏高",
+      "type": "phenomenon"
+    },
+    {
+      "id": "交换 S 和 I 总线连接",
+      "type": "reason"
+    },
+    {
+      "id": "R207",
+      "type": "component"
+    },
+    {
+      "id": "下限改为合理值",
+      "type": "solution"
+    },
+    {
+      "id": "勾选 Enhancement",
+      "type": "solution"
+    },
+    {
+      "id": "R212",
+      "type": "component"
+    },
+    {
+      "id": "移除偏移",
+      "type": "solution"
+    },
+    {
+      "id": "上下限改为 25%",
+      "type": "solution"
+    },
+    {
+      "id": "测量夹具电容",
+      "type": "phenomenon"
+    },
+    {
+      "id": "重新启用补偿",
+      "type": "solution"
+    },
+    {
+      "id": "AR309",
+      "type": "component"
+    },
+    {
+      "id": "测量约 53Ω",
+      "type": "phenomenon"
+    },
+    {
+      "id": "R316 故意省略",
+      "type": "reason"
+    },
+    {
+      "id": "J301 短路",
+      "type": "reason"
+    },
+    {
+      "id": "omission from CAD",
+      "type": "reason"
+    },
+    {
+      "id": "measured 53Ω",
+      "type": "phenomenon"
+    },
+    {
+      "id": "resistor",
+      "type": "component"
+    },
+    {
+      "id": "inductor",
+      "type": "component"
+    },
+    {
+      "id": "U301 引脚 1 应失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "恢复闭合",
+      "type": "solution"
+    },
+    {
+      "id": "pins 不稳定",
+      "type": "reason"
+    },
+    {
+      "id": "未解释的失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "电源节点定义不正确",
+      "type": "reason"
+    },
+    {
+      "id": "上电问题",
+      "type": "phenomenon"
+    },
+    {
+      "id": "电源不开启",
+      "type": "phenomenon"
+    },
+    {
+      "id": "错误的电源编号",
+      "type": "reason"
+    },
+    {
+      "id": "缺少电源节点定义",
+      "type": "reason"
+    },
+    {
+      "id": "夹具布线问题",
+      "type": "reason"
+    },
+    {
+      "id": "软件配置问题",
+      "type": "reason"
+    },
+    {
+      "id": "立即过流",
+      "type": "phenomenon"
+    },
+    {
+      "id": "电源反接",
+      "type": "reason"
+    },
+    {
+      "id": "电压错误",
+      "type": "reason"
+    },
+    {
+      "id": "板卡缺陷",
+      "type": "reason"
+    },
+    {
+      "id": "带载时电压低",
+      "type": "phenomenon"
+    },
+    {
+      "id": "电流限制太低",
+      "type": "reason"
+    },
+    {
+      "id": "UUT 电流过大",
+      "type": "reason"
+    },
+    {
+      "id": "布线电阻",
+      "type": "reason"
+    },
+    {
+      "id": "电源资源不匹配",
+      "type": "reason"
+    },
+    {
+      "id": "UUT 处无电压",
+      "type": "phenomenon"
+    },
+    {
+      "id": "夹具布线错误",
+      "type": "reason"
+    },
+    {
+      "id": "缺少探针",
+      "type": "reason"
+    },
+    {
+      "id": "节点名称错误",
+      "type": "reason"
+    },
+    {
+      "id": "电源未分配给正确节点",
+      "type": "reason"
+    },
+    {
+      "id": "上电测试期间 UUT 复位",
+      "type": "phenomenon"
+    },
+    {
+      "id": "电源压降",
+      "type": "reason"
+    },
+    {
+      "id": "电流限制",
+      "type": "reason"
+    },
+    {
+      "id": "接触不稳定",
+      "type": "reason"
+    },
+    {
+      "id": "电源顺序不正确",
+      "type": "reason"
+    },
+    {
+      "id": "测试后电源仍保持",
+      "type": "phenomenon"
+    },
+    {
+      "id": "缺少关断步骤",
+      "type": "reason"
+    },
+    {
+      "id": "testplan 错误",
+      "type": "reason"
+    },
+    {
+      "id": "继电器或夹具布线问题",
+      "type": "reason"
+    },
+    {
+      "id": "错误的引脚映射",
+      "type": "reason"
+    },
+    {
+      "id": "错误的驱动/接收行为",
+      "type": "phenomenon"
+    },
+    {
+      "id": "缺失或不良接触",
+      "type": "reason"
+    },
+    {
+      "id": "假数字失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "过度的反驱动",
+      "type": "reason"
+    },
+    {
+      "id": "损坏器件",
+      "type": "phenomenon"
+    },
+    {
+      "id": "器件所有引脚失败",
+      "type": "fault"
+    },
+    {
+      "id": "无电源",
+      "type": "reason"
+    },
+    {
+      "id": "错误接地",
+      "type": "reason"
+    },
+    {
+      "id": "错误器件库",
+      "type": "reason"
+    },
+    {
+      "id": "错误封装",
+      "type": "reason"
+    },
+    {
+      "id": "夹具接触问题",
+      "type": "reason"
+    },
+    {
+      "id": "stuck-at fault",
+      "type": "fault"
+    },
+    {
+      "id": "错误节点",
+      "type": "reason"
+    },
+    {
+      "id": "上游器件驱动节点",
+      "type": "reason"
+    },
+    {
+      "id": "UUT 引脚卡住",
+      "type": "reason"
+    },
+    {
+      "id": "UUT 缺陷",
+      "type": "reason"
+    },
+    {
+      "id": "预期响应错误",
+      "type": "reason"
+    },
+    {
+      "id": "负载问题",
+      "type": "reason"
+    },
+    {
+      "id": "仅在某些向量期间失败",
+      "type": "fault"
+    },
+    {
+      "id": "时序问题",
+      "type": "reason"
+    },
+    {
+      "id": "不完整的预调",
+      "type": "reason"
+    },
+    {
+      "id": "边际器件行为",
+      "type": "reason"
+    },
+    {
+      "id": "上电后多个器件失败",
+      "type": "fault"
+    },
+    {
+      "id": "电源不稳定",
+      "type": "reason"
+    },
+    {
+      "id": "板级禁用错误",
+      "type": "reason"
+    },
+    {
+      "id": "全局家族级问题",
+      "type": "reason"
+    },
+    {
+      "id": "单独测试通过但序列中失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "缺少复位",
+      "type": "reason"
+    },
+    {
+      "id": "预调不充分",
+      "type": "reason"
+    },
+    {
+      "id": "testorder 问题",
+      "type": "reason"
+    },
+    {
+      "id": "前测试遗留状态",
+      "type": "reason"
+    },
+    {
+      "id": "测量电压为零",
+      "type": "phenomenon"
+    },
+    {
+      "id": "未施加电源",
+      "type": "reason"
+    },
+    {
+      "id": "测量电压过低",
+      "type": "phenomenon"
+    },
+    {
+      "id": "负载过大",
+      "type": "reason"
+    },
+    {
+      "id": "UUT 故障",
+      "type": "reason"
+    },
+    {
+      "id": "夹具电阻过高",
+      "type": "reason"
+    },
+    {
+      "id": "测量电压过高",
+      "type": "phenomenon"
+    },
+    {
+      "id": "电源电压错误",
+      "type": "reason"
+    },
+    {
+      "id": "开路负载",
+      "type": "reason"
+    },
+    {
+      "id": "测试限值错误",
+      "type": "reason"
+    },
+    {
+      "id": "测量不稳定",
+      "type": "phenomenon"
+    },
+    {
+      "id": "电路噪声",
+      "type": "reason"
+    },
+    {
+      "id": "稳定时间不足",
+      "type": "reason"
+    },
+    {
+      "id": "接地问题",
+      "type": "reason"
+    },
+    {
+      "id": "夹具噪声",
+      "type": "reason"
+    },
+    {
+      "id": "前测试使电路处于错误状态",
+      "type": "reason"
+    },
+    {
+      "id": "缺少放电",
+      "type": "reason"
+    },
+    {
+      "id": "测试总是以相同偏移失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "限值错误",
+      "type": "reason"
+    },
+    {
+      "id": "期望值错误",
+      "type": "reason"
+    },
+    {
+      "id": "测量偏移",
+      "type": "reason"
+    },
+    {
+      "id": "损坏UUT",
+      "type": "phenomenon"
+    },
+    {
+      "id": "阻止上电",
+      "type": "phenomenon"
+    },
+    {
+      "id": "错误的电源节点数据",
+      "type": "reason"
+    },
+    {
+      "id": "建立安全稳定的板卡电源",
+      "type": "solution"
+    },
+    {
+      "id": "调试电源",
+      "type": "component"
+    },
+    {
+      "id": "板卡消耗过大电流",
+      "type": "phenomenon"
+    },
+    {
+      "id": "夹具布线",
+      "type": "reason"
+    },
+    {
+      "id": "极性反接",
+      "type": "reason"
+    },
+    {
+      "id": "器件损坏",
+      "type": "reason"
+    },
+    {
+      "id": "多个数字器件失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "电源",
+      "type": "component"
+    },
+    {
+      "id": "复位",
+      "type": "component"
+    },
+    {
+      "id": "时钟",
+      "type": "component"
+    },
+    {
+      "id": "板级禁用",
+      "type": "component"
+    },
+    {
+      "id": "全局家族设置",
+      "type": "component"
+    },
+    {
+      "id": "单个数字器件失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "库",
+      "type": "component"
+    },
+    {
+      "id": "禁用",
+      "type": "component"
+    },
+    {
+      "id": "局部夹具接触",
+      "type": "reason"
+    },
+    {
+      "id": "仅在全序列中测试失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "testorder",
+      "type": "component"
+    },
+    {
+      "id": "放电",
+      "type": "reason"
+    },
+    {
+      "id": "前测试交互",
+      "type": "reason"
+    },
+    {
+      "id": "上电模拟测量漂移",
+      "type": "phenomenon"
+    },
+    {
+      "id": "稳定时间",
+      "type": "reason"
+    },
+    {
+      "id": "热行为",
+      "type": "reason"
+    },
+    {
+      "id": "电源稳定性",
+      "type": "reason"
+    },
+    {
+      "id": "接地",
+      "type": "reason"
+    },
+    {
+      "id": "测量参考",
+      "type": "reason"
+    },
+    {
+      "id": "数字总线冲突",
+      "type": "phenomenon"
+    },
+    {
+      "id": "多个输出使能",
+      "type": "reason"
+    },
+    {
+      "id": "Safeguard inhibit",
+      "type": "reason"
+    },
+    {
+      "id": "反驱动冲突",
+      "type": "reason"
+    },
+    {
+      "id": "间歇性上电失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "夹具接触",
+      "type": "reason"
+    },
+    {
+      "id": "边际 UUT",
+      "type": "reason"
+    },
+    {
+      "id": "时序",
+      "type": "reason"
+    },
+    {
+      "id": "探针污染",
+      "type": "reason"
+    },
+    {
+      "id": "未禁用上游器件",
+      "type": "reason"
+    },
+    {
+      "id": "测试不总是在同一向量失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "现象",
+      "type": "phenomenon"
+    },
+    {
+      "id": "外部影响",
+      "type": "reason"
+    },
+    {
+      "id": "Clear 线",
+      "type": "solution"
+    },
+    {
+      "id": "强制所有输出低",
+      "type": "solution"
+    },
+    {
+      "id": "disable Y301",
+      "type": "solution"
+    },
+    {
+      "id": "oscillator chip",
+      "type": "component"
+    },
+    {
+      "id": "test",
+      "type": "component"
+    },
+    {
+      "id": "safeguard inhibit",
+      "type": "phenomenon"
+    },
+    {
+      "id": "test too long for upstream device(s) u306",
+      "type": "reason"
+    },
+    {
+      "id": "delay for cooling",
+      "type": "solution"
+    },
+    {
+      "id": "u306",
+      "type": "component"
+    },
+    {
+      "id": "upstream device",
+      "type": "component"
+    },
+    {
+      "id": "U301 TestJet failure",
+      "type": "phenomenon"
+    },
+    {
+      "id": "SW301 OPEN position",
+      "type": "solution"
+    },
+    {
+      "id": "shorts test failure",
+      "type": "phenomenon"
+    },
+    {
+      "id": "SW302 +5V position",
+      "type": "solution"
+    },
+    {
+      "id": "SW302 GND position",
+      "type": "solution"
+    },
+    {
+      "id": "Digital Test failure",
+      "type": "phenomenon"
+    },
+    {
+      "id": "J2",
+      "type": "component"
+    },
+    {
+      "id": "Remove Jumper J2 and retest!",
+      "type": "phenomenon"
+    },
+    {
+      "id": "R123",
+      "type": "component"
+    },
+    {
+      "id": "U12 and U13",
+      "type": "component"
+    },
+    {
+      "id": "R3 fails",
+      "type": "fault"
+    },
+    {
+      "id": "remove J2 and retest board",
+      "type": "solution"
+    },
+    {
+      "id": "Pre-shorts",
+      "type": "component"
+    },
+    {
+      "id": "标记",
+      "type": "phenomenon"
+    },
+    {
+      "id": "测试 margin 太小",
+      "type": "reason"
+    },
+    {
+      "id": "threshold - worst case measurement 值小",
+      "type": "reason"
+    },
+    {
+      "id": "增加阈值",
+      "type": "solution"
+    },
+    {
+      "id": "c102",
+      "type": "component"
+    },
+    {
+      "id": "M",
+      "type": "phenomenon"
+    },
+    {
+      "id": "c106",
+      "type": "component"
+    },
+    {
+      "id": "c409",
+      "type": "component"
+    },
+    {
+      "id": "U2",
+      "type": "component"
+    },
+    {
+      "id": "公共输入产生问题",
+      "type": "phenomenon"
+    },
+    {
+      "id": "调试时的问题",
+      "type": "phenomenon"
+    },
+    {
+      "id": "开关组",
+      "type": "component"
+    },
+    {
+      "id": "shorts测试",
+      "type": "test"
+    },
+    {
+      "id": "fixture-wiring errors",
+      "type": "fault"
+    },
+    {
+      "id": "errors in wiring",
+      "type": "phenomenon"
+    },
+    {
+      "id": "trace file",
+      "type": "solution"
+    },
+    {
+      "id": "identify fixture-wiring errors",
+      "type": "fault"
+    },
+    {
+      "id": "Detects shorts between accessible nets",
+      "type": "phenomenon"
+    },
+    {
+      "id": "PreShorts",
+      "type": "test"
+    },
+    {
+      "id": "Detects excessive low-resistance conditions",
+      "type": "phenomenon"
+    },
+    {
+      "id": "pins",
+      "type": "test"
+    },
+    {
+      "id": "Verifies probe contact and basic node access",
+      "type": "phenomenon"
+    },
+    {
+      "id": "analog incircuit",
+      "type": "test"
+    },
+    {
+      "id": "Measures passive and analog component values without board power",
+      "type": "phenomenon"
+    },
+    {
+      "id": "Incorrect or outdated input files",
+      "type": "reason"
+    },
+    {
+      "id": "downstream generation errors",
+      "type": "phenomenon"
+    },
+    {
+      "id": "U9",
+      "type": "component"
+    },
+    {
+      "id": "NOT TESTABLE",
+      "type": "phenomenon"
+    },
+    {
+      "id": "U13",
+      "type": "component"
+    },
+    {
+      "id": "s2 to s7",
+      "type": "component"
+    },
+    {
+      "id": "open switch",
+      "type": "component"
+    },
+    {
+      "id": "s1 and s8",
+      "type": "component"
+    },
+    {
+      "id": "closed switch",
+      "type": "component"
+    },
+    {
+      "id": "显示 OPEN",
+      "type": "phenomenon"
+    },
+    {
+      "id": "显示 CLOSED",
+      "type": "phenomenon"
+    },
+    {
+      "id": "R101",
+      "type": "component"
+    },
+    {
+      "id": "potentiometer failure",
+      "type": "fault"
+    },
+    {
+      "id": "measurement out of range",
+      "type": "phenomenon"
+    },
+    {
+      "id": "adjust R101 and Click YES",
+      "type": "solution"
+    },
+    {
+      "id": "u8_adj test",
+      "type": "solution"
+    },
+    {
+      "id": "detector frequency, expect 5k",
+      "type": "solution"
+    },
+    {
+      "id": "fail device",
+      "type": "solution"
+    },
+    {
+      "id": "exit test",
+      "type": "solution"
+    },
+    {
+      "id": "input voltage",
+      "type": "phenomenon"
+    },
+    {
+      "id": "exceed ±10V",
+      "type": "phenomenon"
+    },
+    {
+      "id": "ASRU driven voltage",
+      "type": "reason"
+    },
+    {
+      "id": "output high",
+      "type": "phenomenon"
+    },
+    {
+      "id": "expect 36V",
+      "type": "phenomenon"
+    },
+    {
+      "id": "output low",
+      "type": "phenomenon"
+    },
+    {
+      "id": "expect 0V",
+      "type": "phenomenon"
+    },
+    {
+      "id": "OpAmp",
+      "type": "component"
+    },
+    {
+      "id": "OpAmp input",
+      "type": "component"
+    },
+    {
+      "id": "DC detector",
+      "type": "component"
+    },
+    {
+      "id": "AC detector",
+      "type": "component"
+    },
+    {
+      "id": "缺少节点探针访问",
+      "type": "phenomenon"
+    },
+    {
+      "id": "U12",
+      "type": "component"
+    },
+    {
+      "id": "不可测试",
+      "type": "fault"
+    },
+    {
+      "id": "SW2/SW3",
+      "type": "component"
+    },
+    {
+      "id": "故障开关",
+      "type": "fault"
+    },
+    {
+      "id": "模拟引脚测量",
+      "type": "component"
+    },
+    {
+      "id": "不稳定",
+      "type": "phenomenon"
+    },
+    {
+      "id": "缺少 guarding",
+      "type": "reason"
+    },
+    {
+      "id": "数字引脚驱动模拟节点",
+      "type": "reason"
+    },
+    {
+      "id": "数字引脚",
+      "type": "component"
+    },
+    {
+      "id": "仅在模拟测试运行时失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "模拟激励导致反驱动",
+      "type": "reason"
+    },
+    {
+      "id": "disable 不足",
+      "type": "reason"
+    },
+    {
+      "id": "Safeguard 冲突",
+      "type": "reason"
+    },
+    {
+      "id": "寄存器写入",
+      "type": "component"
+    },
+    {
+      "id": "I²C/SPI 时序错误",
+      "type": "reason"
+    },
+    {
+      "id": "地址错误",
+      "type": "reason"
+    },
+    {
+      "id": "电源缺失",
+      "type": "reason"
+    },
+    {
+      "id": "ADC 输出值",
+      "type": "component"
+    },
+    {
+      "id": "不正确",
+      "type": "phenomenon"
+    },
+    {
+      "id": "参考电压错误",
+      "type": "reason"
+    },
+    {
+      "id": "增益设置错误",
+      "type": "reason"
+    },
+    {
+      "id": "模拟引脚未 guard",
+      "type": "reason"
+    },
+    {
+      "id": "单独测试",
+      "type": "component"
+    },
+    {
+      "id": "通过但序列中失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "在混合器件引脚上失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "引脚误分类为数字",
+      "type": "reason"
+    },
+    {
+      "id": "TestJet 未启用",
+      "type": "reason"
+    },
+    {
+      "id": "Sensor Plate 未对齐",
+      "type": "reason"
+    },
+    {
+      "id": "模拟输入",
+      "type": "component"
+    },
+    {
+      "id": "参考电压",
+      "type": "component"
+    },
+    {
+      "id": "I²C 总线",
+      "type": "component"
+    },
+    {
+      "id": "寄存器",
+      "type": "component"
+    },
+    {
+      "id": "写入失败",
+      "type": "fault"
+    },
+    {
+      "id": "disable test",
+      "type": "test"
+    },
+    {
+      "id": "错误输出状态",
+      "type": "phenomenon"
+    },
+    {
+      "id": "测量到错误输出状态",
+      "type": "solution"
+    },
+    {
+      "id": "enable line",
+      "type": "component"
+    },
+    {
+      "id": "逻辑高与低之间区域",
+      "type": "phenomenon"
+    },
+    {
+      "id": "unit disable test",
+      "type": "test"
+    },
+    {
+      "id": "禁用测试向量",
+      "type": "test"
+    },
+    {
+      "id": "Pin 'XYZ' not found in board description",
+      "type": "phenomenon"
+    },
+    {
+      "id": "VCL 与 PDE 之间的引脚名称不匹配",
+      "type": "reason"
+    },
+    {
+      "id": "对齐 VCL 与 PDE 中的引脚名称",
+      "type": "solution"
+    },
+    {
+      "id": "Resource 'P99' not assigned",
+      "type": "phenomenon"
+    },
+    {
+      "id": "Personality Pin 未被 MPA 分配",
+      "type": "reason"
+    },
+    {
+      "id": "重新运行 Module Pin Assignment",
+      "type": "solution"
+    },
+    {
+      "id": "Unknown directive 'foo'",
+      "type": "phenomenon"
+    },
+    {
+      "id": "拼写错误或不支持的 VCL 关键字",
+      "type": "reason"
+    },
+    {
+      "id": "查阅 VCL 参考手册",
+      "type": "solution"
+    },
+    {
+      "id": "Expect value out of range",
+      "type": "phenomenon"
+    },
+    {
+      "id": "期望值不是 0/1/Z/X",
+      "type": "reason"
+    },
+    {
+      "id": "使用有效的逻辑电平",
+      "type": "solution"
+    },
+    {
+      "id": "Clock pin not defined",
+      "type": "phenomenon"
+    },
+    {
+      "id": "同步器件缺少 clock 指令",
+      "type": "reason"
+    },
+    {
+      "id": "添加 clock <pin> = <freq>",
+      "type": "solution"
+    },
+    {
+      "id": "test pass in vacuum off",
+      "type": "phenomenon"
+    },
+    {
+      "id": "VCL vector coverage",
+      "type": "solution"
+    },
+    {
+      "id": "speed sensitivity",
+      "type": "phenomenon"
+    },
+    {
+      "id": "logic level sensitivity",
+      "type": "phenomenon"
+    },
+    {
+      "id": "fault coverage",
+      "type": "phenomenon"
+    },
+    {
+      "id": "IO_BAR",
+      "type": "component"
+    },
+    {
+      "id": "错误状态",
+      "type": "phenomenon"
+    },
+    {
+      "id": "set IO_BAR to 0",
+      "type": "solution"
+    },
+    {
+      "id": "PINS",
+      "type": "component"
+    },
+    {
+      "id": "泄漏足够提供 Pins 故障覆盖",
+      "type": "phenomenon"
+    },
+    {
+      "id": "RC 定时电路时间常数太长",
+      "type": "reason"
+    },
+    {
+      "id": "添加 wa300m",
+      "type": "solution"
+    },
+    {
+      "id": "C72",
+      "type": "component"
+    },
+    {
+      "id": "测量值接近上限，可能失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "测量值远低于期望值",
+      "type": "phenomenon"
+    },
+    {
+      "id": "存在并联路径（通过 U1）",
+      "type": "reason"
+    },
+    {
+      "id": "尝试 guard Reset、Pwrpu、GND",
+      "type": "solution"
+    },
+    {
+      "id": "R3",
+      "type": "component"
+    },
+    {
+      "id": "同样问题",
+      "type": "phenomenon"
+    },
+    {
+      "id": "尝试 guard Reset、Pwrpu 和 +5V",
+      "type": "solution"
+    },
+    {
+      "id": "IPG 包含了 Wideband (WB)",
+      "type": "reason"
+    },
+    {
+      "id": "测量值仍偏低",
+      "type": "phenomenon"
+    },
+    {
+      "id": "移除 WB 或添加 WB",
+      "type": "solution"
+    },
+    {
+      "id": "U2.4",
+      "type": "component"
+    },
+    {
+      "id": "HALT/",
+      "type": "phenomenon"
+    },
+    {
+      "id": "competition condition",
+      "type": "reason"
+    },
+    {
+      "id": "RC timing circuit",
+      "type": "component"
+    },
+    {
+      "id": "Disablegroup PWRUP",
+      "type": "solution"
+    },
+    {
+      "id": "Halt_Reset input drive",
+      "type": "solution"
+    },
+    {
+      "id": "COMPIN+",
+      "type": "component"
+    },
+    {
+      "id": "feedback node",
+      "type": "component"
+    },
+    {
+      "id": "u1",
+      "type": "component"
+    },
+    {
+      "id": "测试失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "修改输入电平或输出限值",
+      "type": "solution"
+    },
+    {
+      "id": "u14",
+      "type": "component"
+    },
+    {
+      "id": "第三个测量预期失败",
+      "type": "phenomenon"
+    },
+    {
+      "id": "5kΩ 时运放电流不足",
+      "type": "reason"
+    },
+    {
+      "id": "y1",
+      "type": "component"
+    },
+    {
+      "id": "测量值不符合期望",
+      "type": "phenomenon"
+    },
+    {
+      "id": "使用工具查找并修正",
+      "type": "solution"
+    },
+    {
+      "id": "Pin 'XYZ' not found",
+      "type": "phenomenon"
+    },
+    {
+      "id": "引脚名称不匹配",
+      "type": "reason"
+    },
+    {
+      "id": "对齐引脚名称",
+      "type": "solution"
+    },
+    {
+      "id": "未分配",
+      "type": "reason"
+    },
+    {
+      "id": "重新运行MPA",
+      "type": "solution"
+    },
+    {
+      "id": "Invalid logic level",
+      "type": "phenomenon"
+    },
+    {
+      "id": "非允许字符",
+      "type": "reason"
+    },
+    {
+      "id": "使用有效符号",
+      "type": "solution"
+    },
+    {
+      "id": "Missing trigger definition",
+      "type": "phenomenon"
+    },
+    {
+      "id": "缺少触发信息",
+      "type": "reason"
+    },
+    {
+      "id": "添加Trigger行",
+      "type": "solution"
+    },
+    {
+      "id": "Sample rate too high",
+      "type": "phenomenon"
+    },
+    {
+      "id": "超出能力",
+      "type": "reason"
+    },
+    {
+      "id": "降低采样率",
+      "type": "solution"
+    },
+    {
+      "id": "误分类",
+      "type": "reason"
+    },
+    {
+      "id": "测量错误",
+      "type": "phenomenon"
+    },
+    {
+      "id": "模拟引脚",
+      "type": "component"
+    },
+    {
+      "id": "ANALOG",
+      "type": "component"
+    },
+    {
+      "id": "DIGITAL",
+      "type": "component"
+    },
+    {
+      "id": "数字控制",
+      "type": "component"
+    },
+    {
+      "id": "禁用 guarding",
+      "type": "phenomenon"
+    },
+    {
+      "id": "VOUT",
+      "type": "component"
+    },
+    {
+      "id": "VREF",
+      "type": "component"
+    },
+    {
+      "id": "D0-D7",
+      "type": "component"
+    },
+    {
+      "id": "CS",
+      "type": "component"
+    },
+    {
+      "id": "register write",
+      "type": "component"
+    },
+    {
+      "id": "timing",
+      "type": "component"
+    },
+    {
+      "id": "violation",
+      "type": "fault"
+    },
+    {
+      "id": "失败且一致",
+      "type": "phenomenon"
+    },
+    {
+      "id": "continue analog",
+      "type": "component"
+    },
+    {
+      "id": "continue digital",
+      "type": "component"
+    },
+    {
+      "id": "Dig_In_10100_3000",
+      "type": "component"
+    },
+    {
+      "id": "预期频率应为 2kHz",
+      "type": "reason"
+    },
+    {
+      "id": "analog 例程中的错误",
+      "type": "fault"
+    },
+    {
+      "id": "修正并保存",
+      "type": "solution"
+    },
+    {
+      "id": "Safeguard Inhibited",
+      "type": "phenomenon"
+    },
+    {
+      "id": "测试时间非确定性",
+      "type": "reason"
+    },
+    {
+      "id": "设置 test time",
+      "type": "solution"
+    },
+    {
+      "id": "path",
+      "type": "component"
+    },
+    {
+      "id": "no flow",
+      "type": "phenomenon"
+    },
+    {
+      "id": "air gap",
+      "type": "reason"
+    },
+    {
+      "id": "wire cut and separated",
+      "type": "phenomenon"
+    },
+    {
+      "id": "continuity is broken",
+      "type": "reason"
+    },
+    {
+      "id": "make physical contact",
+      "type": "solution"
+    },
+    {
+      "id": "continuous path for electrons to flow",
+      "type": "phenomenon"
+    },
+    {
+      "id": "no complete path",
+      "type": "reason"
+    },
+    {
+      "id": "voltage drop",
+      "type": "phenomenon"
+    },
+    {
+      "id": "large current",
+      "type": "phenomenon"
+    },
+    {
+      "id": "heat release",
+      "type": "phenomenon"
+    },
+    {
+      "id": "direct connection of voltage source poles",
+      "type": "reason"
+    },
+    {
+      "id": "nothing but a wire joining one end of the voltage source to the other",
+      "type": "phenomenon"
+    },
+    {
+      "id": "break in continuity",
+      "type": "reason"
+    },
+    {
+      "id": "lamp not glowing",
+      "type": "phenomenon"
+    },
+    {
+      "id": "current stopping",
+      "type": "phenomenon"
+    },
+    {
+      "id": "closed circuit",
+      "type": "fault"
+    },
+    {
+      "id": "circuit with continuity",
+      "type": "component"
+    },
+    {
+      "id": "switch",
+      "type": "component"
+    },
+    {
+      "id": "closing the contacts",
+      "type": "solution"
+    },
+    {
+      "id": "opening the contacts",
+      "type": "solution"
+    },
+    {
+      "id": "contacts separation",
+      "type": "reason"
+    },
+    {
+      "id": "contacts touching",
+      "type": "reason"
+    },
+    {
+      "id": "sparking",
+      "type": "phenomenon"
+    },
+    {
+      "id": "ignition",
+      "type": "phenomenon"
+    },
+    {
+      "id": "accidental contact",
+      "type": "reason"
+    },
+    {
+      "id": "knife switch",
+      "type": "component"
+    },
+    {
+      "id": "blade not touching",
+      "type": "reason"
+    },
+    {
+      "id": "blade fully touching",
+      "type": "reason"
+    },
+    {
+      "id": "high currents",
+      "type": "phenomenon"
+    },
+    {
+      "id": "heat energy release",
+      "type": "phenomenon"
+    },
+    {
+      "id": "no flow of electrons",
+      "type": "phenomenon"
+    },
+    {
+      "id": "free passage of electrons",
+      "type": "phenomenon"
+    },
+    {
+      "id": "ground fault",
+      "type": "fault"
+    },
+    {
+      "id": "accidental connection between a circuit conductor and the earth",
+      "type": "phenomenon"
+    },
+    {
+      "id": "electric current",
+      "type": "phenomenon"
+    },
+    {
+      "id": "tissue burns",
+      "type": "phenomenon"
+    },
+    {
+      "id": "muscle freezing",
+      "type": "phenomenon"
+    },
+    {
+      "id": "heart fibrillation",
+      "type": "phenomenon"
+    },
+    {
+      "id": "voltage",
+      "type": "phenomenon"
+    },
+    {
+      "id": "current flow",
+      "type": "phenomenon"
+    },
+    {
+      "id": "voltage meter",
+      "type": "component"
+    },
+    {
+      "id": "fail to indicate voltage",
+      "type": "phenomenon"
+    },
+    {
+      "id": "defective meter",
+      "type": "reason"
+    },
+    {
+      "id": "electrical shock risk",
+      "type": "phenomenon"
+    },
+    {
+      "id": "checking known source of voltage",
+      "type": "solution"
+    },
+    {
+      "id": "momentary contact with back of hand",
+      "type": "solution"
+    },
+    {
+      "id": "leads not in contact",
+      "type": "reason"
+    },
+    {
+      "id": "infinite resistance",
+      "type": "phenomenon"
+    },
+    {
+      "id": "leads touching",
+      "type": "reason"
+    },
+    {
+      "id": "zero Ω",
+      "type": "phenomenon"
+    },
+    {
+      "id": "no resistance in leads",
+      "type": "reason"
+    },
+    {
+      "id": "downstream nodes lose voltage",
+      "type": "phenomenon"
+    },
+    {
+      "id": "node voltage pulled to ground",
+      "type": "phenomenon"
+    },
+    {
+      "id": "filter frequency response shifted",
+      "type": "phenomenon"
+    },
+    {
+      "id": "missing filter capacitance",
+      "type": "phenomenon"
+    },
+    {
+      "id": "increased contact resistance",
+      "type": "phenomenon"
+    },
+    {
+      "id": "adjacent nodes electrically bridged",
+      "type": "phenomenon"
+    },
+    {
+      "id": "fluctuating measurements",
+      "type": "phenomenon"
+    },
+    {
+      "id": "wrong voltage divider ratio",
+      "type": "phenomenon"
+    },
+    {
+      "id": "ac_shift",
+      "type": "manifestation"
+    },
+    {
+      "id": "current_anomaly",
+      "type": "manifestation"
+    },
+    {
+      "id": "dc_shift",
+      "type": "manifestation"
+    },
+    {
+      "id": "fluctuation",
+      "type": "manifestation"
+    },
+    {
+      "id": "ground_clamp",
+      "type": "manifestation"
+    },
+    {
+      "id": "node_equalize",
+      "type": "manifestation"
+    },
+    {
+      "id": "resistance_offset",
+      "type": "manifestation"
+    },
+    {
+      "id": "topology_open",
+      "type": "manifestation"
+    },
+    {
+      "id": "node_1",
+      "type": "test_node"
+    },
+    {
+      "id": "node_2",
+      "type": "test_node"
+    },
+    {
+      "id": "node_3",
+      "type": "test_node"
+    },
+    {
+      "id": "node_4",
+      "type": "test_node"
+    },
+    {
+      "id": "node_5",
+      "type": "test_node"
+    },
+    {
+      "id": "node_6",
+      "type": "test_node"
+    },
+    {
+      "id": "node_7",
+      "type": "test_node"
+    },
+    {
+      "id": "open_R1",
+      "type": "fault"
+    },
+    {
+      "id": "open_R3",
+      "type": "fault"
+    },
+    {
+      "id": "open_R4",
+      "type": "fault"
+    },
+    {
+      "id": "R4",
+      "type": "component"
+    },
+    {
+      "id": "open_R6",
+      "type": "fault"
+    },
+    {
+      "id": "R6",
+      "type": "component"
+    },
+    {
+      "id": "short_R2",
+      "type": "fault"
+    },
+    {
+      "id": "short_R5",
+      "type": "fault"
+    },
+    {
+      "id": "R5",
+      "type": "component"
+    },
+    {
+      "id": "short_R7",
+      "type": "fault"
+    },
+    {
+      "id": "R7",
+      "type": "component"
+    },
+    {
+      "id": "short_R10",
+      "type": "fault"
+    },
+    {
+      "id": "R10",
+      "type": "component"
+    },
+    {
+      "id": "drift_C1",
+      "type": "fault"
+    },
+    {
+      "id": "drift_C3",
+      "type": "fault"
+    },
+    {
+      "id": "C3",
+      "type": "component"
+    },
+    {
+      "id": "drift_C5",
+      "type": "fault"
+    },
+    {
+      "id": "C5",
+      "type": "component"
+    },
+    {
+      "id": "missing_C2",
+      "type": "fault"
+    },
+    {
+      "id": "C2",
+      "type": "component"
+    },
+    {
+      "id": "missing_C4",
+      "type": "fault"
+    },
+    {
+      "id": "C4",
+      "type": "component"
+    },
+    {
+      "id": "cold_solder_R2",
+      "type": "fault"
+    },
+    {
+      "id": "cold_solder_R4",
+      "type": "fault"
+    },
+    {
+      "id": "cold_solder_R9",
+      "type": "fault"
+    },
+    {
+      "id": "R9",
+      "type": "component"
+    },
+    {
+      "id": "bridge_3_4",
+      "type": "fault"
+    },
+    {
+      "id": "bridge_4_5",
+      "type": "fault"
+    },
+    {
+      "id": "bridge_5_6",
+      "type": "fault"
+    },
+    {
+      "id": "intermittent_R2",
+      "type": "fault"
+    },
+    {
+      "id": "intermittent_R4",
+      "type": "fault"
+    },
+    {
+      "id": "intermittent_R6",
+      "type": "fault"
+    }
+  ],
+  "edges": [
+    {
+      "source": "returned signal not as expected",
+      "relation": "causes",
+      "target": "failure"
+    },
+    {
+      "source": "failure",
+      "relation": "solved_by",
+      "target": "disable Y301"
+    },
+    {
+      "source": "failure",
+      "relation": "has_phenomenon",
+      "target": "Remove Jumper J2 and retest!"
+    },
+    {
+      "source": "failure",
+      "relation": "causes",
+      "target": "exit test"
+    },
+    {
+      "source": "failure",
+      "relation": "is_type_of",
+      "target": "intermittent failure"
+    },
+    {
+      "source": "device under test",
+      "relation": "has_phenomenon",
+      "target": "not the right part or not behaving properly"
+    },
+    {
+      "source": "Shorts Test",
+      "relation": "has_phenomenon",
+      "target": "unexpected shorts between devices"
+    },
+    {
+      "source": "Shorts Test",
+      "relation": "related_to",
+      "target": "expected shorts that are found to be open"
+    },
+    {
+      "source": "Shorts Test",
+      "relation": "has_phenomenon",
+      "target": "失败"
+    },
+    {
+      "source": "Shorts Test",
+      "relation": "solved_by",
+      "target": "验证预期短路器件是否处理正确"
+    },
+    {
+      "source": "Shorts Test",
+      "relation": "related_to",
+      "target": "开关"
+    },
+    {
+      "source": "Shorts Test",
+      "relation": "related_to",
+      "target": "保险丝"
+    },
+    {
+      "source": "unexpected shorts between devices",
+      "relation": "is_type_of",
+      "target": "short"
+    },
+    {
+      "source": "short",
+      "relation": "causes",
+      "target": "erroneous failures in unpowered measurements"
+    },
+    {
+      "source": "short",
+      "relation": "related_to",
+      "target": "Digital Resistance Threshold"
+    },
+    {
+      "source": "short",
+      "relation": "related_to",
+      "target": "Jumper / Strap"
+    },
+    {
+      "source": "short",
+      "relation": "is_type_of",
+      "target": "failure"
+    },
+    {
+      "source": "short",
+      "relation": "caused_by",
+      "target": "jumpers"
+    },
+    {
+      "source": "short",
+      "relation": "caused_by",
+      "target": "closed switches"
+    },
+    {
+      "source": "short",
+      "relation": "caused_by",
+      "target": "fuses"
+    },
+    {
+      "source": "short",
+      "relation": "caused_by",
+      "target": "small value resistors"
+    },
+    {
+      "source": "expected shorts that are found to be open",
+      "relation": "is_type_of",
+      "target": "open"
+    },
+    {
+      "source": "open",
+      "relation": "caused_by",
+      "target": "Resistance above which a fuse is considered open"
+    },
+    {
+      "source": "open",
+      "relation": "related_to",
+      "target": "Digital Resistance Threshold"
+    },
+    {
+      "source": "open",
+      "relation": "related_to",
+      "target": "Jumper / Strap"
+    },
+    {
+      "source": "open",
+      "relation": "related_to",
+      "target": "Switch"
+    },
+    {
+      "source": "open",
+      "relation": "is_type_of",
+      "target": "failure"
+    },
+    {
+      "source": "open",
+      "relation": "causes",
+      "target": "no flow"
+    },
+    {
+      "source": "Analog Incircuit tests",
+      "relation": "related_to",
+      "target": "resistors, capacitors, inductors, diodes, zener diodes, FETs, transistors"
+    },
+    {
+      "source": "TestJet",
+      "relation": "causes",
+      "target": "measure capacitive coupling between the device under test and a signal receptor plate"
+    },
+    {
+      "source": "TestJet",
+      "relation": "related_to",
+      "target": "Devices being tested"
+    },
+    {
+      "source": "TestJet",
+      "relation": "related_to",
+      "target": "open"
+    },
+    {
+      "source": "TestJet",
+      "relation": "causes",
+      "target": "开路相关的电容测量调试"
+    },
+    {
+      "source": "TestJet",
+      "relation": "has_phenomenon",
+      "target": "在混合器件引脚上失败"
+    },
+    {
+      "source": "TestJet",
+      "relation": "caused_by",
+      "target": "引脚误分类为数字"
+    },
+    {
+      "source": "TestJet",
+      "relation": "caused_by",
+      "target": "TestJet 未启用"
+    },
+    {
+      "source": "TestJet",
+      "relation": "caused_by",
+      "target": "Sensor Plate 未对齐"
+    },
+    {
+      "source": "VTEP (Vectorless Test Extended Performance)",
+      "relation": "solved_by",
+      "target": "greater measurement accuracy"
+    },
+    {
+      "source": "iVTEP",
+      "relation": "solved_by",
+      "target": "even greater measurement accuracy"
+    },
+    {
+      "source": "short",
+      "relation": "causes",
+      "target": "further testing stops"
+    },
+    {
+      "source": "test fails",
+      "relation": "has_phenomenon",
+      "target": "FAIL message displayed"
+    },
+    {
+      "source": "no tests fail",
+      "relation": "has_phenomenon",
+      "target": "PASS message displayed"
+    },
+    {
+      "source": "flame or smoke",
+      "relation": "causes",
+      "target": "pressing the Emergency Shutdown Switch"
+    },
+    {
+      "source": "pressing the Emergency Shutdown Switch",
+      "relation": "solved_by",
+      "target": "releasing the contactor"
+    },
+    {
+      "source": "releasing the contactor",
+      "relation": "causes",
+      "target": "removing all power from the testhead"
+    },
+    {
+      "source": "releasing the contactor",
+      "relation": "causes",
+      "target": "releasing vacuum"
+    },
+    {
+      "source": "releasing the contactor",
+      "relation": "causes",
+      "target": "releasing pneumatic cylinders"
+    },
+    {
+      "source": "fixture",
+      "relation": "has_phenomenon",
+      "target": "pinch hazard"
+    },
+    {
+      "source": "vacuum",
+      "relation": "causes",
+      "target": "pinch hazard"
+    },
+    {
+      "source": "compressed air",
+      "relation": "causes",
+      "target": "fixture lock"
+    },
+    {
+      "source": "probes",
+      "relation": "related_to",
+      "target": "Support Plate"
+    },
+    {
+      "source": "solder bridges",
+      "relation": "causes",
+      "target": "short"
+    },
+    {
+      "source": "closed switches",
+      "relation": "causes",
+      "target": "short"
+    },
+    {
+      "source": "fuses",
+      "relation": "causes",
+      "target": "open"
+    },
+    {
+      "source": "inductors",
+      "relation": "causes",
+      "target": "open"
+    },
+    {
+      "source": "open switches",
+      "relation": "causes",
+      "target": "open"
+    },
+    {
+      "source": "shorts",
+      "relation": "causes",
+      "target": "unpowered tests to fail incorrectly"
+    },
+    {
+      "source": "shorts",
+      "relation": "causes",
+      "target": "component damage"
+    },
+    {
+      "source": "shorts",
+      "relation": "caused_by",
+      "target": "power application"
+    },
+    {
+      "source": "shorts",
+      "relation": "related_to",
+      "target": "short"
+    },
+    {
+      "source": "shorts",
+      "relation": "related_to",
+      "target": "open"
+    },
+    {
+      "source": "shorts",
+      "relation": "has_phenomenon",
+      "target": "意外短路和开路"
+    },
+    {
+      "source": "shorts",
+      "relation": "has_phenomenon",
+      "target": "短路网络"
+    },
+    {
+      "source": "shorts",
+      "relation": "has_phenomenon",
+      "target": "节点之间隔离确认"
+    },
+    {
+      "source": "shorts",
+      "relation": "is_type_of",
+      "target": "short"
+    },
+    {
+      "source": "shorts",
+      "relation": "is_type_of",
+      "target": "failure"
+    },
+    {
+      "source": "shorts",
+      "relation": "causes",
+      "target": "损坏UUT"
+    },
+    {
+      "source": "shorts",
+      "relation": "causes",
+      "target": "阻止上电"
+    },
+    {
+      "source": "shorts",
+      "relation": "causes",
+      "target": "shorts test failure"
+    },
+    {
+      "source": "shorts",
+      "relation": "has_phenomenon",
+      "target": "Detects shorts between accessible nets"
+    },
+    {
+      "source": "boardfailed",
+      "relation": "is_type_of",
+      "target": "flag"
+    },
+    {
+      "source": "boardfailed",
+      "relation": "caused_by",
+      "target": "failure in testplan"
+    },
+    {
+      "source": "dutfailed",
+      "relation": "is_type_of",
+      "target": "flag"
+    },
+    {
+      "source": "dutfailed",
+      "relation": "has_phenomenon",
+      "target": "test passed or failed"
+    },
+    {
+      "source": "Fuse",
+      "relation": "is_type_of",
+      "target": "component"
+    },
+    {
+      "source": "39 Ω damping resistor",
+      "relation": "is_type_of",
+      "target": "component"
+    },
+    {
+      "source": "39 Ω damping resistor",
+      "relation": "has_phenomenon",
+      "target": "if threshold is 47 Ω, it's a short; 33 Ω, it's open"
+    },
+    {
+      "source": "impedance below threshold",
+      "relation": "is_type_of",
+      "target": "short"
+    },
+    {
+      "source": "impedance below threshold",
+      "relation": "causes",
+      "target": "pin included in VTEP test"
+    },
+    {
+      "source": "Jumper / Strap",
+      "relation": "is_type_of",
+      "target": "component"
+    },
+    {
+      "source": "Switch",
+      "relation": "is_type_of",
+      "target": "component"
+    },
+    {
+      "source": "closed",
+      "relation": "related_to",
+      "target": "Switch"
+    },
+    {
+      "source": "C7",
+      "relation": "is_type_of",
+      "target": "capacitor"
+    },
+    {
+      "source": "C7",
+      "relation": "has_phenomenon",
+      "target": "Failure message"
+    },
+    {
+      "source": "C7",
+      "relation": "related_to",
+      "target": "Testable Yes/No"
+    },
+    {
+      "source": "C7",
+      "relation": "related_to",
+      "target": "Placed Yes/No"
+    },
+    {
+      "source": "U1",
+      "relation": "is_type_of",
+      "target": "IC"
+    },
+    {
+      "source": "U1",
+      "relation": "caused_by",
+      "target": "CAD shows 74ACT00, but Bill of Material is 74HC00"
+    },
+    {
+      "source": "U1",
+      "relation": "solved_by",
+      "target": "Change Part Number to 74HC00"
+    },
+    {
+      "source": "U1",
+      "relation": "caused_by",
+      "target": "Library tests are identical; only Safeguard info differs"
+    },
+    {
+      "source": "U1",
+      "relation": "related_to",
+      "target": "Placed: Yes"
+    },
+    {
+      "source": "U1",
+      "relation": "related_to",
+      "target": "Side of Board: Top"
+    },
+    {
+      "source": "U1",
+      "relation": "related_to",
+      "target": "Testable: Yes"
+    },
+    {
+      "source": "U1",
+      "relation": "related_to",
+      "target": "Test using TestJet/VTEP: Yes"
+    },
+    {
+      "source": "U1",
+      "relation": "related_to",
+      "target": "TestJet probing: Auto Selection"
+    },
+    {
+      "source": "U1",
+      "relation": "related_to",
+      "target": "Test using Connect Check: No"
+    },
+    {
+      "source": "U1",
+      "relation": "related_to",
+      "target": "Library Test Expected: Yes"
+    },
+    {
+      "source": "U1",
+      "relation": "related_to",
+      "target": "Test Using Boundary Scan's Silicon Nail: No"
+    },
+    {
+      "source": "U1",
+      "relation": "is_type_of",
+      "target": "OpAmp"
+    },
+    {
+      "source": "U1",
+      "relation": "caused_by",
+      "target": "COMPIN+"
+    },
+    {
+      "source": "R1",
+      "relation": "has_phenomenon",
+      "target": "Check pins 1 and 16"
+    },
+    {
+      "source": "R1",
+      "relation": "solved_by",
+      "target": "Add/Replace Device"
+    },
+    {
+      "source": "R1",
+      "relation": "has_phenomenon",
+      "target": "Check pins 1 and 2"
+    },
+    {
+      "source": "R1",
+      "relation": "is_type_of",
+      "target": "Fixed"
+    },
+    {
+      "source": "R1",
+      "relation": "related_to",
+      "target": "failure"
+    },
+    {
+      "source": "R2",
+      "relation": "has_phenomenon",
+      "target": "Check pins 2 and 15"
+    },
+    {
+      "source": "R2",
+      "relation": "solved_by",
+      "target": "Add/Replace Device"
+    },
+    {
+      "source": "R2",
+      "relation": "has_phenomenon",
+      "target": "Check pin 1 and 3"
+    },
+    {
+      "source": "R2",
+      "relation": "is_type_of",
+      "target": "Fixed"
+    },
+    {
+      "source": "R2",
+      "relation": "related_to",
+      "target": "failure"
+    },
+    {
+      "source": "R2",
+      "relation": "has_phenomenon",
+      "target": "测量值远低于期望值"
+    },
+    {
+      "source": "jumper across pins1 and2",
+      "relation": "causes",
+      "target": "short"
+    },
+    {
+      "source": "jumper across pins2 and3",
+      "relation": "causes",
+      "target": "open"
+    },
+    {
+      "source": "jumper",
+      "relation": "has_phenomenon",
+      "target": "Check position of jumper!"
+    },
+    {
+      "source": "jumper",
+      "relation": "is_type_of",
+      "target": "CLOSED"
+    },
+    {
+      "source": "Connect Check",
+      "relation": "related_to",
+      "target": "open"
+    },
+    {
+      "source": "Cover Extend",
+      "relation": "related_to",
+      "target": "open"
+    },
+    {
+      "source": "VTEP probe",
+      "relation": "related_to",
+      "target": "Cover Extend"
+    },
+    {
+      "source": "Boundary Scan",
+      "relation": "related_to",
+      "target": "Cover Extend"
+    },
+    {
+      "source": "testjet",
+      "relation": "related_to",
+      "target": "open"
+    },
+    {
+      "source": "testjet",
+      "relation": "related_to",
+      "target": "signal pins"
+    },
+    {
+      "source": "testjet",
+      "relation": "related_to",
+      "target": "ICs and connectors"
+    },
+    {
+      "source": "Shorts",
+      "relation": "has_phenomenon",
+      "target": "Number of expected shorts; number of inaccessible nodes"
+    },
+    {
+      "source": "Shorts",
+      "relation": "causes",
+      "target": "验证预期短路存在"
+    },
+    {
+      "source": "Shorts",
+      "relation": "causes",
+      "target": "确认板上无异常短路"
+    },
+    {
+      "source": "Shorts",
+      "relation": "has_phenomenon",
+      "target": "预期短路失败；无意外短路"
+    },
+    {
+      "source": "Shorts",
+      "relation": "has_phenomenon",
+      "target": "元件引起的预期短路失败；走线短路通过"
+    },
+    {
+      "source": "Shorts",
+      "relation": "has_phenomenon",
+      "target": "无夹具导致的失败"
+    },
+    {
+      "source": "Shorts",
+      "relation": "causes",
+      "target": "发现非预期短路"
+    },
+    {
+      "source": "Analog",
+      "relation": "related_to",
+      "target": "Null tests and device designators; commented tests; limited tests"
+    },
+    {
+      "source": "Analog",
+      "relation": "related_to",
+      "target": "电阻"
+    },
+    {
+      "source": "Analog",
+      "relation": "related_to",
+      "target": "电容"
+    },
+    {
+      "source": "Analog",
+      "relation": "related_to",
+      "target": "电感"
+    },
+    {
+      "source": "Digital",
+      "relation": "related_to",
+      "target": "Devices that cannot be disabled; Safeguard Inhibits"
+    },
+    {
+      "source": "Polarity Check",
+      "relation": "related_to",
+      "target": "Capacitors being tested"
+    },
+    {
+      "source": "Commented test",
+      "relation": "is_type_of",
+      "target": "Test written but not used"
+    },
+    {
+      "source": "Limited test",
+      "relation": "is_type_of",
+      "target": "Test with widened tolerances"
+    },
+    {
+      "source": "solvents",
+      "relation": "causes",
+      "target": "failure"
+    },
+    {
+      "source": "长线",
+      "relation": "causes",
+      "target": "电感/电容负荷"
+    },
+    {
+      "source": "长线",
+      "relation": "causes",
+      "target": "高速信号损伤"
+    },
+    {
+      "source": "双绞线",
+      "relation": "solved_by",
+      "target": "长线问题"
+    },
+    {
+      "source": "同轴",
+      "relation": "solved_by",
+      "target": "长线问题"
+    },
+    {
+      "source": "铁氧体磁珠",
+      "relation": "solved_by",
+      "target": "长线问题"
+    },
+    {
+      "source": "Faulty fixture electronics",
+      "relation": "causes",
+      "target": "false failures"
+    },
+    {
+      "source": "Fixture electronics",
+      "relation": "caused_by",
+      "target": "needed for testing"
+    },
+    {
+      "source": "Suspended components",
+      "relation": "is_type_of",
+      "target": "fixture electronics"
+    },
+    {
+      "source": "Breadboard / PCB assembly",
+      "relation": "is_type_of",
+      "target": "fixture electronics"
+    },
+    {
+      "source": "Exposed surfaces",
+      "relation": "solved_by",
+      "target": "insulation (heat-shrink or tape)"
+    },
+    {
+      "source": "open",
+      "relation": "causes",
+      "target": "severely attenuated signal"
+    },
+    {
+      "source": "solder joint",
+      "relation": "is_type_of",
+      "target": "component"
+    },
+    {
+      "source": "switches",
+      "relation": "related_to",
+      "target": "failure"
+    },
+    {
+      "source": "failure",
+      "relation": "related_to",
+      "target": "value changes"
+    },
+    {
+      "source": "failure",
+      "relation": "related_to",
+      "target": "open"
+    },
+    {
+      "source": "failure",
+      "relation": "related_to",
+      "target": "shorts"
+    },
+    {
+      "source": "BRC FAILED",
+      "relation": "has_phenomenon",
+      "target": "open"
+    },
+    {
+      "source": "shorts found to GND BRCs and digital ground",
+      "relation": "has_phenomenon",
+      "target": "short"
+    },
+    {
+      "source": "broken probe",
+      "relation": "causes",
+      "target": "BRC FAILED"
+    },
+    {
+      "source": "broken wire",
+      "relation": "causes",
+      "target": "BRC FAILED"
+    },
+    {
+      "source": "broken wire",
+      "relation": "has_phenomenon",
+      "target": "infinite resistance"
+    },
+    {
+      "source": "blocked P-Pin",
+      "relation": "causes",
+      "target": "BRC FAILED"
+    },
+    {
+      "source": "foreign substance on target",
+      "relation": "causes",
+      "target": "BRC FAILED"
+    },
+    {
+      "source": "testhead failure",
+      "relation": "causes",
+      "target": "BRC FAILED"
+    },
+    {
+      "source": "actual board short",
+      "relation": "causes",
+      "target": "shorts found to GND BRCs and digital ground"
+    },
+    {
+      "source": "extra wire from DOUT2 to ground probe/P-Pin",
+      "relation": "causes",
+      "target": "shorts found to GND BRCs and digital ground"
+    },
+    {
+      "source": "examine probe",
+      "relation": "solved_by",
+      "target": "BRC FAILED"
+    },
+    {
+      "source": "continuity check",
+      "relation": "solved_by",
+      "target": "BRC FAILED"
+    },
+    {
+      "source": "SW1-2",
+      "relation": "related_to",
+      "target": "open"
+    },
+    {
+      "source": "SW2-8",
+      "relation": "related_to",
+      "target": "short"
+    },
+    {
+      "source": "D0",
+      "relation": "related_to",
+      "target": "open"
+    },
+    {
+      "source": "DOUT2",
+      "relation": "related_to",
+      "target": "short"
+    },
+    {
+      "source": "GND",
+      "relation": "related_to",
+      "target": "short"
+    },
+    {
+      "source": "digital ground",
+      "relation": "related_to",
+      "target": "short"
+    },
+    {
+      "source": "探针接触",
+      "relation": "related_to",
+      "target": "非供电测试"
+    },
+    {
+      "source": "IC和connectors管脚焊接",
+      "relation": "related_to",
+      "target": "非供电测试"
+    },
+    {
+      "source": "数字测试",
+      "relation": "related_to",
+      "target": "供电测试"
+    },
+    {
+      "source": "边界扫描",
+      "relation": "related_to",
+      "target": "供电测试"
+    },
+    {
+      "source": "功能测试",
+      "relation": "related_to",
+      "target": "供电测试"
+    },
+    {
+      "source": "Flash编程",
+      "relation": "related_to",
+      "target": "供电测试"
+    },
+    {
+      "source": "Analog Incircuit",
+      "relation": "related_to",
+      "target": "无源器件"
+    },
+    {
+      "source": "Vectorless Test",
+      "relation": "solved_by",
+      "target": "VTEP v2.0 / TestJet"
+    },
+    {
+      "source": "Vectorless Test",
+      "relation": "related_to",
+      "target": "IC"
+    },
+    {
+      "source": "Vectorless Test",
+      "relation": "related_to",
+      "target": "connector"
+    },
+    {
+      "source": "Vectorless Test",
+      "relation": "causes",
+      "target": "open"
+    },
+    {
+      "source": "无电流",
+      "relation": "causes",
+      "target": "接触失败"
+    },
+    {
+      "source": "有电流",
+      "relation": "causes",
+      "target": "接触确认"
+    },
+    {
+      "source": "电容隔离节点",
+      "relation": "is_type_of",
+      "target": "不可测节点"
+    },
+    {
+      "source": "模拟 IC 引脚",
+      "relation": "is_type_of",
+      "target": "不可测节点"
+    },
+    {
+      "source": "Pins",
+      "relation": "has_phenomenon",
+      "target": "所有节点通过"
+    },
+    {
+      "source": "供电",
+      "relation": "has_phenomenon",
+      "target": "电压正确，无电流限制"
+    },
+    {
+      "source": "供电",
+      "relation": "has_phenomenon",
+      "target": "无电流限制（需确认浪涌限制和步进序列适当）"
+    },
+    {
+      "source": "GOUT 和 LOUT 接线",
+      "relation": "caused_by",
+      "target": "模块间接线问题"
+    },
+    {
+      "source": "SW1",
+      "relation": "has_phenomenon",
+      "target": "闭合"
+    },
+    {
+      "source": "SW1",
+      "relation": "causes",
+      "target": "open"
+    },
+    {
+      "source": "SW1",
+      "relation": "causes",
+      "target": "intermittent failure"
+    },
+    {
+      "source": "SW2",
+      "relation": "has_phenomenon",
+      "target": "断开"
+    },
+    {
+      "source": "SW2",
+      "relation": "causes",
+      "target": "short"
+    },
+    {
+      "source": "SW2",
+      "relation": "is_type_of",
+      "target": "NOT TESTABLE"
+    },
+    {
+      "source": "滑动",
+      "relation": "causes",
+      "target": "损坏"
+    },
+    {
+      "source": "all tests fail",
+      "relation": "caused_by",
+      "target": "door component not closed"
+    },
+    {
+      "source": "all tests fail",
+      "relation": "caused_by",
+      "target": "vacuum not on"
+    },
+    {
+      "source": "all tests fail",
+      "relation": "caused_by",
+      "target": "multiplexer card cable not connected"
+    },
+    {
+      "source": "J1",
+      "relation": "has_phenomenon",
+      "target": "pin 1 and 12 fail"
+    },
+    {
+      "source": "J1-1, J1-12",
+      "relation": "caused_by",
+      "target": "open"
+    },
+    {
+      "source": "J1-1, J1-12",
+      "relation": "solved_by",
+      "target": "AUTODEBUG"
+    },
+    {
+      "source": "open",
+      "relation": "has_phenomenon",
+      "target": "negative value"
+    },
+    {
+      "source": "open",
+      "relation": "has_phenomenon",
+      "target": "unconnected pins"
+    },
+    {
+      "source": "open",
+      "relation": "related_to",
+      "target": "RESET_BAR"
+    },
+    {
+      "source": "open",
+      "relation": "causes",
+      "target": "U301 TestJet failure"
+    },
+    {
+      "source": "open",
+      "relation": "causes",
+      "target": "current stopping"
+    },
+    {
+      "source": "open",
+      "relation": "has_phenomenon",
+      "target": "no flow of electrons"
+    },
+    {
+      "source": "measurement value too low",
+      "relation": "is_type_of",
+      "target": "phenomenon"
+    },
+    {
+      "source": "U2-1, U2-19",
+      "relation": "is_type_of",
+      "target": "short"
+    },
+    {
+      "source": "U2-1, U2-19",
+      "relation": "solved_by",
+      "target": "manually increase lower limit"
+    },
+    {
+      "source": "9 failures",
+      "relation": "related_to",
+      "target": "J1-1, J1-12, U1-2, U2-12, U2-15, U4-1, U5-1, U5-12, U6-16"
+    },
+    {
+      "source": "VTEP/TestJet",
+      "relation": "has_phenomenon",
+      "target": "open"
+    },
+    {
+      "source": "Analog unpowered tests",
+      "relation": "has_phenomenon",
+      "target": "失败"
+    },
+    {
+      "source": "VectorlessTests",
+      "relation": "has_phenomenon",
+      "target": "失败"
+    },
+    {
+      "source": "Setup Power Supplies",
+      "relation": "caused_by",
+      "target": "boardfailed"
+    },
+    {
+      "source": "Boundary Scan 系列",
+      "relation": "has_phenomenon",
+      "target": "失败"
+    },
+    {
+      "source": "Digital Incircuit Tests",
+      "relation": "has_phenomenon",
+      "target": "失败"
+    },
+    {
+      "source": "Analog Functional / Mixed Signal Tests",
+      "relation": "has_phenomenon",
+      "target": "失败"
+    },
+    {
+      "source": "FlashRAM Programming routines",
+      "relation": "has_phenomenon",
+      "target": "失败"
+    },
+    {
+      "source": "ScanWorks Programming routines",
+      "relation": "has_phenomenon",
+      "target": "失败"
+    },
+    {
+      "source": "failure",
+      "relation": "causes",
+      "target": "测试不应继续"
+    },
+    {
+      "source": "failure",
+      "relation": "causes",
+      "target": "testplan 中止"
+    },
+    {
+      "source": "failure",
+      "relation": "causes",
+      "target": "必须先修复故障"
+    },
+    {
+      "source": "C202",
+      "relation": "is_type_of",
+      "target": "capacitor"
+    },
+    {
+      "source": "C202",
+      "relation": "has_phenomenon",
+      "target": "测量夹具电容"
+    },
+    {
+      "source": "C202",
+      "relation": "solved_by",
+      "target": "重新启用补偿"
+    },
+    {
+      "source": "SW4 HIGH",
+      "relation": "causes",
+      "target": "0.1 µF 电容"
+    },
+    {
+      "source": "SW4 LOW",
+      "relation": "causes",
+      "target": "0.001 µF 电容"
+    },
+    {
+      "source": "SW4 OPEN",
+      "relation": "causes",
+      "target": "open"
+    },
+    {
+      "source": "open",
+      "relation": "has_phenomenon",
+      "target": "缺件"
+    },
+    {
+      "source": "R206–R205",
+      "relation": "related_to",
+      "target": "分流"
+    },
+    {
+      "source": "R202–R203",
+      "relation": "related_to",
+      "target": "分流"
+    },
+    {
+      "source": "取消所有 G guarding勾选",
+      "relation": "causes",
+      "target": "预测并运行查看结果"
+    },
+    {
+      "source": "重新勾选guarding",
+      "relation": "solved_by",
+      "target": "恢复正确"
+    },
+    {
+      "source": "C1",
+      "relation": "is_type_of",
+      "target": "capacitor"
+    },
+    {
+      "source": "直方图验证",
+      "relation": "related_to",
+      "target": "Execute Test > Run N Times"
+    },
+    {
+      "source": "SW3",
+      "relation": "is_type_of",
+      "target": "component"
+    },
+    {
+      "source": "SW3",
+      "relation": "is_type_of",
+      "target": "NOT TESTABLE"
+    },
+    {
+      "source": "R202",
+      "relation": "is_type_of",
+      "target": "component"
+    },
+    {
+      "source": "R202",
+      "relation": "has_phenomenon",
+      "target": "运行应失败"
+    },
+    {
+      "source": "R202",
+      "relation": "caused_by",
+      "target": "取消 G 总线连接"
+    },
+    {
+      "source": "high resistance",
+      "relation": "is_type_of",
+      "target": "phenomenon"
+    },
+    {
+      "source": "low resistance",
+      "relation": "is_type_of",
+      "target": "phenomenon"
+    },
+    {
+      "source": "negative value",
+      "relation": "is_type_of",
+      "target": "phenomenon"
+    },
+    {
+      "source": "wrong component",
+      "relation": "causes",
+      "target": "high resistance"
+    },
+    {
+      "source": "wrong component",
+      "relation": "causes",
+      "target": "low resistance"
+    },
+    {
+      "source": "missing component",
+      "relation": "causes",
+      "target": "open"
+    },
+    {
+      "source": "missing component",
+      "relation": "causes",
+      "target": "test pass in vacuum off"
+    },
+    {
+      "source": "guarding removed",
+      "relation": "causes",
+      "target": "measurement variation"
+    },
+    {
+      "source": "measurement variation",
+      "relation": "is_type_of",
+      "target": "phenomenon"
+    },
+    {
+      "source": "R206",
+      "relation": "is_type_of",
+      "target": "component"
+    },
+    {
+      "source": "SW5",
+      "relation": "is_type_of",
+      "target": "component"
+    },
+    {
+      "source": "short",
+      "relation": "causes",
+      "target": "停止测试"
+    },
+    {
+      "source": "current limit",
+      "relation": "solved_by",
+      "target": "edit testplan"
+    },
+    {
+      "source": "IC reverse installation",
+      "relation": "causes",
+      "target": "damage to board, test system, fixture, or personal injury"
+    },
+    {
+      "source": "increase current limit",
+      "relation": "caused_by",
+      "target": "inaccurate current demand estimation"
+    },
+    {
+      "source": "higher power consumption",
+      "relation": "caused_by",
+      "target": "incorrectly installed components"
+    },
+    {
+      "source": "higher power consumption",
+      "relation": "caused_by",
+      "target": "microcontroller or ASIC self-test"
+    },
+    {
+      "source": "sinusoidal fluctuation in current output",
+      "relation": "caused_by",
+      "target": "incorrect sensing line connection"
+    },
+    {
+      "source": "ripple effect on DUT output display",
+      "relation": "caused_by",
+      "target": "incorrect sensing line connection"
+    },
+    {
+      "source": "电源立即电流限制",
+      "relation": "caused_by",
+      "target": "电源轨短路"
+    },
+    {
+      "source": "电源立即电流限制",
+      "relation": "caused_by",
+      "target": "元件反向"
+    },
+    {
+      "source": "电源立即电流限制",
+      "relation": "caused_by",
+      "target": "焊桥"
+    },
+    {
+      "source": "电源立即电流限制",
+      "relation": "caused_by",
+      "target": "夹具接线错误"
+    },
+    {
+      "source": "电源电压过低",
+      "relation": "caused_by",
+      "target": "电流过大"
+    },
+    {
+      "source": "电源电压过低",
+      "relation": "caused_by",
+      "target": "稳压器不良"
+    },
+    {
+      "source": "电源电压过低",
+      "relation": "caused_by",
+      "target": "探针接触不良"
+    },
+    {
+      "source": "电源电压过低",
+      "relation": "caused_by",
+      "target": "远程感应错误"
+    },
+    {
+      "source": "电源电压过高",
+      "relation": "caused_by",
+      "target": "电源设置错误"
+    },
+    {
+      "source": "电源电压过高",
+      "relation": "caused_by",
+      "target": "感应接线问题"
+    },
+    {
+      "source": "电源电压过高",
+      "relation": "caused_by",
+      "target": "板卡描述错误"
+    },
+    {
+      "source": "某一路电源失败，其他正常",
+      "relation": "caused_by",
+      "target": "特定电源轨短路"
+    },
+    {
+      "source": "某一路电源失败，其他正常",
+      "relation": "caused_by",
+      "target": "稳压器输入/输出问题"
+    },
+    {
+      "source": "某一路电源失败，其他正常",
+      "relation": "caused_by",
+      "target": "缺少使能"
+    },
+    {
+      "source": "所有电源失败",
+      "relation": "caused_by",
+      "target": "夹具定位问题"
+    },
+    {
+      "source": "所有电源失败",
+      "relation": "caused_by",
+      "target": "公共接地问题"
+    },
+    {
+      "source": "所有电源失败",
+      "relation": "caused_by",
+      "target": "真空问题"
+    },
+    {
+      "source": "所有电源失败",
+      "relation": "caused_by",
+      "target": "配置错误"
+    },
+    {
+      "source": "手动测试板卡通过，夹具中失败",
+      "relation": "caused_by",
+      "target": "探针接触"
+    },
+    {
+      "source": "手动测试板卡通过，夹具中失败",
+      "relation": "caused_by",
+      "target": "夹具接线"
+    },
+    {
+      "source": "手动测试板卡通过，夹具中失败",
+      "relation": "caused_by",
+      "target": "电源节点数据错误"
+    },
+    {
+      "source": "上电通过后数字测试失败",
+      "relation": "caused_by",
+      "target": "时钟问题"
+    },
+    {
+      "source": "上电通过后数字测试失败",
+      "relation": "caused_by",
+      "target": "复位问题"
+    },
+    {
+      "source": "上电通过后数字测试失败",
+      "relation": "caused_by",
+      "target": "使能问题"
+    },
+    {
+      "source": "上电通过后数字测试失败",
+      "relation": "caused_by",
+      "target": "禁用问题"
+    },
+    {
+      "source": "上电通过后数字测试失败",
+      "relation": "caused_by",
+      "target": "预调问题"
+    },
+    {
+      "source": "上电通过后数字测试失败",
+      "relation": "caused_by",
+      "target": "数字库问题"
+    },
+    {
+      "source": "错误的电源节点定义",
+      "relation": "causes",
+      "target": "电流承载线不足"
+    },
+    {
+      "source": "错误的电源节点定义",
+      "relation": "causes",
+      "target": "缺少电源连接"
+    },
+    {
+      "source": "错误的电源节点定义",
+      "relation": "causes",
+      "target": "错误的夹具分配"
+    },
+    {
+      "source": "错误的电源节点定义",
+      "relation": "causes",
+      "target": "数字测试试图驱动电源轨"
+    },
+    {
+      "source": "错误的电源节点定义",
+      "relation": "causes",
+      "target": "放电处理不当"
+    },
+    {
+      "source": "topology conflict",
+      "relation": "causes",
+      "target": "unit failure"
+    },
+    {
+      "source": "unit failure",
+      "relation": "has_phenomenon",
+      "target": "error testing"
+    },
+    {
+      "source": "U4",
+      "relation": "related_to",
+      "target": "short"
+    },
+    {
+      "source": "U4",
+      "relation": "has_phenomenon",
+      "target": "缺少节点探针访问"
+    },
+    {
+      "source": "conflict with pins tied together",
+      "relation": "causes",
+      "target": "unit removal"
+    },
+    {
+      "source": "输出期望 1，测量 0",
+      "relation": "has_phenomenon",
+      "target": "DUT 坏"
+    },
+    {
+      "source": "输出期望 1，测量 0",
+      "relation": "has_phenomenon",
+      "target": "输出被禁用"
+    },
+    {
+      "source": "输出期望 1，测量 0",
+      "relation": "has_phenomenon",
+      "target": "对地短路"
+    },
+    {
+      "source": "输出期望 1，测量 0",
+      "relation": "has_phenomenon",
+      "target": "缺电源"
+    },
+    {
+      "source": "输出期望 0，测量 1",
+      "relation": "has_phenomenon",
+      "target": "DUT 坏"
+    },
+    {
+      "source": "输出期望 0，测量 1",
+      "relation": "has_phenomenon",
+      "target": "short"
+    },
+    {
+      "source": "输出期望 0，测量 1",
+      "relation": "has_phenomenon",
+      "target": "器件未复位"
+    },
+    {
+      "source": "输出浮空或不稳定",
+      "relation": "has_phenomenon",
+      "target": "缺少使能"
+    },
+    {
+      "source": "输出浮空或不稳定",
+      "relation": "has_phenomenon",
+      "target": "三态输出"
+    },
+    {
+      "source": "输出浮空或不稳定",
+      "relation": "has_phenomenon",
+      "target": "接触不良"
+    },
+    {
+      "source": "输出浮空或不稳定",
+      "relation": "has_phenomenon",
+      "target": "无上拉/下拉"
+    },
+    {
+      "source": "多个输出失败",
+      "relation": "has_phenomenon",
+      "target": "器件未上电"
+    },
+    {
+      "source": "多个输出失败",
+      "relation": "has_phenomenon",
+      "target": "复位有效"
+    },
+    {
+      "source": "多个输出失败",
+      "relation": "has_phenomenon",
+      "target": "时钟缺失"
+    },
+    {
+      "source": "复位有效",
+      "relation": "solved_by",
+      "target": "解除复位或添加预调清除复位"
+    },
+    {
+      "source": "输入驱动失败",
+      "relation": "has_phenomenon",
+      "target": "探针接触问题"
+    },
+    {
+      "source": "输入驱动失败",
+      "relation": "caused_by",
+      "target": "节点被另一器件驱动"
+    },
+    {
+      "source": "输入驱动失败",
+      "relation": "caused_by",
+      "target": "探针接触"
+    },
+    {
+      "source": "输入驱动失败",
+      "relation": "caused_by",
+      "target": "过驱动冲突"
+    },
+    {
+      "source": "探针接触问题",
+      "relation": "solved_by",
+      "target": "检查夹具座、真空和探针对准；重新放置后重新运行"
+    },
+    {
+      "source": "Safeguard 禁止",
+      "relation": "has_phenomenon",
+      "target": "不安全的测试条件"
+    },
+    {
+      "source": "Safeguard 禁止",
+      "relation": "has_phenomenon",
+      "target": "总线冲突"
+    },
+    {
+      "source": "Safeguard 禁止",
+      "relation": "solved_by",
+      "target": "检查禁用要求；如安全则添加缺失的禁用"
+    },
+    {
+      "source": "Safeguard 禁止",
+      "relation": "caused_by",
+      "target": "总线竞争"
+    },
+    {
+      "source": "Safeguard 禁止",
+      "relation": "caused_by",
+      "target": "缺少禁用"
+    },
+    {
+      "source": "Safeguard 禁止",
+      "relation": "caused_by",
+      "target": "强驱动器"
+    },
+    {
+      "source": "单独测试通过，序列中失败",
+      "relation": "caused_by",
+      "target": "状态依赖"
+    },
+    {
+      "source": "单独测试通过，序列中失败",
+      "relation": "caused_by",
+      "target": "上电时序"
+    },
+    {
+      "source": "单独测试通过，序列中失败",
+      "relation": "caused_by",
+      "target": "前测试副作用"
+    },
+    {
+      "source": "缺少禁用",
+      "relation": "solved_by",
+      "target": "添加禁用条件"
+    },
+    {
+      "source": "缺少预调",
+      "relation": "solved_by",
+      "target": "添加预调向量或使能复位"
+    },
+    {
+      "source": "错误型号",
+      "relation": "solved_by",
+      "target": "更新板卡描述中的正确型号"
+    },
+    {
+      "source": "错误库",
+      "relation": "solved_by",
+      "target": "替换或修改数字库条目"
+    },
+    {
+      "source": "过驱动/反驱动冲突",
+      "relation": "solved_by",
+      "target": "验证固定节点定义；确保无强驱动器激活"
+    },
+    {
+      "source": "时钟未运行",
+      "relation": "solved_by",
+      "target": "使能振荡器或提供外部时钟"
+    },
+    {
+      "source": "DISPLAY FAILURE",
+      "relation": "has_phenomenon",
+      "target": "显示失败"
+    },
+    {
+      "source": "DISPLAY FAILURE",
+      "relation": "is_type_of",
+      "target": "failure"
+    },
+    {
+      "source": "DISPLAY FAILURE; RECYCLE",
+      "relation": "has_phenomenon",
+      "target": "重复测试直到失败"
+    },
+    {
+      "source": "DISPLAY ACTUAL",
+      "relation": "has_phenomenon",
+      "target": "显示实际测量值"
+    },
+    {
+      "source": "DISPLAY EXPECTED",
+      "relation": "has_phenomenon",
+      "target": "显示期望信号"
+    },
+    {
+      "source": "DISPLAY FAILED",
+      "relation": "has_phenomenon",
+      "target": "显示失败状态"
+    },
+    {
+      "source": "DISPLAY PROBE...",
+      "relation": "has_phenomenon",
+      "target": "显示探针信号"
+    },
+    {
+      "source": "开路器件",
+      "relation": "has_phenomenon",
+      "target": "测试集电极开路"
+    },
+    {
+      "source": "开路器件",
+      "relation": "solved_by",
+      "target": "PULL UP"
+    },
+    {
+      "source": "所有输出为 0",
+      "relation": "caused_by",
+      "target": "器件未上电"
+    },
+    {
+      "source": "所有输出为 0",
+      "relation": "caused_by",
+      "target": "复位有效"
+    },
+    {
+      "source": "所有输出为 0",
+      "relation": "caused_by",
+      "target": "时钟缺失"
+    },
+    {
+      "source": "所有输出为 0",
+      "relation": "caused_by",
+      "target": "使能无效"
+    },
+    {
+      "source": "所有输出为 1",
+      "relation": "caused_by",
+      "target": "short"
+    },
+    {
+      "source": "所有输出为 1",
+      "relation": "caused_by",
+      "target": "使能有效但输出被强制"
+    },
+    {
+      "source": "所有输出为 1",
+      "relation": "caused_by",
+      "target": "错误库"
+    },
+    {
+      "source": "单输出错误",
+      "relation": "caused_by",
+      "target": "DUT 坏"
+    },
+    {
+      "source": "单输出错误",
+      "relation": "caused_by",
+      "target": "探针接触"
+    },
+    {
+      "source": "单输出错误",
+      "relation": "caused_by",
+      "target": "错误向量"
+    },
+    {
+      "source": "单输出错误",
+      "relation": "caused_by",
+      "target": "反驱动"
+    },
+    {
+      "source": "输出浮空",
+      "relation": "caused_by",
+      "target": "三态输出"
+    },
+    {
+      "source": "输出浮空",
+      "relation": "caused_by",
+      "target": "缺少上拉/下拉"
+    },
+    {
+      "source": "输出浮空",
+      "relation": "caused_by",
+      "target": "使能无效"
+    },
+    {
+      "source": "输出浮空",
+      "relation": "caused_by",
+      "target": "缺少预调"
+    },
+    {
+      "source": "U1 Pin 5",
+      "relation": "has_phenomenon",
+      "target": "Expected 1, Measured 0"
+    },
+    {
+      "source": "Expected 1, Measured 0",
+      "relation": "caused_by",
+      "target": "对地短路"
+    },
+    {
+      "source": "Expected 1, Measured 0",
+      "relation": "caused_by",
+      "target": "DUT坏"
+    },
+    {
+      "source": "Expected 1, Measured 0",
+      "relation": "caused_by",
+      "target": "缺少使能"
+    },
+    {
+      "source": "快速器件",
+      "relation": "has_phenomenon",
+      "target": "振荡"
+    },
+    {
+      "source": "快速器件",
+      "relation": "has_phenomenon",
+      "target": "intermittent failure"
+    },
+    {
+      "source": "无输入负载",
+      "relation": "causes",
+      "target": "振荡"
+    },
+    {
+      "source": "定义默认状态",
+      "relation": "solved_by",
+      "target": "设置有效输入默认值"
+    },
+    {
+      "source": "有效输入默认值",
+      "relation": "related_to",
+      "target": "1"
+    },
+    {
+      "source": "有效输入默认值",
+      "relation": "related_to",
+      "target": "0"
+    },
+    {
+      "source": "有效输入默认值",
+      "relation": "related_to",
+      "target": "K"
+    },
+    {
+      "source": "诊断工具",
+      "relation": "related_to",
+      "target": "识别问题"
+    },
+    {
+      "source": "通用继电器",
+      "relation": "caused_by",
+      "target": "在连接的节点上有电源时打开或关闭"
+    },
+    {
+      "source": "电弧",
+      "relation": "causes",
+      "target": "intermittent failure"
+    },
+    {
+      "source": "电弧",
+      "relation": "causes",
+      "target": "failure"
+    },
+    {
+      "source": "建议",
+      "relation": "solved_by",
+      "target": "不要在连接的节点上有电源时打开或关闭通用继电器"
+    },
+    {
+      "source": "继电器",
+      "relation": "has_phenomenon",
+      "target": "保持闭合直到使用gpdisconnect语句打开"
+    },
+    {
+      "source": "继电器",
+      "relation": "has_phenomenon",
+      "target": "保持闭合直到执行faoff语句"
+    },
+    {
+      "source": "继电器",
+      "relation": "has_phenomenon",
+      "target": "保持闭合到上电测试"
+    },
+    {
+      "source": "继电器",
+      "relation": "has_phenomenon",
+      "target": "损坏"
+    },
+    {
+      "source": "信号未到达 Control Card",
+      "relation": "causes",
+      "target": "failure"
+    },
+    {
+      "source": "信号到达计数器但测试阈值设置太高",
+      "relation": "causes",
+      "target": "failure"
+    },
+    {
+      "source": "夹具负载",
+      "relation": "causes",
+      "target": "测量值偏低"
+    },
+    {
+      "source": "振荡器运行较慢",
+      "relation": "caused_by",
+      "target": "夹具电容"
+    },
+    {
+      "source": "测试阈值略高",
+      "relation": "causes",
+      "target": "部分转换触发计数"
+    },
+    {
+      "source": "误装错误频率的振荡器",
+      "relation": "causes",
+      "target": "测量值错误"
+    },
+    {
+      "source": "使用错误的频率",
+      "relation": "causes",
+      "target": "测量值错误"
+    },
+    {
+      "source": "U5",
+      "relation": "has_phenomenon",
+      "target": "intermittent failure"
+    },
+    {
+      "source": "U5",
+      "relation": "caused_by",
+      "target": "时钟输入未被禁用"
+    },
+    {
+      "source": "U5",
+      "relation": "solved_by",
+      "target": "Clock_Enable 接地"
+    },
+    {
+      "source": "U5",
+      "relation": "solved_by",
+      "target": "修改 Disablegroup"
+    },
+    {
+      "source": "U6",
+      "relation": "has_phenomenon",
+      "target": "intermittent failure"
+    },
+    {
+      "source": "U6",
+      "relation": "solved_by",
+      "target": "添加默认状态 K"
+    },
+    {
+      "source": "U6",
+      "relation": "solved_by",
+      "target": "向量周期加倍"
+    },
+    {
+      "source": "U3",
+      "relation": "has_phenomenon",
+      "target": "intermittent failure"
+    },
+    {
+      "source": "U3",
+      "relation": "solved_by",
+      "target": "添加默认状态 K"
+    },
+    {
+      "source": "U3",
+      "relation": "has_phenomenon",
+      "target": "缺少节点探针访问"
+    },
+    {
+      "source": "U3",
+      "relation": "related_to",
+      "target": "speed sensitivity"
+    },
+    {
+      "source": "U3",
+      "relation": "related_to",
+      "target": "logic level sensitivity"
+    },
+    {
+      "source": "U3",
+      "relation": "related_to",
+      "target": "fault coverage"
+    },
+    {
+      "source": "错误消息",
+      "relation": "caused_by",
+      "target": "错误的翻译器"
+    },
+    {
+      "source": "错误数据",
+      "relation": "causes",
+      "target": "问题"
+    },
+    {
+      "source": "翻译器误解",
+      "relation": "causes",
+      "target": "问题"
+    },
+    {
+      "source": "未被识别或处理不当的元件",
+      "relation": "is_type_of",
+      "target": "问题"
+    },
+    {
+      "source": "通用元件层中的器件",
+      "relation": "related_to",
+      "target": "未被识别或处理不当的元件"
+    },
+    {
+      "source": "放置在错误类别中的器件",
+      "relation": "related_to",
+      "target": "未被识别或处理不当的元件"
+    },
+    {
+      "source": "CR1",
+      "relation": "related_to",
+      "target": "放置在错误类别中的器件"
+    },
+    {
+      "source": "missing data",
+      "relation": "has_phenomenon",
+      "target": "双星号指示"
+    },
+    {
+      "source": "too many default values",
+      "relation": "is_type_of",
+      "target": "translation issue"
+    },
+    {
+      "source": "undefined category components",
+      "relation": "is_type_of",
+      "target": "placement issue"
+    },
+    {
+      "source": "incorrect renaming",
+      "relation": "causes",
+      "target": "invalid reference designator"
+    },
+    {
+      "source": "incorrect marking",
+      "relation": "causes",
+      "target": "未测试标记"
+    },
+    {
+      "source": "invalid node name",
+      "relation": "is_type_of",
+      "target": "naming error"
+    },
+    {
+      "source": "unsuitable board layout",
+      "relation": "related_to",
+      "target": "夹具适配性"
+    },
+    {
+      "source": "too many pins",
+      "relation": "causes",
+      "target": "translated as connector"
+    },
+    {
+      "source": "third pin not connected to board node",
+      "relation": "has_phenomenon",
+      "target": "defined as NC"
+    },
+    {
+      "source": "delete third pin entry",
+      "relation": "solved_by",
+      "target": "redefine device as jumper"
+    },
+    {
+      "source": "SETTING field",
+      "relation": "is_type_of",
+      "target": "CLOSED"
+    },
+    {
+      "source": "J301",
+      "relation": "related_to",
+      "target": "jumper / strap"
+    },
+    {
+      "source": "J301",
+      "relation": "has_phenomenon",
+      "target": "short"
+    },
+    {
+      "source": "J301",
+      "relation": "is_type_of",
+      "target": "short"
+    },
+    {
+      "source": "J201",
+      "relation": "related_to",
+      "target": "Part Description Library test"
+    },
+    {
+      "source": "J201",
+      "relation": "has_phenomenon",
+      "target": "open"
+    },
+    {
+      "source": "SW301",
+      "relation": "is_type_of",
+      "target": "Switch"
+    },
+    {
+      "source": "SW301",
+      "relation": "causes",
+      "target": "open"
+    },
+    {
+      "source": "SW301",
+      "relation": "caused_by",
+      "target": "CAD description error"
+    },
+    {
+      "source": "SW301",
+      "relation": "has_phenomenon",
+      "target": "有 XY 位置，但没有节点名称"
+    },
+    {
+      "source": "SW301",
+      "relation": "is_type_of",
+      "target": "open"
+    },
+    {
+      "source": "SW301",
+      "relation": "solved_by",
+      "target": "恢复闭合"
+    },
+    {
+      "source": "switch input error",
+      "relation": "causes",
+      "target": "preshorts and shorts test affected"
+    },
+    {
+      "source": "default setting incorrect",
+      "relation": "causes",
+      "target": "shorts test based on default setting"
+    },
+    {
+      "source": "board passes with opposite switch settings",
+      "relation": "caused_by",
+      "target": "incorrect default setting"
+    },
+    {
+      "source": "引脚 6 短接到引脚 7",
+      "relation": "is_type_of",
+      "target": "short"
+    },
+    {
+      "source": "引脚 6 短接到引脚 7",
+      "relation": "causes",
+      "target": "器件最终会失效"
+    },
+    {
+      "source": "U302",
+      "relation": "has_phenomenon",
+      "target": "有几个未连接的引脚"
+    },
+    {
+      "source": "U302",
+      "relation": "has_phenomenon",
+      "target": "intermittent failure"
+    },
+    {
+      "source": "U302",
+      "relation": "caused_by",
+      "target": "未禁用上游器件"
+    },
+    {
+      "source": "U302",
+      "relation": "caused_by",
+      "target": "Y301"
+    },
+    {
+      "source": "output 引脚短接到电源轨",
+      "relation": "is_type_of",
+      "target": "short"
+    },
+    {
+      "source": "output 引脚短接到电源轨",
+      "relation": "caused_by",
+      "target": "工程变更"
+    },
+    {
+      "source": "output 引脚短接到电源轨",
+      "relation": "solved_by",
+      "target": "测试所有 IC 的所有额外引脚"
+    },
+    {
+      "source": "热切换",
+      "relation": "causes",
+      "target": "电弧"
+    },
+    {
+      "source": "J202",
+      "relation": "has_phenomenon",
+      "target": "没有网表信息"
+    },
+    {
+      "source": "J202",
+      "relation": "has_phenomenon",
+      "target": "有 XY 位置，但没有节点名称"
+    },
+    {
+      "source": "没有网表信息",
+      "relation": "caused_by",
+      "target": "未找到此器件的连接"
+    },
+    {
+      "source": "R316",
+      "relation": "has_phenomenon",
+      "target": "没有网表信息"
+    },
+    {
+      "source": "R316",
+      "relation": "has_phenomenon",
+      "target": "有 XY 位置，但没有节点名称"
+    },
+    {
+      "source": "R316",
+      "relation": "caused_by",
+      "target": "omission from CAD"
+    },
+    {
+      "source": "R316",
+      "relation": "is_type_of",
+      "target": "resistor"
+    },
+    {
+      "source": "SW302",
+      "relation": "has_phenomenon",
+      "target": "没有网表信息"
+    },
+    {
+      "source": "未指定探针类型",
+      "relation": "causes",
+      "target": "WARNING PDF184"
+    },
+    {
+      "source": "器件",
+      "relation": "has_phenomenon",
+      "target": "未指定探针类型"
+    },
+    {
+      "source": "Polarity Check 测试",
+      "relation": "related_to",
+      "target": "未指定探针类型"
+    },
+    {
+      "source": "TestJet 测试",
+      "relation": "related_to",
+      "target": "未指定探针类型"
+    },
+    {
+      "source": "ac307",
+      "relation": "caused_by",
+      "target": "未指定探针类型"
+    },
+    {
+      "source": "c201",
+      "relation": "caused_by",
+      "target": "未指定探针类型"
+    },
+    {
+      "source": "j201",
+      "relation": "caused_by",
+      "target": "未指定探针类型"
+    },
+    {
+      "source": "U301-U306",
+      "relation": "solved_by",
+      "target": "使用 TestJet 测试"
+    },
+    {
+      "source": "Y301",
+      "relation": "solved_by",
+      "target": "使用 TestJet 测试"
+    },
+    {
+      "source": "Y301",
+      "relation": "is_type_of",
+      "target": "oscillator chip"
+    },
+    {
+      "source": "Pre-Shorts",
+      "relation": "caused_by",
+      "target": "严重短路或不安全条件"
+    },
+    {
+      "source": "Pre-Shorts",
+      "relation": "causes",
+      "target": "筛查严重短路"
+    },
+    {
+      "source": "Pre-Shorts",
+      "relation": "is_type_of",
+      "target": "short"
+    },
+    {
+      "source": "Pre-Shorts",
+      "relation": "is_type_of",
+      "target": "failure"
+    },
+    {
+      "source": "电阻",
+      "relation": "has_phenomenon",
+      "target": "低于阈值"
+    },
+    {
+      "source": "电阻",
+      "relation": "has_phenomenon",
+      "target": "高于阈值"
+    },
+    {
+      "source": "wiring error",
+      "relation": "causes",
+      "target": "false failure"
+    },
+    {
+      "source": "probe issue",
+      "relation": "causes",
+      "target": "false failure"
+    },
+    {
+      "source": "许多不相关的测试失败",
+      "relation": "related_to",
+      "target": "夹具座"
+    },
+    {
+      "source": "许多不相关的测试失败",
+      "relation": "related_to",
+      "target": "真空"
+    },
+    {
+      "source": "许多不相关的测试失败",
+      "relation": "related_to",
+      "target": "共同布线"
+    },
+    {
+      "source": "许多不相关的测试失败",
+      "relation": "related_to",
+      "target": "testhead 连接"
+    },
+    {
+      "source": "许多不相关的测试失败",
+      "relation": "related_to",
+      "target": "夹具验证"
+    },
+    {
+      "source": "板卡某区域的 pins 失败",
+      "relation": "related_to",
+      "target": "探针高度"
+    },
+    {
+      "source": "板卡某区域的 pins 失败",
+      "relation": "related_to",
+      "target": "局部夹具对齐"
+    },
+    {
+      "source": "板卡某区域的 pins 失败",
+      "relation": "related_to",
+      "target": "板卡支撑"
+    },
+    {
+      "source": "板卡某区域的 pins 失败",
+      "relation": "related_to",
+      "target": "局部污染"
+    },
+    {
+      "source": "pins 通过后 shorts 失败",
+      "relation": "caused_by",
+      "target": "实际 UUT 短路"
+    },
+    {
+      "source": "pins 通过后 shorts 失败",
+      "relation": "caused_by",
+      "target": "错误的节点模型"
+    },
+    {
+      "source": "pins 通过后 shorts 失败",
+      "relation": "caused_by",
+      "target": "short"
+    },
+    {
+      "source": "pins 通过后 shorts 失败",
+      "relation": "caused_by",
+      "target": "意外的低阻抗路径"
+    },
+    {
+      "source": "模拟值持续偏移",
+      "relation": "related_to",
+      "target": "元件值/容差"
+    },
+    {
+      "source": "模拟值持续偏移",
+      "relation": "related_to",
+      "target": "guarding"
+    },
+    {
+      "source": "模拟值持续偏移",
+      "relation": "related_to",
+      "target": "共同引线效应"
+    },
+    {
+      "source": "模拟值持续偏移",
+      "relation": "related_to",
+      "target": "夹具电阻"
+    },
+    {
+      "source": "整个器件的 TestJet 失败",
+      "relation": "related_to",
+      "target": "器件外形"
+    },
+    {
+      "source": "整个器件的 TestJet 失败",
+      "relation": "related_to",
+      "target": "Sensor Plate 对齐"
+    },
+    {
+      "source": "整个器件的 TestJet 失败",
+      "relation": "related_to",
+      "target": "TestJet 使能设置"
+    },
+    {
+      "source": "整个器件的 TestJet 失败",
+      "relation": "related_to",
+      "target": "封装适用性"
+    },
+    {
+      "source": "单个引脚的 TestJet 失败",
+      "relation": "related_to",
+      "target": "引脚接触"
+    },
+    {
+      "source": "单个引脚的 TestJet 失败",
+      "relation": "related_to",
+      "target": "局部引线问题"
+    },
+    {
+      "source": "单个引脚的 TestJet 失败",
+      "relation": "related_to",
+      "target": "引脚映射"
+    },
+    {
+      "source": "单个引脚的 TestJet 失败",
+      "relation": "related_to",
+      "target": "探针或夹具对齐"
+    },
+    {
+      "source": "TestJet 失败",
+      "relation": "is_type_of",
+      "target": "failure"
+    },
+    {
+      "source": "J1-1 and J1-2",
+      "relation": "has_phenomenon",
+      "target": "short"
+    },
+    {
+      "source": "J1-1 and J1-2",
+      "relation": "is_type_of",
+      "target": "short"
+    },
+    {
+      "source": "short",
+      "relation": "solved_by",
+      "target": "test procedure"
+    },
+    {
+      "source": "short",
+      "relation": "causes",
+      "target": "large current"
+    },
+    {
+      "source": "short",
+      "relation": "causes",
+      "target": "heat release"
+    },
+    {
+      "source": "short",
+      "relation": "has_phenomenon",
+      "target": "nothing but a wire joining one end of the voltage source to the other"
+    },
+    {
+      "source": "short",
+      "relation": "causes",
+      "target": "high currents"
+    },
+    {
+      "source": "short",
+      "relation": "causes",
+      "target": "heat energy release"
+    },
+    {
+      "source": "board",
+      "relation": "caused_by",
+      "target": "short circuit detection stage"
+    },
+    {
+      "source": "short",
+      "relation": "has_phenomenon",
+      "target": "出现于检测阶段消失于隔离阶段"
+    },
+    {
+      "source": "short",
+      "relation": "caused_by",
+      "target": "并联路径等效电阻低于短路阈值"
+    },
+    {
+      "source": "short",
+      "relation": "solved_by",
+      "target": "将失败节点移到 shorts 测试列表底部"
+    },
+    {
+      "source": "IPG",
+      "relation": "related_to",
+      "target": "避免创建幻影测试"
+    },
+    {
+      "source": "生产环境建议",
+      "relation": "related_to",
+      "target": "取消勾选 report phantoms"
+    },
+    {
+      "source": "Pre 7.0 手动修改",
+      "relation": "related_to",
+      "target": "将幻影节点移到文件底部"
+    },
+    {
+      "source": "R77",
+      "relation": "is_type_of",
+      "target": "component"
+    },
+    {
+      "source": "R77",
+      "relation": "has_phenomenon",
+      "target": "测量值低于阈值"
+    },
+    {
+      "source": "测量值低于阈值",
+      "relation": "causes",
+      "target": "失败"
+    },
+    {
+      "source": "open",
+      "relation": "related_to",
+      "target": "R77"
+    },
+    {
+      "source": "open",
+      "relation": "solved_by",
+      "target": "确认未安装"
+    },
+    {
+      "source": "低于阈值",
+      "relation": "is_type_of",
+      "target": "闭合"
+    },
+    {
+      "source": "高于阈值",
+      "relation": "is_type_of",
+      "target": "open"
+    },
+    {
+      "source": "U303",
+      "relation": "has_phenomenon",
+      "target": "持续失败"
+    },
+    {
+      "source": "U303",
+      "relation": "has_phenomenon",
+      "target": "Digital Test failure"
+    },
+    {
+      "source": "引脚 4 无接触",
+      "relation": "is_type_of",
+      "target": "open"
+    },
+    {
+      "source": "C201 C202",
+      "relation": "causes",
+      "target": "失败"
+    },
+    {
+      "source": "跳线",
+      "relation": "is_type_of",
+      "target": "short"
+    },
+    {
+      "source": "POTENTIOMETER",
+      "relation": "has_phenomenon",
+      "target": "测量期望值"
+    },
+    {
+      "source": "L201",
+      "relation": "has_phenomenon",
+      "target": "测量67Ω"
+    },
+    {
+      "source": "L201",
+      "relation": "caused_by",
+      "target": "错误的串联电阻设置"
+    },
+    {
+      "source": "L201",
+      "relation": "solved_by",
+      "target": "修正Board Consultant中的数据并重新生成测试"
+    },
+    {
+      "source": "L201",
+      "relation": "solved_by",
+      "target": "将阈值从16改为90或100Ω"
+    },
+    {
+      "source": "L201",
+      "relation": "solved_by",
+      "target": "注释L201-1 | L201-2行"
+    },
+    {
+      "source": "L201",
+      "relation": "is_type_of",
+      "target": "inductor"
+    },
+    {
+      "source": "R201",
+      "relation": "has_phenomenon",
+      "target": "MOA 过电压"
+    },
+    {
+      "source": "R201",
+      "relation": "caused_by",
+      "target": "参考电阻从 1k 改为 1M"
+    },
+    {
+      "source": "R208",
+      "relation": "has_phenomenon",
+      "target": "运行应失败"
+    },
+    {
+      "source": "R208",
+      "relation": "caused_by",
+      "target": "B 总线改为 NONE"
+    },
+    {
+      "source": "R209",
+      "relation": "has_phenomenon",
+      "target": "运行应失败"
+    },
+    {
+      "source": "R209",
+      "relation": "caused_by",
+      "target": "A 总线改为 NONE"
+    },
+    {
+      "source": "R211",
+      "relation": "has_phenomenon",
+      "target": "测量值偏低"
+    },
+    {
+      "source": "R211",
+      "relation": "caused_by",
+      "target": "注释 L 总线连接和 sl 选项"
+    },
+    {
+      "source": "R211",
+      "relation": "has_phenomenon",
+      "target": "测量值偏高"
+    },
+    {
+      "source": "R211",
+      "relation": "caused_by",
+      "target": "交换 S 和 I 总线连接"
+    },
+    {
+      "source": "R207",
+      "relation": "solved_by",
+      "target": "下限改为合理值"
+    },
+    {
+      "source": "R207",
+      "relation": "solved_by",
+      "target": "勾选 Enhancement"
+    },
+    {
+      "source": "R212",
+      "relation": "solved_by",
+      "target": "移除偏移"
+    },
+    {
+      "source": "R212",
+      "relation": "solved_by",
+      "target": "上下限改为 25%"
+    },
+    {
+      "source": "AR309",
+      "relation": "has_phenomenon",
+      "target": "测量约 53Ω"
+    },
+    {
+      "source": "AR309",
+      "relation": "caused_by",
+      "target": "R316 故意省略"
+    },
+    {
+      "source": "AR309",
+      "relation": "caused_by",
+      "target": "J301 短路"
+    },
+    {
+      "source": "AR309",
+      "relation": "has_phenomenon",
+      "target": "measured 53Ω"
+    },
+    {
+      "source": "AR309",
+      "relation": "is_type_of",
+      "target": "resistor"
+    },
+    {
+      "source": "open",
+      "relation": "causes",
+      "target": "U301 引脚 1 应失败"
+    },
+    {
+      "source": "pins 不稳定",
+      "relation": "causes",
+      "target": "未解释的失败"
+    },
+    {
+      "source": "电源节点定义不正确",
+      "relation": "causes",
+      "target": "上电问题"
+    },
+    {
+      "source": "电源不开启",
+      "relation": "caused_by",
+      "target": "错误的电源编号"
+    },
+    {
+      "source": "电源不开启",
+      "relation": "caused_by",
+      "target": "缺少电源节点定义"
+    },
+    {
+      "source": "电源不开启",
+      "relation": "caused_by",
+      "target": "夹具布线问题"
+    },
+    {
+      "source": "电源不开启",
+      "relation": "caused_by",
+      "target": "软件配置问题"
+    },
+    {
+      "source": "立即过流",
+      "relation": "caused_by",
+      "target": "short"
+    },
+    {
+      "source": "立即过流",
+      "relation": "caused_by",
+      "target": "电源反接"
+    },
+    {
+      "source": "立即过流",
+      "relation": "caused_by",
+      "target": "电压错误"
+    },
+    {
+      "source": "立即过流",
+      "relation": "caused_by",
+      "target": "板卡缺陷"
+    },
+    {
+      "source": "带载时电压低",
+      "relation": "caused_by",
+      "target": "电流限制太低"
+    },
+    {
+      "source": "带载时电压低",
+      "relation": "caused_by",
+      "target": "UUT 电流过大"
+    },
+    {
+      "source": "带载时电压低",
+      "relation": "caused_by",
+      "target": "布线电阻"
+    },
+    {
+      "source": "带载时电压低",
+      "relation": "caused_by",
+      "target": "接触不良"
+    },
+    {
+      "source": "带载时电压低",
+      "relation": "caused_by",
+      "target": "电源资源不匹配"
+    },
+    {
+      "source": "UUT 处无电压",
+      "relation": "caused_by",
+      "target": "夹具布线错误"
+    },
+    {
+      "source": "UUT 处无电压",
+      "relation": "caused_by",
+      "target": "缺少探针"
+    },
+    {
+      "source": "UUT 处无电压",
+      "relation": "caused_by",
+      "target": "节点名称错误"
+    },
+    {
+      "source": "UUT 处无电压",
+      "relation": "caused_by",
+      "target": "电源未分配给正确节点"
+    },
+    {
+      "source": "上电测试期间 UUT 复位",
+      "relation": "caused_by",
+      "target": "电源压降"
+    },
+    {
+      "source": "上电测试期间 UUT 复位",
+      "relation": "caused_by",
+      "target": "电流限制"
+    },
+    {
+      "source": "上电测试期间 UUT 复位",
+      "relation": "caused_by",
+      "target": "接触不稳定"
+    },
+    {
+      "source": "上电测试期间 UUT 复位",
+      "relation": "caused_by",
+      "target": "电源顺序不正确"
+    },
+    {
+      "source": "测试后电源仍保持",
+      "relation": "caused_by",
+      "target": "缺少关断步骤"
+    },
+    {
+      "source": "测试后电源仍保持",
+      "relation": "caused_by",
+      "target": "testplan 错误"
+    },
+    {
+      "source": "测试后电源仍保持",
+      "relation": "caused_by",
+      "target": "继电器或夹具布线问题"
+    },
+    {
+      "source": "错误的引脚映射",
+      "relation": "causes",
+      "target": "错误的驱动/接收行为"
+    },
+    {
+      "source": "缺失或不良接触",
+      "relation": "causes",
+      "target": "假数字失败"
+    },
+    {
+      "source": "过度的反驱动",
+      "relation": "causes",
+      "target": "损坏器件"
+    },
+    {
+      "source": "器件所有引脚失败",
+      "relation": "caused_by",
+      "target": "无电源"
+    },
+    {
+      "source": "器件所有引脚失败",
+      "relation": "caused_by",
+      "target": "错误接地"
+    },
+    {
+      "source": "器件所有引脚失败",
+      "relation": "caused_by",
+      "target": "缺少使能"
+    },
+    {
+      "source": "器件所有引脚失败",
+      "relation": "caused_by",
+      "target": "错误器件库"
+    },
+    {
+      "source": "器件所有引脚失败",
+      "relation": "caused_by",
+      "target": "错误封装"
+    },
+    {
+      "source": "器件所有引脚失败",
+      "relation": "caused_by",
+      "target": "夹具接触问题"
+    },
+    {
+      "source": "stuck-at fault",
+      "relation": "caused_by",
+      "target": "探针接触问题"
+    },
+    {
+      "source": "stuck-at fault",
+      "relation": "caused_by",
+      "target": "错误节点"
+    },
+    {
+      "source": "stuck-at fault",
+      "relation": "caused_by",
+      "target": "上游器件驱动节点"
+    },
+    {
+      "source": "stuck-at fault",
+      "relation": "caused_by",
+      "target": "缺少禁用"
+    },
+    {
+      "source": "stuck-at fault",
+      "relation": "caused_by",
+      "target": "UUT 引脚卡住"
+    },
+    {
+      "source": "stuck-at fault",
+      "relation": "caused_by",
+      "target": "UUT 缺陷"
+    },
+    {
+      "source": "stuck-at fault",
+      "relation": "caused_by",
+      "target": "预期响应错误"
+    },
+    {
+      "source": "stuck-at fault",
+      "relation": "caused_by",
+      "target": "错误库"
+    },
+    {
+      "source": "stuck-at fault",
+      "relation": "caused_by",
+      "target": "总线竞争"
+    },
+    {
+      "source": "stuck-at fault",
+      "relation": "caused_by",
+      "target": "负载问题"
+    },
+    {
+      "source": "仅在某些向量期间失败",
+      "relation": "caused_by",
+      "target": "时序问题"
+    },
+    {
+      "source": "仅在某些向量期间失败",
+      "relation": "caused_by",
+      "target": "不完整的预调"
+    },
+    {
+      "source": "仅在某些向量期间失败",
+      "relation": "caused_by",
+      "target": "状态依赖"
+    },
+    {
+      "source": "仅在某些向量期间失败",
+      "relation": "caused_by",
+      "target": "边际器件行为"
+    },
+    {
+      "source": "上电后多个器件失败",
+      "relation": "caused_by",
+      "target": "电源不稳定"
+    },
+    {
+      "source": "上电后多个器件失败",
+      "relation": "caused_by",
+      "target": "板级禁用错误"
+    },
+    {
+      "source": "上电后多个器件失败",
+      "relation": "caused_by",
+      "target": "全局家族级问题"
+    },
+    {
+      "source": "单独测试通过但序列中失败",
+      "relation": "caused_by",
+      "target": "缺少复位"
+    },
+    {
+      "source": "单独测试通过但序列中失败",
+      "relation": "caused_by",
+      "target": "预调不充分"
+    },
+    {
+      "source": "单独测试通过但序列中失败",
+      "relation": "caused_by",
+      "target": "testorder 问题"
+    },
+    {
+      "source": "单独测试通过但序列中失败",
+      "relation": "caused_by",
+      "target": "前测试遗留状态"
+    },
+    {
+      "source": "单独测试通过但序列中失败",
+      "relation": "caused_by",
+      "target": "前测试使电路处于错误状态"
+    },
+    {
+      "source": "单独测试通过但序列中失败",
+      "relation": "caused_by",
+      "target": "缺少放电"
+    },
+    {
+      "source": "测量电压为零",
+      "relation": "caused_by",
+      "target": "未施加电源"
+    },
+    {
+      "source": "测量电压为零",
+      "relation": "caused_by",
+      "target": "错误节点"
+    },
+    {
+      "source": "测量电压为零",
+      "relation": "caused_by",
+      "target": "缺少探针"
+    },
+    {
+      "source": "测量电压为零",
+      "relation": "caused_by",
+      "target": "夹具布线问题"
+    },
+    {
+      "source": "测量电压过低",
+      "relation": "caused_by",
+      "target": "电源压降"
+    },
+    {
+      "source": "测量电压过低",
+      "relation": "caused_by",
+      "target": "负载过大"
+    },
+    {
+      "source": "测量电压过低",
+      "relation": "caused_by",
+      "target": "UUT 故障"
+    },
+    {
+      "source": "测量电压过低",
+      "relation": "caused_by",
+      "target": "电流限制"
+    },
+    {
+      "source": "测量电压过低",
+      "relation": "caused_by",
+      "target": "夹具电阻过高"
+    },
+    {
+      "source": "测量电压过高",
+      "relation": "caused_by",
+      "target": "电源电压错误"
+    },
+    {
+      "source": "测量电压过高",
+      "relation": "caused_by",
+      "target": "开路负载"
+    },
+    {
+      "source": "测量电压过高",
+      "relation": "caused_by",
+      "target": "UUT 缺陷"
+    },
+    {
+      "source": "测量电压过高",
+      "relation": "caused_by",
+      "target": "测试限值错误"
+    },
+    {
+      "source": "测量不稳定",
+      "relation": "caused_by",
+      "target": "接触不良"
+    },
+    {
+      "source": "测量不稳定",
+      "relation": "caused_by",
+      "target": "电路噪声"
+    },
+    {
+      "source": "测量不稳定",
+      "relation": "caused_by",
+      "target": "稳定时间不足"
+    },
+    {
+      "source": "测量不稳定",
+      "relation": "caused_by",
+      "target": "接地问题"
+    },
+    {
+      "source": "测量不稳定",
+      "relation": "caused_by",
+      "target": "夹具噪声"
+    },
+    {
+      "source": "测试总是以相同偏移失败",
+      "relation": "caused_by",
+      "target": "限值错误"
+    },
+    {
+      "source": "测试总是以相同偏移失败",
+      "relation": "caused_by",
+      "target": "期望值错误"
+    },
+    {
+      "source": "测试总是以相同偏移失败",
+      "relation": "caused_by",
+      "target": "测量偏移"
+    },
+    {
+      "source": "测试总是以相同偏移失败",
+      "relation": "caused_by",
+      "target": "共同引线效应"
+    },
+    {
+      "source": "错误的电源节点数据",
+      "relation": "causes",
+      "target": "损坏UUT"
+    },
+    {
+      "source": "错误的电源节点数据",
+      "relation": "causes",
+      "target": "阻止上电"
+    },
+    {
+      "source": "建立安全稳定的板卡电源",
+      "relation": "solved_by",
+      "target": "调试电源"
+    },
+    {
+      "source": "板卡消耗过大电流",
+      "relation": "caused_by",
+      "target": "short"
+    },
+    {
+      "source": "板卡消耗过大电流",
+      "relation": "caused_by",
+      "target": "电源电压错误"
+    },
+    {
+      "source": "板卡消耗过大电流",
+      "relation": "caused_by",
+      "target": "夹具布线"
+    },
+    {
+      "source": "板卡消耗过大电流",
+      "relation": "caused_by",
+      "target": "极性反接"
+    },
+    {
+      "source": "板卡消耗过大电流",
+      "relation": "caused_by",
+      "target": "器件损坏"
+    },
+    {
+      "source": "多个数字器件失败",
+      "relation": "related_to",
+      "target": "电源"
+    },
+    {
+      "source": "多个数字器件失败",
+      "relation": "related_to",
+      "target": "复位"
+    },
+    {
+      "source": "多个数字器件失败",
+      "relation": "related_to",
+      "target": "时钟"
+    },
+    {
+      "source": "多个数字器件失败",
+      "relation": "related_to",
+      "target": "板级禁用"
+    },
+    {
+      "source": "多个数字器件失败",
+      "relation": "related_to",
+      "target": "全局家族设置"
+    },
+    {
+      "source": "单个数字器件失败",
+      "relation": "related_to",
+      "target": "库"
+    },
+    {
+      "source": "单个数字器件失败",
+      "relation": "related_to",
+      "target": "引脚映射"
+    },
+    {
+      "source": "单个数字器件失败",
+      "relation": "related_to",
+      "target": "禁用"
+    },
+    {
+      "source": "单个数字器件失败",
+      "relation": "related_to",
+      "target": "UUT 缺陷"
+    },
+    {
+      "source": "单个数字器件失败",
+      "relation": "related_to",
+      "target": "局部夹具接触"
+    },
+    {
+      "source": "仅在全序列中测试失败",
+      "relation": "related_to",
+      "target": "testorder"
+    },
+    {
+      "source": "仅在全序列中测试失败",
+      "relation": "related_to",
+      "target": "缺少复位"
+    },
+    {
+      "source": "仅在全序列中测试失败",
+      "relation": "related_to",
+      "target": "缺少预调"
+    },
+    {
+      "source": "仅在全序列中测试失败",
+      "relation": "related_to",
+      "target": "放电"
+    },
+    {
+      "source": "仅在全序列中测试失败",
+      "relation": "related_to",
+      "target": "前测试交互"
+    },
+    {
+      "source": "上电模拟测量漂移",
+      "relation": "related_to",
+      "target": "稳定时间"
+    },
+    {
+      "source": "上电模拟测量漂移",
+      "relation": "related_to",
+      "target": "热行为"
+    },
+    {
+      "source": "上电模拟测量漂移",
+      "relation": "related_to",
+      "target": "电源稳定性"
+    },
+    {
+      "source": "上电模拟测量漂移",
+      "relation": "related_to",
+      "target": "接地"
+    },
+    {
+      "source": "上电模拟测量漂移",
+      "relation": "related_to",
+      "target": "测量参考"
+    },
+    {
+      "source": "数字总线冲突",
+      "relation": "related_to",
+      "target": "缺少禁用"
+    },
+    {
+      "source": "数字总线冲突",
+      "relation": "related_to",
+      "target": "多个输出使能"
+    },
+    {
+      "source": "数字总线冲突",
+      "relation": "related_to",
+      "target": "Safeguard inhibit"
+    },
+    {
+      "source": "数字总线冲突",
+      "relation": "related_to",
+      "target": "反驱动冲突"
+    },
+    {
+      "source": "间歇性上电失败",
+      "relation": "related_to",
+      "target": "夹具接触"
+    },
+    {
+      "source": "间歇性上电失败",
+      "relation": "related_to",
+      "target": "边际 UUT"
+    },
+    {
+      "source": "间歇性上电失败",
+      "relation": "related_to",
+      "target": "时序"
+    },
+    {
+      "source": "间歇性上电失败",
+      "relation": "related_to",
+      "target": "电源压降"
+    },
+    {
+      "source": "间歇性上电失败",
+      "relation": "related_to",
+      "target": "探针污染"
+    },
+    {
+      "source": "测试不总是在同一向量失败",
+      "relation": "is_type_of",
+      "target": "现象"
+    },
+    {
+      "source": "外部影响",
+      "relation": "causes",
+      "target": "测试不总是在同一向量失败"
+    },
+    {
+      "source": "Clear 线",
+      "relation": "solved_by",
+      "target": "强制所有输出低"
+    },
+    {
+      "source": "test",
+      "relation": "has_phenomenon",
+      "target": "safeguard inhibit"
+    },
+    {
+      "source": "test",
+      "relation": "solved_by",
+      "target": "delay for cooling"
+    },
+    {
+      "source": "test",
+      "relation": "has_phenomenon",
+      "target": "失败且一致"
+    },
+    {
+      "source": "safeguard inhibit",
+      "relation": "caused_by",
+      "target": "test too long for upstream device(s) u306"
+    },
+    {
+      "source": "u306",
+      "relation": "is_type_of",
+      "target": "upstream device"
+    },
+    {
+      "source": "SW301 OPEN position",
+      "relation": "causes",
+      "target": "open"
+    },
+    {
+      "source": "SW302 +5V position",
+      "relation": "causes",
+      "target": "shorts"
+    },
+    {
+      "source": "SW302 GND position",
+      "relation": "causes",
+      "target": "shorts"
+    },
+    {
+      "source": "J2",
+      "relation": "causes",
+      "target": "failure"
+    },
+    {
+      "source": "J2",
+      "relation": "causes",
+      "target": "R3 fails"
+    },
+    {
+      "source": "R123",
+      "relation": "is_type_of",
+      "target": "resistor"
+    },
+    {
+      "source": "R123",
+      "relation": "related_to",
+      "target": "U12 and U13"
+    },
+    {
+      "source": "R3 fails",
+      "relation": "solved_by",
+      "target": "remove J2 and retest board"
+    },
+    {
+      "source": "Pre-shorts",
+      "relation": "has_phenomenon",
+      "target": "标记"
+    },
+    {
+      "source": "测试 margin 太小",
+      "relation": "caused_by",
+      "target": "threshold - worst case measurement 值小"
+    },
+    {
+      "source": "测试 margin 太小",
+      "relation": "solved_by",
+      "target": "增加阈值"
+    },
+    {
+      "source": "c102",
+      "relation": "has_phenomenon",
+      "target": "M"
+    },
+    {
+      "source": "c106",
+      "relation": "has_phenomenon",
+      "target": "M"
+    },
+    {
+      "source": "c409",
+      "relation": "has_phenomenon",
+      "target": "M"
+    },
+    {
+      "source": "U2",
+      "relation": "has_phenomenon",
+      "target": "公共输入产生问题"
+    },
+    {
+      "source": "U2",
+      "relation": "causes",
+      "target": "调试时的问题"
+    },
+    {
+      "source": "U2",
+      "relation": "caused_by",
+      "target": "feedback node"
+    },
+    {
+      "source": "开关组",
+      "relation": "related_to",
+      "target": "shorts测试"
+    },
+    {
+      "source": "fixture-wiring errors",
+      "relation": "has_phenomenon",
+      "target": "errors in wiring"
+    },
+    {
+      "source": "trace file",
+      "relation": "solved_by",
+      "target": "identify fixture-wiring errors"
+    },
+    {
+      "source": "PreShorts",
+      "relation": "has_phenomenon",
+      "target": "Detects excessive low-resistance conditions"
+    },
+    {
+      "source": "pins",
+      "relation": "has_phenomenon",
+      "target": "Verifies probe contact and basic node access"
+    },
+    {
+      "source": "analog incircuit",
+      "relation": "has_phenomenon",
+      "target": "Measures passive and analog component values without board power"
+    },
+    {
+      "source": "Incorrect or outdated input files",
+      "relation": "causes",
+      "target": "downstream generation errors"
+    },
+    {
+      "source": "U9",
+      "relation": "is_type_of",
+      "target": "NOT TESTABLE"
+    },
+    {
+      "source": "U9",
+      "relation": "is_type_of",
+      "target": "不可测试"
+    },
+    {
+      "source": "U13",
+      "relation": "is_type_of",
+      "target": "NOT TESTABLE"
+    },
+    {
+      "source": "s2 to s7",
+      "relation": "is_type_of",
+      "target": "open switch"
+    },
+    {
+      "source": "open switch",
+      "relation": "has_phenomenon",
+      "target": "显示 OPEN"
+    },
+    {
+      "source": "open switch",
+      "relation": "is_type_of",
+      "target": "failure"
+    },
+    {
+      "source": "open switch",
+      "relation": "is_type_of",
+      "target": "open"
+    },
+    {
+      "source": "s1 and s8",
+      "relation": "is_type_of",
+      "target": "closed switch"
+    },
+    {
+      "source": "closed switch",
+      "relation": "has_phenomenon",
+      "target": "显示 CLOSED"
+    },
+    {
+      "source": "closed switch",
+      "relation": "is_type_of",
+      "target": "failure"
+    },
+    {
+      "source": "closed switch",
+      "relation": "is_type_of",
+      "target": "closed circuit"
+    },
+    {
+      "source": "R101",
+      "relation": "is_type_of",
+      "target": "component"
+    },
+    {
+      "source": "potentiometer failure",
+      "relation": "has_phenomenon",
+      "target": "measurement out of range"
+    },
+    {
+      "source": "potentiometer failure",
+      "relation": "solved_by",
+      "target": "adjust R101 and Click YES"
+    },
+    {
+      "source": "measurement out of range",
+      "relation": "causes",
+      "target": "fail device"
+    },
+    {
+      "source": "u8_adj test",
+      "relation": "related_to",
+      "target": "detector frequency, expect 5k"
+    },
+    {
+      "source": "input voltage",
+      "relation": "has_phenomenon",
+      "target": "exceed ±10V"
+    },
+    {
+      "source": "exceed ±10V",
+      "relation": "caused_by",
+      "target": "ASRU driven voltage"
+    },
+    {
+      "source": "output high",
+      "relation": "has_phenomenon",
+      "target": "expect 36V"
+    },
+    {
+      "source": "output low",
+      "relation": "has_phenomenon",
+      "target": "expect 0V"
+    },
+    {
+      "source": "OpAmp input",
+      "relation": "related_to",
+      "target": "DC detector"
+    },
+    {
+      "source": "OpAmp input",
+      "relation": "related_to",
+      "target": "AC detector"
+    },
+    {
+      "source": "U12",
+      "relation": "has_phenomenon",
+      "target": "缺少节点探针访问"
+    },
+    {
+      "source": "SW2/SW3",
+      "relation": "is_type_of",
+      "target": "故障开关"
+    },
+    {
+      "source": "模拟引脚测量",
+      "relation": "has_phenomenon",
+      "target": "不稳定"
+    },
+    {
+      "source": "模拟引脚测量",
+      "relation": "caused_by",
+      "target": "缺少 guarding"
+    },
+    {
+      "source": "模拟引脚测量",
+      "relation": "caused_by",
+      "target": "接触不良"
+    },
+    {
+      "source": "模拟引脚测量",
+      "relation": "caused_by",
+      "target": "数字引脚驱动模拟节点"
+    },
+    {
+      "source": "数字引脚",
+      "relation": "has_phenomenon",
+      "target": "仅在模拟测试运行时失败"
+    },
+    {
+      "source": "数字引脚",
+      "relation": "caused_by",
+      "target": "模拟激励导致反驱动"
+    },
+    {
+      "source": "数字引脚",
+      "relation": "caused_by",
+      "target": "disable 不足"
+    },
+    {
+      "source": "数字引脚",
+      "relation": "caused_by",
+      "target": "Safeguard 冲突"
+    },
+    {
+      "source": "寄存器写入",
+      "relation": "has_phenomenon",
+      "target": "失败"
+    },
+    {
+      "source": "寄存器写入",
+      "relation": "caused_by",
+      "target": "I²C/SPI 时序错误"
+    },
+    {
+      "source": "寄存器写入",
+      "relation": "caused_by",
+      "target": "地址错误"
+    },
+    {
+      "source": "寄存器写入",
+      "relation": "caused_by",
+      "target": "电源缺失"
+    },
+    {
+      "source": "寄存器写入",
+      "relation": "caused_by",
+      "target": "总线竞争"
+    },
+    {
+      "source": "ADC 输出值",
+      "relation": "has_phenomenon",
+      "target": "不正确"
+    },
+    {
+      "source": "ADC 输出值",
+      "relation": "caused_by",
+      "target": "参考电压错误"
+    },
+    {
+      "source": "ADC 输出值",
+      "relation": "caused_by",
+      "target": "增益设置错误"
+    },
+    {
+      "source": "ADC 输出值",
+      "relation": "caused_by",
+      "target": "模拟引脚未 guard"
+    },
+    {
+      "source": "单独测试",
+      "relation": "has_phenomenon",
+      "target": "通过但序列中失败"
+    },
+    {
+      "source": "单独测试",
+      "relation": "caused_by",
+      "target": "缺少预调"
+    },
+    {
+      "source": "单独测试",
+      "relation": "caused_by",
+      "target": "前测试遗留状态"
+    },
+    {
+      "source": "单独测试",
+      "relation": "caused_by",
+      "target": "testorder 问题"
+    },
+    {
+      "source": "模拟输入",
+      "relation": "has_phenomenon",
+      "target": "open"
+    },
+    {
+      "source": "模拟输入",
+      "relation": "has_phenomenon",
+      "target": "short"
+    },
+    {
+      "source": "参考电压",
+      "relation": "has_phenomenon",
+      "target": "open"
+    },
+    {
+      "source": "参考电压",
+      "relation": "has_phenomenon",
+      "target": "short"
+    },
+    {
+      "source": "I²C 总线",
+      "relation": "has_phenomenon",
+      "target": "stuck-at fault"
+    },
+    {
+      "source": "寄存器",
+      "relation": "has_phenomenon",
+      "target": "写入失败"
+    },
+    {
+      "source": "disable test",
+      "relation": "has_phenomenon",
+      "target": "错误输出状态"
+    },
+    {
+      "source": "disable test",
+      "relation": "solved_by",
+      "target": "测量到错误输出状态"
+    },
+    {
+      "source": "enable line",
+      "relation": "is_type_of",
+      "target": "component"
+    },
+    {
+      "source": "enable line",
+      "relation": "causes",
+      "target": "逻辑高与低之间区域"
+    },
+    {
+      "source": "unit disable test",
+      "relation": "related_to",
+      "target": "禁用测试向量"
+    },
+    {
+      "source": "Pin 'XYZ' not found in board description",
+      "relation": "caused_by",
+      "target": "VCL 与 PDE 之间的引脚名称不匹配"
+    },
+    {
+      "source": "Pin 'XYZ' not found in board description",
+      "relation": "solved_by",
+      "target": "对齐 VCL 与 PDE 中的引脚名称"
+    },
+    {
+      "source": "Resource 'P99' not assigned",
+      "relation": "caused_by",
+      "target": "Personality Pin 未被 MPA 分配"
+    },
+    {
+      "source": "Resource 'P99' not assigned",
+      "relation": "solved_by",
+      "target": "重新运行 Module Pin Assignment"
+    },
+    {
+      "source": "Resource 'P99' not assigned",
+      "relation": "caused_by",
+      "target": "未分配"
+    },
+    {
+      "source": "Resource 'P99' not assigned",
+      "relation": "solved_by",
+      "target": "重新运行MPA"
+    },
+    {
+      "source": "Unknown directive 'foo'",
+      "relation": "caused_by",
+      "target": "拼写错误或不支持的 VCL 关键字"
+    },
+    {
+      "source": "Unknown directive 'foo'",
+      "relation": "solved_by",
+      "target": "查阅 VCL 参考手册"
+    },
+    {
+      "source": "Expect value out of range",
+      "relation": "caused_by",
+      "target": "期望值不是 0/1/Z/X"
+    },
+    {
+      "source": "Expect value out of range",
+      "relation": "solved_by",
+      "target": "使用有效的逻辑电平"
+    },
+    {
+      "source": "Clock pin not defined",
+      "relation": "caused_by",
+      "target": "同步器件缺少 clock 指令"
+    },
+    {
+      "source": "Clock pin not defined",
+      "relation": "solved_by",
+      "target": "添加 clock <pin> = <freq>"
+    },
+    {
+      "source": "stuck-at fault",
+      "relation": "is_type_of",
+      "target": "failure"
+    },
+    {
+      "source": "VCL vector coverage",
+      "relation": "related_to",
+      "target": "stuck-at fault"
+    },
+    {
+      "source": "IO_BAR",
+      "relation": "has_phenomenon",
+      "target": "错误状态"
+    },
+    {
+      "source": "set IO_BAR to 0",
+      "relation": "causes",
+      "target": "错误状态"
+    },
+    {
+      "source": "PINS",
+      "relation": "has_phenomenon",
+      "target": "泄漏足够提供 Pins 故障覆盖"
+    },
+    {
+      "source": "RC 定时电路时间常数太长",
+      "relation": "caused_by",
+      "target": "intermittent failure"
+    },
+    {
+      "source": "添加 wa300m",
+      "relation": "solved_by",
+      "target": "intermittent failure"
+    },
+    {
+      "source": "C72",
+      "relation": "has_phenomenon",
+      "target": "测量值接近上限，可能失败"
+    },
+    {
+      "source": "存在并联路径（通过 U1）",
+      "relation": "is_type_of",
+      "target": "failure"
+    },
+    {
+      "source": "尝试 guard Reset、Pwrpu、GND",
+      "relation": "solved_by",
+      "target": "测量值远低于期望值"
+    },
+    {
+      "source": "R3",
+      "relation": "has_phenomenon",
+      "target": "同样问题"
+    },
+    {
+      "source": "尝试 guard Reset、Pwrpu 和 +5V",
+      "relation": "solved_by",
+      "target": "同样问题"
+    },
+    {
+      "source": "IPG 包含了 Wideband (WB)",
+      "relation": "causes",
+      "target": "测量值仍偏低"
+    },
+    {
+      "source": "移除 WB 或添加 WB",
+      "relation": "solved_by",
+      "target": "测量值仍偏低"
+    },
+    {
+      "source": "U2.4",
+      "relation": "has_phenomenon",
+      "target": "HALT/"
+    },
+    {
+      "source": "competition condition",
+      "relation": "caused_by",
+      "target": "RC timing circuit"
+    },
+    {
+      "source": "competition condition",
+      "relation": "solved_by",
+      "target": "Disablegroup PWRUP"
+    },
+    {
+      "source": "competition condition",
+      "relation": "solved_by",
+      "target": "Halt_Reset input drive"
+    },
+    {
+      "source": "u1",
+      "relation": "has_phenomenon",
+      "target": "测试失败"
+    },
+    {
+      "source": "u1",
+      "relation": "solved_by",
+      "target": "修改输入电平或输出限值"
+    },
+    {
+      "source": "u14",
+      "relation": "has_phenomenon",
+      "target": "第三个测量预期失败"
+    },
+    {
+      "source": "u14",
+      "relation": "caused_by",
+      "target": "5kΩ 时运放电流不足"
+    },
+    {
+      "source": "y1",
+      "relation": "has_phenomenon",
+      "target": "测量值不符合期望"
+    },
+    {
+      "source": "y1",
+      "relation": "solved_by",
+      "target": "使用工具查找并修正"
+    },
+    {
+      "source": "Pin 'XYZ' not found",
+      "relation": "caused_by",
+      "target": "引脚名称不匹配"
+    },
+    {
+      "source": "Pin 'XYZ' not found",
+      "relation": "solved_by",
+      "target": "对齐引脚名称"
+    },
+    {
+      "source": "Invalid logic level",
+      "relation": "caused_by",
+      "target": "非允许字符"
+    },
+    {
+      "source": "Invalid logic level",
+      "relation": "solved_by",
+      "target": "使用有效符号"
+    },
+    {
+      "source": "Missing trigger definition",
+      "relation": "caused_by",
+      "target": "缺少触发信息"
+    },
+    {
+      "source": "Missing trigger definition",
+      "relation": "solved_by",
+      "target": "添加Trigger行"
+    },
+    {
+      "source": "Sample rate too high",
+      "relation": "caused_by",
+      "target": "超出能力"
+    },
+    {
+      "source": "Sample rate too high",
+      "relation": "solved_by",
+      "target": "降低采样率"
+    },
+    {
+      "source": "误分类",
+      "relation": "causes",
+      "target": "测量错误"
+    },
+    {
+      "source": "模拟引脚",
+      "relation": "is_type_of",
+      "target": "ANALOG"
+    },
+    {
+      "source": "DIGITAL",
+      "relation": "is_type_of",
+      "target": "数字控制"
+    },
+    {
+      "source": "禁用 guarding",
+      "relation": "caused_by",
+      "target": "误分类"
+    },
+    {
+      "source": "VOUT",
+      "relation": "has_phenomenon",
+      "target": "open"
+    },
+    {
+      "source": "VOUT",
+      "relation": "has_phenomenon",
+      "target": "short"
+    },
+    {
+      "source": "VREF",
+      "relation": "has_phenomenon",
+      "target": "open"
+    },
+    {
+      "source": "VREF",
+      "relation": "has_phenomenon",
+      "target": "short"
+    },
+    {
+      "source": "D0-D7",
+      "relation": "has_phenomenon",
+      "target": "stuck-at fault"
+    },
+    {
+      "source": "CS",
+      "relation": "has_phenomenon",
+      "target": "short"
+    },
+    {
+      "source": "register write",
+      "relation": "has_phenomenon",
+      "target": "failure"
+    },
+    {
+      "source": "timing",
+      "relation": "has_phenomenon",
+      "target": "violation"
+    },
+    {
+      "source": "continue analog",
+      "relation": "causes",
+      "target": "failure"
+    },
+    {
+      "source": "continue digital",
+      "relation": "causes",
+      "target": "failure"
+    },
+    {
+      "source": "Dig_In_10100_3000",
+      "relation": "caused_by",
+      "target": "预期频率应为 2kHz"
+    },
+    {
+      "source": "analog 例程中的错误",
+      "relation": "solved_by",
+      "target": "修正并保存"
+    },
+    {
+      "source": "Safeguard Inhibited",
+      "relation": "caused_by",
+      "target": "测试时间非确定性"
+    },
+    {
+      "source": "Safeguard Inhibited",
+      "relation": "solved_by",
+      "target": "设置 test time"
+    },
+    {
+      "source": "path",
+      "relation": "is_type_of",
+      "target": "open"
+    },
+    {
+      "source": "no flow",
+      "relation": "caused_by",
+      "target": "open"
+    },
+    {
+      "source": "no flow",
+      "relation": "caused_by",
+      "target": "continuity is broken"
+    },
+    {
+      "source": "no flow",
+      "relation": "has_phenomenon",
+      "target": "lamp not glowing"
+    },
+    {
+      "source": "air gap",
+      "relation": "causes",
+      "target": "open"
+    },
+    {
+      "source": "wire cut and separated",
+      "relation": "is_type_of",
+      "target": "open"
+    },
+    {
+      "source": "make physical contact",
+      "relation": "solved_by",
+      "target": "continuous path for electrons to flow"
+    },
+    {
+      "source": "open",
+      "relation": "has_phenomenon",
+      "target": "voltage drop"
+    },
+    {
+      "source": "open",
+      "relation": "has_phenomenon",
+      "target": "no flow"
+    },
+    {
+      "source": "no complete path",
+      "relation": "is_type_of",
+      "target": "open"
+    },
+    {
+      "source": "direct connection of voltage source poles",
+      "relation": "is_type_of",
+      "target": "short"
+    },
+    {
+      "source": "break in continuity",
+      "relation": "is_type_of",
+      "target": "open"
+    },
+    {
+      "source": "closed circuit",
+      "relation": "is_type_of",
+      "target": "circuit with continuity"
+    },
+    {
+      "source": "closed circuit",
+      "relation": "has_phenomenon",
+      "target": "free passage of electrons"
+    },
+    {
+      "source": "switch",
+      "relation": "solved_by",
+      "target": "closing the contacts"
+    },
+    {
+      "source": "switch",
+      "relation": "solved_by",
+      "target": "opening the contacts"
+    },
+    {
+      "source": "contacts separation",
+      "relation": "causes",
+      "target": "open"
+    },
+    {
+      "source": "contacts touching",
+      "relation": "causes",
+      "target": "closed circuit"
+    },
+    {
+      "source": "sparking",
+      "relation": "causes",
+      "target": "ignition"
+    },
+    {
+      "source": "accidental contact",
+      "relation": "causes",
+      "target": "sparking"
+    },
+    {
+      "source": "knife switch",
+      "relation": "has_phenomenon",
+      "target": "sparking"
+    },
+    {
+      "source": "blade not touching",
+      "relation": "causes",
+      "target": "open switch"
+    },
+    {
+      "source": "blade fully touching",
+      "relation": "causes",
+      "target": "closed switch"
+    },
+    {
+      "source": "ground fault",
+      "relation": "is_type_of",
+      "target": "failure"
+    },
+    {
+      "source": "ground fault",
+      "relation": "related_to",
+      "target": "accidental connection between a circuit conductor and the earth"
+    },
+    {
+      "source": "electric current",
+      "relation": "causes",
+      "target": "tissue burns"
+    },
+    {
+      "source": "electric current",
+      "relation": "causes",
+      "target": "muscle freezing"
+    },
+    {
+      "source": "electric current",
+      "relation": "causes",
+      "target": "heart fibrillation"
+    },
+    {
+      "source": "voltage",
+      "relation": "causes",
+      "target": "current flow"
+    },
+    {
+      "source": "voltage meter",
+      "relation": "is_type_of",
+      "target": "component"
+    },
+    {
+      "source": "voltage meter",
+      "relation": "has_phenomenon",
+      "target": "fail to indicate voltage"
+    },
+    {
+      "source": "fail to indicate voltage",
+      "relation": "caused_by",
+      "target": "defective meter"
+    },
+    {
+      "source": "defective meter",
+      "relation": "causes",
+      "target": "electrical shock risk"
+    },
+    {
+      "source": "electrical shock risk",
+      "relation": "solved_by",
+      "target": "checking known source of voltage"
+    },
+    {
+      "source": "electrical shock risk",
+      "relation": "solved_by",
+      "target": "momentary contact with back of hand"
+    },
+    {
+      "source": "leads not in contact",
+      "relation": "has_phenomenon",
+      "target": "infinite resistance"
+    },
+    {
+      "source": "infinite resistance",
+      "relation": "is_type_of",
+      "target": "open"
+    },
+    {
+      "source": "leads touching",
+      "relation": "has_phenomenon",
+      "target": "zero Ω"
+    },
+    {
+      "source": "no resistance in leads",
+      "relation": "causes",
+      "target": "zero Ω"
+    },
+    {
+      "source": "filter frequency response shifted",
+      "relation": "manifests_as",
+      "target": "ac_shift"
+    },
+    {
+      "source": "missing filter capacitance",
+      "relation": "manifests_as",
+      "target": "ac_shift"
+    },
+    {
+      "source": "downstream nodes lose voltage",
+      "relation": "manifests_as",
+      "target": "current_anomaly"
+    },
+    {
+      "source": "node voltage pulled to ground",
+      "relation": "manifests_as",
+      "target": "current_anomaly"
+    },
+    {
+      "source": "downstream nodes lose voltage",
+      "relation": "manifests_as",
+      "target": "dc_shift"
+    },
+    {
+      "source": "node voltage pulled to ground",
+      "relation": "manifests_as",
+      "target": "dc_shift"
+    },
+    {
+      "source": "increased contact resistance",
+      "relation": "manifests_as",
+      "target": "dc_shift"
+    },
+    {
+      "source": "adjacent nodes electrically bridged",
+      "relation": "manifests_as",
+      "target": "dc_shift"
+    },
+    {
+      "source": "wrong voltage divider ratio",
+      "relation": "manifests_as",
+      "target": "dc_shift"
+    },
+    {
+      "source": "fluctuating measurements",
+      "relation": "manifests_as",
+      "target": "fluctuation"
+    },
+    {
+      "source": "node voltage pulled to ground",
+      "relation": "manifests_as",
+      "target": "ground_clamp"
+    },
+    {
+      "source": "adjacent nodes electrically bridged",
+      "relation": "manifests_as",
+      "target": "node_equalize"
+    },
+    {
+      "source": "filter frequency response shifted",
+      "relation": "manifests_as",
+      "target": "resistance_offset"
+    },
+    {
+      "source": "increased contact resistance",
+      "relation": "manifests_as",
+      "target": "resistance_offset"
+    },
+    {
+      "source": "adjacent nodes electrically bridged",
+      "relation": "manifests_as",
+      "target": "resistance_offset"
+    },
+    {
+      "source": "fluctuating measurements",
+      "relation": "manifests_as",
+      "target": "resistance_offset"
+    },
+    {
+      "source": "wrong voltage divider ratio",
+      "relation": "manifests_as",
+      "target": "resistance_offset"
+    },
+    {
+      "source": "downstream nodes lose voltage",
+      "relation": "manifests_as",
+      "target": "topology_open"
+    },
+    {
+      "source": "missing filter capacitance",
+      "relation": "manifests_as",
+      "target": "topology_open"
+    },
+    {
+      "source": "open_R1",
+      "relation": "is_type_of",
+      "target": "open"
+    },
+    {
+      "source": "open_R1",
+      "relation": "has_phenomenon",
+      "target": "downstream nodes lose voltage"
+    },
+    {
+      "source": "R1",
+      "relation": "connected_to",
+      "target": "node_1"
+    },
+    {
+      "source": "R1",
+      "relation": "connected_to",
+      "target": "node_2"
+    },
+    {
+      "source": "open_R1",
+      "relation": "has_component",
+      "target": "R1"
+    },
+    {
+      "source": "open_R3",
+      "relation": "is_type_of",
+      "target": "open"
+    },
+    {
+      "source": "open_R3",
+      "relation": "has_phenomenon",
+      "target": "downstream nodes lose voltage"
+    },
+    {
+      "source": "R3",
+      "relation": "connected_to",
+      "target": "node_2"
+    },
+    {
+      "source": "R3",
+      "relation": "connected_to",
+      "target": "node_3"
+    },
+    {
+      "source": "open_R3",
+      "relation": "has_component",
+      "target": "R3"
+    },
+    {
+      "source": "open_R4",
+      "relation": "is_type_of",
+      "target": "open"
+    },
+    {
+      "source": "open_R4",
+      "relation": "has_phenomenon",
+      "target": "downstream nodes lose voltage"
+    },
+    {
+      "source": "R4",
+      "relation": "connected_to",
+      "target": "node_3"
+    },
+    {
+      "source": "R4",
+      "relation": "connected_to",
+      "target": "node_4"
+    },
+    {
+      "source": "open_R4",
+      "relation": "has_component",
+      "target": "R4"
+    },
+    {
+      "source": "open_R6",
+      "relation": "is_type_of",
+      "target": "open"
+    },
+    {
+      "source": "open_R6",
+      "relation": "has_phenomenon",
+      "target": "downstream nodes lose voltage"
+    },
+    {
+      "source": "R6",
+      "relation": "connected_to",
+      "target": "node_4"
+    },
+    {
+      "source": "R6",
+      "relation": "connected_to",
+      "target": "node_5"
+    },
+    {
+      "source": "open_R6",
+      "relation": "has_component",
+      "target": "R6"
+    },
+    {
+      "source": "short_R2",
+      "relation": "is_type_of",
+      "target": "short"
+    },
+    {
+      "source": "short_R2",
+      "relation": "has_phenomenon",
+      "target": "node voltage pulled to ground"
+    },
+    {
+      "source": "R2",
+      "relation": "connected_to",
+      "target": "node_2"
+    },
+    {
+      "source": "short_R2",
+      "relation": "has_component",
+      "target": "R2"
+    },
+    {
+      "source": "short_R5",
+      "relation": "is_type_of",
+      "target": "short"
+    },
+    {
+      "source": "short_R5",
+      "relation": "has_phenomenon",
+      "target": "node voltage pulled to ground"
+    },
+    {
+      "source": "R5",
+      "relation": "connected_to",
+      "target": "node_4"
+    },
+    {
+      "source": "short_R5",
+      "relation": "has_component",
+      "target": "R5"
+    },
+    {
+      "source": "short_R7",
+      "relation": "is_type_of",
+      "target": "short"
+    },
+    {
+      "source": "short_R7",
+      "relation": "has_phenomenon",
+      "target": "node voltage pulled to ground"
+    },
+    {
+      "source": "R7",
+      "relation": "connected_to",
+      "target": "node_5"
+    },
+    {
+      "source": "short_R7",
+      "relation": "has_component",
+      "target": "R7"
+    },
+    {
+      "source": "short_R10",
+      "relation": "is_type_of",
+      "target": "short"
+    },
+    {
+      "source": "short_R10",
+      "relation": "has_phenomenon",
+      "target": "node voltage pulled to ground"
+    },
+    {
+      "source": "R10",
+      "relation": "connected_to",
+      "target": "node_7"
+    },
+    {
+      "source": "short_R10",
+      "relation": "has_component",
+      "target": "R10"
+    },
+    {
+      "source": "drift_C1",
+      "relation": "is_type_of",
+      "target": "failure"
+    },
+    {
+      "source": "drift_C1",
+      "relation": "has_phenomenon",
+      "target": "filter frequency response shifted"
+    },
+    {
+      "source": "C1",
+      "relation": "connected_to",
+      "target": "node_3"
+    },
+    {
+      "source": "drift_C1",
+      "relation": "has_component",
+      "target": "C1"
+    },
+    {
+      "source": "drift_C3",
+      "relation": "is_type_of",
+      "target": "failure"
+    },
+    {
+      "source": "drift_C3",
+      "relation": "has_phenomenon",
+      "target": "filter frequency response shifted"
+    },
+    {
+      "source": "C3",
+      "relation": "connected_to",
+      "target": "node_5"
+    },
+    {
+      "source": "drift_C3",
+      "relation": "has_component",
+      "target": "C3"
+    },
+    {
+      "source": "drift_C5",
+      "relation": "is_type_of",
+      "target": "failure"
+    },
+    {
+      "source": "drift_C5",
+      "relation": "has_phenomenon",
+      "target": "filter frequency response shifted"
+    },
+    {
+      "source": "C5",
+      "relation": "connected_to",
+      "target": "node_7"
+    },
+    {
+      "source": "drift_C5",
+      "relation": "has_component",
+      "target": "C5"
+    },
+    {
+      "source": "missing_C2",
+      "relation": "is_type_of",
+      "target": "open"
+    },
+    {
+      "source": "missing_C2",
+      "relation": "has_phenomenon",
+      "target": "missing filter capacitance"
+    },
+    {
+      "source": "C2",
+      "relation": "connected_to",
+      "target": "node_4"
+    },
+    {
+      "source": "missing_C2",
+      "relation": "has_component",
+      "target": "C2"
+    },
+    {
+      "source": "missing_C4",
+      "relation": "is_type_of",
+      "target": "open"
+    },
+    {
+      "source": "missing_C4",
+      "relation": "has_phenomenon",
+      "target": "missing filter capacitance"
+    },
+    {
+      "source": "C4",
+      "relation": "connected_to",
+      "target": "node_6"
+    },
+    {
+      "source": "missing_C4",
+      "relation": "has_component",
+      "target": "C4"
+    },
+    {
+      "source": "cold_solder_R2",
+      "relation": "is_type_of",
+      "target": "failure"
+    },
+    {
+      "source": "cold_solder_R2",
+      "relation": "has_phenomenon",
+      "target": "increased contact resistance"
+    },
+    {
+      "source": "cold_solder_R2",
+      "relation": "has_component",
+      "target": "R2"
+    },
+    {
+      "source": "cold_solder_R4",
+      "relation": "is_type_of",
+      "target": "failure"
+    },
+    {
+      "source": "cold_solder_R4",
+      "relation": "has_phenomenon",
+      "target": "increased contact resistance"
+    },
+    {
+      "source": "cold_solder_R4",
+      "relation": "has_component",
+      "target": "R4"
+    },
+    {
+      "source": "cold_solder_R9",
+      "relation": "is_type_of",
+      "target": "failure"
+    },
+    {
+      "source": "cold_solder_R9",
+      "relation": "has_phenomenon",
+      "target": "increased contact resistance"
+    },
+    {
+      "source": "R9",
+      "relation": "connected_to",
+      "target": "node_2"
+    },
+    {
+      "source": "R9",
+      "relation": "connected_to",
+      "target": "node_7"
+    },
+    {
+      "source": "cold_solder_R9",
+      "relation": "has_component",
+      "target": "R9"
+    },
+    {
+      "source": "bridge_3_4",
+      "relation": "is_type_of",
+      "target": "short"
+    },
+    {
+      "source": "bridge_3_4",
+      "relation": "has_phenomenon",
+      "target": "adjacent nodes electrically bridged"
+    },
+    {
+      "source": "bridge_3_4",
+      "relation": "connected_to",
+      "target": "node_3"
+    },
+    {
+      "source": "bridge_3_4",
+      "relation": "connected_to",
+      "target": "node_4"
+    },
+    {
+      "source": "bridge_3_4",
+      "relation": "has_component",
+      "target": "bridge_3_4"
+    },
+    {
+      "source": "bridge_4_5",
+      "relation": "is_type_of",
+      "target": "short"
+    },
+    {
+      "source": "bridge_4_5",
+      "relation": "has_phenomenon",
+      "target": "adjacent nodes electrically bridged"
+    },
+    {
+      "source": "bridge_4_5",
+      "relation": "connected_to",
+      "target": "node_4"
+    },
+    {
+      "source": "bridge_4_5",
+      "relation": "connected_to",
+      "target": "node_5"
+    },
+    {
+      "source": "bridge_4_5",
+      "relation": "has_component",
+      "target": "bridge_4_5"
+    },
+    {
+      "source": "bridge_5_6",
+      "relation": "is_type_of",
+      "target": "short"
+    },
+    {
+      "source": "bridge_5_6",
+      "relation": "has_phenomenon",
+      "target": "adjacent nodes electrically bridged"
+    },
+    {
+      "source": "bridge_5_6",
+      "relation": "connected_to",
+      "target": "node_5"
+    },
+    {
+      "source": "bridge_5_6",
+      "relation": "connected_to",
+      "target": "node_6"
+    },
+    {
+      "source": "bridge_5_6",
+      "relation": "has_component",
+      "target": "bridge_5_6"
+    },
+    {
+      "source": "intermittent_R2",
+      "relation": "is_type_of",
+      "target": "intermittent failure"
+    },
+    {
+      "source": "intermittent_R2",
+      "relation": "has_phenomenon",
+      "target": "fluctuating measurements"
+    },
+    {
+      "source": "intermittent_R2",
+      "relation": "has_component",
+      "target": "R2"
+    },
+    {
+      "source": "intermittent_R4",
+      "relation": "is_type_of",
+      "target": "intermittent failure"
+    },
+    {
+      "source": "intermittent_R4",
+      "relation": "has_phenomenon",
+      "target": "fluctuating measurements"
+    },
+    {
+      "source": "intermittent_R4",
+      "relation": "has_component",
+      "target": "R4"
+    },
+    {
+      "source": "intermittent_R6",
+      "relation": "is_type_of",
+      "target": "intermittent failure"
+    },
+    {
+      "source": "intermittent_R6",
+      "relation": "has_phenomenon",
+      "target": "fluctuating measurements"
+    },
+    {
+      "source": "intermittent_R6",
+      "relation": "has_component",
+      "target": "R6"
+    }
+  ]
+}

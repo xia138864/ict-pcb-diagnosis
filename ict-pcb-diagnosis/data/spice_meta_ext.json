@@ -1,0 +1,283 @@
+{
+  "classes": [
+    "open_R1",
+    "open_R3",
+    "open_R4",
+    "open_R6",
+    "short_R2",
+    "short_R5",
+    "short_R7",
+    "short_R10",
+    "drift_C1",
+    "drift_C3",
+    "drift_C5",
+    "missing_C2",
+    "missing_C4",
+    "cold_solder_R2",
+    "cold_solder_R4",
+    "cold_solder_R9",
+    "bridge_3_4",
+    "bridge_4_5",
+    "bridge_5_6",
+    "intermittent_R2",
+    "intermittent_R4",
+    "intermittent_R6"
+  ],
+  "dim": 100,
+  "attributes": [
+    "ac_shift",
+    "current_anomaly",
+    "dc_shift",
+    "fluctuation",
+    "ground_clamp",
+    "node_equalize",
+    "resistance_offset",
+    "topology_open"
+  ],
+  "phenomenon": {
+    "open_R1": "downstream nodes lose voltage",
+    "open_R3": "downstream nodes lose voltage",
+    "open_R4": "downstream nodes lose voltage",
+    "open_R6": "downstream nodes lose voltage",
+    "short_R2": "node voltage pulled to ground",
+    "short_R5": "node voltage pulled to ground",
+    "short_R7": "node voltage pulled to ground",
+    "short_R10": "node voltage pulled to ground",
+    "drift_C1": "filter frequency response shifted",
+    "drift_C3": "filter frequency response shifted",
+    "drift_C5": "filter frequency response shifted",
+    "missing_C2": "missing filter capacitance",
+    "missing_C4": "missing filter capacitance",
+    "cold_solder_R2": "increased contact resistance",
+    "cold_solder_R4": "increased contact resistance",
+    "cold_solder_R9": "increased contact resistance",
+    "bridge_3_4": "adjacent nodes electrically bridged",
+    "bridge_4_5": "adjacent nodes electrically bridged",
+    "bridge_5_6": "adjacent nodes electrically bridged",
+    "intermittent_R2": "fluctuating measurements",
+    "intermittent_R4": "fluctuating measurements",
+    "intermittent_R6": "fluctuating measurements"
+  },
+  "class_attributes": {
+    "open_R1": {
+      "ac_shift": 0,
+      "current_anomaly": 1,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 0,
+      "topology_open": 1
+    },
+    "open_R3": {
+      "ac_shift": 0,
+      "current_anomaly": 1,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 0,
+      "topology_open": 1
+    },
+    "open_R4": {
+      "ac_shift": 0,
+      "current_anomaly": 1,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 0,
+      "topology_open": 1
+    },
+    "open_R6": {
+      "ac_shift": 0,
+      "current_anomaly": 1,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 0,
+      "topology_open": 1
+    },
+    "short_R2": {
+      "ac_shift": 0,
+      "current_anomaly": 1,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 1,
+      "node_equalize": 0,
+      "resistance_offset": 0,
+      "topology_open": 0
+    },
+    "short_R5": {
+      "ac_shift": 0,
+      "current_anomaly": 1,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 1,
+      "node_equalize": 0,
+      "resistance_offset": 0,
+      "topology_open": 0
+    },
+    "short_R7": {
+      "ac_shift": 0,
+      "current_anomaly": 1,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 1,
+      "node_equalize": 0,
+      "resistance_offset": 0,
+      "topology_open": 0
+    },
+    "short_R10": {
+      "ac_shift": 0,
+      "current_anomaly": 1,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 1,
+      "node_equalize": 0,
+      "resistance_offset": 0,
+      "topology_open": 0
+    },
+    "drift_C1": {
+      "ac_shift": 1,
+      "current_anomaly": 0,
+      "dc_shift": 0,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 1,
+      "topology_open": 0
+    },
+    "drift_C3": {
+      "ac_shift": 1,
+      "current_anomaly": 0,
+      "dc_shift": 0,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 1,
+      "topology_open": 0
+    },
+    "drift_C5": {
+      "ac_shift": 1,
+      "current_anomaly": 0,
+      "dc_shift": 0,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 1,
+      "topology_open": 0
+    },
+    "missing_C2": {
+      "ac_shift": 1,
+      "current_anomaly": 0,
+      "dc_shift": 0,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 0,
+      "topology_open": 1
+    },
+    "missing_C4": {
+      "ac_shift": 1,
+      "current_anomaly": 0,
+      "dc_shift": 0,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 0,
+      "topology_open": 1
+    },
+    "cold_solder_R2": {
+      "ac_shift": 0,
+      "current_anomaly": 0,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 1,
+      "topology_open": 0
+    },
+    "cold_solder_R4": {
+      "ac_shift": 0,
+      "current_anomaly": 0,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 1,
+      "topology_open": 0
+    },
+    "cold_solder_R9": {
+      "ac_shift": 0,
+      "current_anomaly": 0,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 1,
+      "topology_open": 0
+    },
+    "bridge_3_4": {
+      "ac_shift": 0,
+      "current_anomaly": 0,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 1,
+      "resistance_offset": 1,
+      "topology_open": 0
+    },
+    "bridge_4_5": {
+      "ac_shift": 0,
+      "current_anomaly": 0,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 1,
+      "resistance_offset": 1,
+      "topology_open": 0
+    },
+    "bridge_5_6": {
+      "ac_shift": 0,
+      "current_anomaly": 0,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 1,
+      "resistance_offset": 1,
+      "topology_open": 0
+    },
+    "intermittent_R2": {
+      "ac_shift": 0,
+      "current_anomaly": 0,
+      "dc_shift": 0,
+      "fluctuation": 1,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 1,
+      "topology_open": 0
+    },
+    "intermittent_R4": {
+      "ac_shift": 0,
+      "current_anomaly": 0,
+      "dc_shift": 0,
+      "fluctuation": 1,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 1,
+      "topology_open": 0
+    },
+    "intermittent_R6": {
+      "ac_shift": 0,
+      "current_anomaly": 0,
+      "dc_shift": 0,
+      "fluctuation": 1,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 1,
+      "topology_open": 0
+    }
+  }
+}

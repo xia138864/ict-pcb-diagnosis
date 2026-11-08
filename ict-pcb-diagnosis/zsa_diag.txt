@@ -1,0 +1,30 @@
+=== FA  未见类 ['open', 'drift', 'cold_solder']（候选集=这3类）===
+  属性顺序: current_anom, fluctuation, freq_shift, ground_clamp, ratio_shift, voltage_loss
+  open         真值=[1 0 0 0 0 1]  预测均值=[0.62 0.   0.   1.   0.35 0.  ]
+  drift        真值=[0 0 1 0 0 0]  预测均值=[0.   0.31 0.61 0.02 0.51 0.  ]
+  cold_solder  真值=[0 0 0 0 1 1]  预测均值=[0.   0.61 0.26 0.01 0.88 0.  ]
+  混淆(行=真,列=预测):
+    open           60    0    0
+    drift           0   54    6
+    cold_solder     0   33   27
+  准确率=0.783
+=== FB  未见类 ['short', 'missing', 'wrong_part']（候选集=这3类）===
+  属性顺序: current_anom, fluctuation, freq_shift, ground_clamp, ratio_shift, voltage_loss
+  short        真值=[1 0 0 1 0 0]  预测均值=[0.31 0.1  0.39 0.   0.04 0.51]
+  missing      真值=[0 0 1 0 0 0]  预测均值=[0.   0.09 0.72 0.   0.21 0.12]
+  wrong_part   真值=[0 0 0 0 1 1]  预测均值=[0.01 0.53 0.   0.   0.99 0.36]
+  混淆(行=真,列=预测):
+    short           0   59    1
+    missing         0   60    0
+    wrong_part      0    0   60
+  准确率=0.667
+=== FC  未见类 ['bridge', 'drift', 'cold_solder']（候选集=这3类）===
+  属性顺序: current_anom, fluctuation, freq_shift, ground_clamp, ratio_shift, voltage_loss
+  bridge       真值=[0 0 0 1 1 0]  预测均值=[0.17 0.   0.37 0.08 0.   0.  ]
+  drift        真值=[0 0 1 0 0 0]  预测均值=[0.   0.45 0.52 0.   0.43 0.  ]
+  cold_solder  真值=[0 0 0 0 1 1]  预测均值=[0.   0.81 0.18 0.   0.81 0.  ]
+  混淆(行=真,列=预测):
+    bridge          1   58    1
+    drift           0   56    4
+    cold_solder     0   42   18
+  准确率=0.417

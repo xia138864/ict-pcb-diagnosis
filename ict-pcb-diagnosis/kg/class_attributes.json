@@ -1,0 +1,378 @@
+{
+  "attributes": [
+    "ac_shift",
+    "current_anomaly",
+    "dc_shift",
+    "fluctuation",
+    "ground_clamp",
+    "node_equalize",
+    "resistance_offset",
+    "topology_open"
+  ],
+  "attribute_desc": {
+    "dc_shift": "直流工作点偏移：节点直流电压显著偏离标称",
+    "ac_shift": "交流频响偏移：频响曲线形状或截止点改变",
+    "current_anomaly": "关键支路电流异常",
+    "fluctuation": "重复测量间数值波动",
+    "topology_open": "通路被切断（拓扑断连）",
+    "ground_clamp": "节点被钳位至地电位",
+    "resistance_offset": "电阻性参数偏移（非断连、非钳位）",
+    "node_equalize": "相邻节点等电位（桥接）"
+  },
+  "class_attributes": {
+    "open_R1": {
+      "ac_shift": 0,
+      "current_anomaly": 1,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 0,
+      "topology_open": 1
+    },
+    "open_R3": {
+      "ac_shift": 0,
+      "current_anomaly": 1,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 0,
+      "topology_open": 1
+    },
+    "open_R4": {
+      "ac_shift": 0,
+      "current_anomaly": 1,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 0,
+      "topology_open": 1
+    },
+    "open_R6": {
+      "ac_shift": 0,
+      "current_anomaly": 1,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 0,
+      "topology_open": 1
+    },
+    "short_R2": {
+      "ac_shift": 0,
+      "current_anomaly": 1,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 1,
+      "node_equalize": 0,
+      "resistance_offset": 0,
+      "topology_open": 0
+    },
+    "short_R5": {
+      "ac_shift": 0,
+      "current_anomaly": 1,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 1,
+      "node_equalize": 0,
+      "resistance_offset": 0,
+      "topology_open": 0
+    },
+    "short_R7": {
+      "ac_shift": 0,
+      "current_anomaly": 1,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 1,
+      "node_equalize": 0,
+      "resistance_offset": 0,
+      "topology_open": 0
+    },
+    "short_R10": {
+      "ac_shift": 0,
+      "current_anomaly": 1,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 1,
+      "node_equalize": 0,
+      "resistance_offset": 0,
+      "topology_open": 0
+    },
+    "drift_C1": {
+      "ac_shift": 1,
+      "current_anomaly": 0,
+      "dc_shift": 0,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 1,
+      "topology_open": 0
+    },
+    "drift_C3": {
+      "ac_shift": 1,
+      "current_anomaly": 0,
+      "dc_shift": 0,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 1,
+      "topology_open": 0
+    },
+    "drift_C5": {
+      "ac_shift": 1,
+      "current_anomaly": 0,
+      "dc_shift": 0,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 1,
+      "topology_open": 0
+    },
+    "missing_C2": {
+      "ac_shift": 1,
+      "current_anomaly": 0,
+      "dc_shift": 0,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 0,
+      "topology_open": 1
+    },
+    "missing_C4": {
+      "ac_shift": 1,
+      "current_anomaly": 0,
+      "dc_shift": 0,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 0,
+      "topology_open": 1
+    },
+    "cold_solder_R2": {
+      "ac_shift": 0,
+      "current_anomaly": 0,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 1,
+      "topology_open": 0
+    },
+    "cold_solder_R4": {
+      "ac_shift": 0,
+      "current_anomaly": 0,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 1,
+      "topology_open": 0
+    },
+    "cold_solder_R9": {
+      "ac_shift": 0,
+      "current_anomaly": 0,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 1,
+      "topology_open": 0
+    },
+    "bridge_3_4": {
+      "ac_shift": 0,
+      "current_anomaly": 0,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 1,
+      "resistance_offset": 1,
+      "topology_open": 0
+    },
+    "bridge_4_5": {
+      "ac_shift": 0,
+      "current_anomaly": 0,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 1,
+      "resistance_offset": 1,
+      "topology_open": 0
+    },
+    "bridge_5_6": {
+      "ac_shift": 0,
+      "current_anomaly": 0,
+      "dc_shift": 1,
+      "fluctuation": 0,
+      "ground_clamp": 0,
+      "node_equalize": 1,
+      "resistance_offset": 1,
+      "topology_open": 0
+    },
+    "intermittent_R2": {
+      "ac_shift": 0,
+      "current_anomaly": 0,
+      "dc_shift": 0,
+      "fluctuation": 1,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 1,
+      "topology_open": 0
+    },
+    "intermittent_R4": {
+      "ac_shift": 0,
+      "current_anomaly": 0,
+      "dc_shift": 0,
+      "fluctuation": 1,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 1,
+      "topology_open": 0
+    },
+    "intermittent_R6": {
+      "ac_shift": 0,
+      "current_anomaly": 0,
+      "dc_shift": 0,
+      "fluctuation": 1,
+      "ground_clamp": 0,
+      "node_equalize": 0,
+      "resistance_offset": 1,
+      "topology_open": 0
+    }
+  },
+  "provenance": {
+    "open_R1": {
+      "fault_node": "open_R1",
+      "phenomenon": "downstream nodes lose voltage",
+      "component": "R1",
+      "path": "open_R1 -has_phenomenon-> downstream nodes lose voltage -manifests_as-> dc_shift, current_anomaly, topology_open"
+    },
+    "open_R3": {
+      "fault_node": "open_R3",
+      "phenomenon": "downstream nodes lose voltage",
+      "component": "R3",
+      "path": "open_R3 -has_phenomenon-> downstream nodes lose voltage -manifests_as-> dc_shift, current_anomaly, topology_open"
+    },
+    "open_R4": {
+      "fault_node": "open_R4",
+      "phenomenon": "downstream nodes lose voltage",
+      "component": "R4",
+      "path": "open_R4 -has_phenomenon-> downstream nodes lose voltage -manifests_as-> dc_shift, current_anomaly, topology_open"
+    },
+    "open_R6": {
+      "fault_node": "open_R6",
+      "phenomenon": "downstream nodes lose voltage",
+      "component": "R6",
+      "path": "open_R6 -has_phenomenon-> downstream nodes lose voltage -manifests_as-> dc_shift, current_anomaly, topology_open"
+    },
+    "short_R2": {
+      "fault_node": "short_R2",
+      "phenomenon": "node voltage pulled to ground",
+      "component": "R2",
+      "path": "short_R2 -has_phenomenon-> node voltage pulled to ground -manifests_as-> dc_shift, current_anomaly, ground_clamp"
+    },
+    "short_R5": {
+      "fault_node": "short_R5",
+      "phenomenon": "node voltage pulled to ground",
+      "component": "R5",
+      "path": "short_R5 -has_phenomenon-> node voltage pulled to ground -manifests_as-> dc_shift, current_anomaly, ground_clamp"
+    },
+    "short_R7": {
+      "fault_node": "short_R7",
+      "phenomenon": "node voltage pulled to ground",
+      "component": "R7",
+      "path": "short_R7 -has_phenomenon-> node voltage pulled to ground -manifests_as-> dc_shift, current_anomaly, ground_clamp"
+    },
+    "short_R10": {
+      "fault_node": "short_R10",
+      "phenomenon": "node voltage pulled to ground",
+      "component": "R10",
+      "path": "short_R10 -has_phenomenon-> node voltage pulled to ground -manifests_as-> dc_shift, current_anomaly, ground_clamp"
+    },
+    "drift_C1": {
+      "fault_node": "drift_C1",
+      "phenomenon": "filter frequency response shifted",
+      "component": "C1",
+      "path": "drift_C1 -has_phenomenon-> filter frequency response shifted -manifests_as-> ac_shift, resistance_offset"
+    },
+    "drift_C3": {
+      "fault_node": "drift_C3",
+      "phenomenon": "filter frequency response shifted",
+      "component": "C3",
+      "path": "drift_C3 -has_phenomenon-> filter frequency response shifted -manifests_as-> ac_shift, resistance_offset"
+    },
+    "drift_C5": {
+      "fault_node": "drift_C5",
+      "phenomenon": "filter frequency response shifted",
+      "component": "C5",
+      "path": "drift_C5 -has_phenomenon-> filter frequency response shifted -manifests_as-> ac_shift, resistance_offset"
+    },
+    "missing_C2": {
+      "fault_node": "missing_C2",
+      "phenomenon": "missing filter capacitance",
+      "component": "C2",
+      "path": "missing_C2 -has_phenomenon-> missing filter capacitance -manifests_as-> ac_shift, topology_open"
+    },
+    "missing_C4": {
+      "fault_node": "missing_C4",
+      "phenomenon": "missing filter capacitance",
+      "component": "C4",
+      "path": "missing_C4 -has_phenomenon-> missing filter capacitance -manifests_as-> ac_shift, topology_open"
+    },
+    "cold_solder_R2": {
+      "fault_node": "cold_solder_R2",
+      "phenomenon": "increased contact resistance",
+      "component": "R2",
+      "path": "cold_solder_R2 -has_phenomenon-> increased contact resistance -manifests_as-> dc_shift, resistance_offset"
+    },
+    "cold_solder_R4": {
+      "fault_node": "cold_solder_R4",
+      "phenomenon": "increased contact resistance",
+      "component": "R4",
+      "path": "cold_solder_R4 -has_phenomenon-> increased contact resistance -manifests_as-> dc_shift, resistance_offset"
+    },
+    "cold_solder_R9": {
+      "fault_node": "cold_solder_R9",
+      "phenomenon": "increased contact resistance",
+      "component": "R9",
+      "path": "cold_solder_R9 -has_phenomenon-> increased contact resistance -manifests_as-> dc_shift, resistance_offset"
+    },
+    "bridge_3_4": {
+      "fault_node": "bridge_3_4",
+      "phenomenon": "adjacent nodes electrically bridged",
+      "component": "bridge_3_4",
+      "path": "bridge_3_4 -has_phenomenon-> adjacent nodes electrically bridged -manifests_as-> dc_shift, node_equalize, resistance_offset"
+    },
+    "bridge_4_5": {
+      "fault_node": "bridge_4_5",
+      "phenomenon": "adjacent nodes electrically bridged",
+      "component": "bridge_4_5",
+      "path": "bridge_4_5 -has_phenomenon-> adjacent nodes electrically bridged -manifests_as-> dc_shift, node_equalize, resistance_offset"
+    },
+    "bridge_5_6": {
+      "fault_node": "bridge_5_6",
+      "phenomenon": "adjacent nodes electrically bridged",
+      "component": "bridge_5_6",
+      "path": "bridge_5_6 -has_phenomenon-> adjacent nodes electrically bridged -manifests_as-> dc_shift, node_equalize, resistance_offset"
+    },
+    "intermittent_R2": {
+      "fault_node": "intermittent_R2",
+      "phenomenon": "fluctuating measurements",
+      "component": "R2",
+      "path": "intermittent_R2 -has_phenomenon-> fluctuating measurements -manifests_as-> fluctuation, resistance_offset"
+    },
+    "intermittent_R4": {
+      "fault_node": "intermittent_R4",
+      "phenomenon": "fluctuating measurements",
+      "component": "R4",
+      "path": "intermittent_R4 -has_phenomenon-> fluctuating measurements -manifests_as-> fluctuation, resistance_offset"
+    },
+    "intermittent_R6": {
+      "fault_node": "intermittent_R6",
+      "phenomenon": "fluctuating measurements",
+      "component": "R6",
+      "path": "intermittent_R6 -has_phenomenon-> fluctuating measurements -manifests_as-> fluctuation, resistance_offset"
+    }
+  }
+}

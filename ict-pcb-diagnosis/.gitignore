@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+*.so
+
+# 运行日志（不纳入版本管理）
+*.log
+src/*.log
+
+# 大体积原始数据（可由脚本重建）
+data/DeepPCB/
+data/patches.npz
+data/spice_dataset_ext.npz
+data/*.bak.npz
+
+# 编辑器
+.idea/
+.vscode/
+.DS_Store

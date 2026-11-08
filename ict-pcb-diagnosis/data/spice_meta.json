@@ -1,0 +1,23 @@
+{
+  "classes": [
+    "open",
+    "short",
+    "drift",
+    "missing",
+    "cold_solder",
+    "bridge",
+    "intermittent",
+    "wrong_part"
+  ],
+  "fault_kg": {
+    "open": "open",
+    "short": "short",
+    "drift": "failure",
+    "missing": "open",
+    "cold_solder": "open",
+    "bridge": "short",
+    "intermittent": "intermittent failure",
+    "wrong_part": "failure"
+  },
+  "dim": 100
+}
